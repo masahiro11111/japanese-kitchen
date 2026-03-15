@@ -597,7 +597,7 @@ function onSearch() {{
 
 // ── 一覧表示 ──
 function showList() {{
-  document.getElementById('list-view').style.display = '';
+  document.getElementById('list-view').style.display = 'block';
   document.getElementById('detail-view').style.display = 'none';
   renderList();
 }}
@@ -685,7 +685,7 @@ function showDetail(id) {{
   document.getElementById('d-steps-list').innerHTML = stepsList.map(s => `<li>${{s}}</li>`).join('');
 
   document.getElementById('list-view').style.display   = 'none';
-  document.getElementById('detail-view').style.display = '';
+  document.getElementById('detail-view').style.display = 'block';
   window.scrollTo(0,0);
 }}
 
