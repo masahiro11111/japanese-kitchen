@@ -282,6 +282,11 @@ class KewpieScraper(BaseScraper):
         if not title_text or title_text == "（タイトル不明）":
             return None
 
+        # 材料も手順もない＝レシピページではない → スキップ
+        if not ingredients and not steps:
+            log.info(f"非レシピページをスキップ: {title_text[:30]}")
+            return None
+
         return Recipe(
             id=self.make_id(url),
             source_url=url,
@@ -302,7 +307,8 @@ class KikkomanScraper(BaseScraper):
         links = []
         for a in soup.select("a[href]"):
             href = a["href"]
-            if "/recipe/" in href or "/homecook/" in href:
+            # 個別レシピページのみ対象（/recipe/数字/ の形式）
+            if re.search(r"/recipe/\d+/", href):
                 links.append(href)
         links = list(dict.fromkeys(links))[:MAX_RECIPES_PER_SITE]
 
@@ -347,6 +353,11 @@ class KikkomanScraper(BaseScraper):
         img_url = img["src"] if img and img.get("src") else ""
 
         if not title_text or title_text == "（タイトル不明）":
+            return None
+
+        # 材料も手順もない＝レシピページではない → スキップ
+        if not ingredients and not steps:
+            log.info(f"非レシピページをスキップ: {title_text[:30]}")
             return None
 
         return Recipe(
@@ -606,6 +617,9 @@ def main():
                 if k in Recipe.__dataclass_fields__
             })
             r.ingredients = [Ingredient(**i) for i in d.get("ingredients", [])]
+            # 材料も手順もないキャッシュは除外（前回の不正データ）
+            if not r.ingredients and not r.steps_ja:
+                continue
             existing_recipes.append(r)
             existing_ids.add(r.id)
         log.info(f"キャッシュ: {len(existing_recipes)} 件読み込み済み")
