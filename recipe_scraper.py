@@ -66,7 +66,7 @@ TARGET_SITES = [
     # ── ヤマサ醤油 ──
     {"name": "Yamasa",    "url": "https://www.yamasa.com/recipe/",      "parser": "yamasa"},
     # ── マルコメ ──
-    {"name": "Marukome",  "url": "https://www.marukome.co.jp/recipe/",  "parser": "marukome"},
+    {"name": "Marukome",  "url": "https://www.marukome.co.jp/global/en/recipe/", "parser": "marukome"},
     # ── ハウス食品 ──
     {"name": "House",     "url": "https://housefoods.jp/recipe/",       "parser": "house"},
 ]
@@ -300,6 +300,88 @@ class GenericScraper(BaseScraper):
             source_site=self.site_name,
             title_ja=title_text,
             description_ja=desc_text,
+            ingredients=ingredients,
+            steps_ja=steps,
+            image_url=img_url,
+        )
+
+# ─── Marukome スクレイパー（英語グローバルサイト）─────────
+class MarukomeScraper(BaseScraper):
+    BASE = "https://www.marukome.co.jp/global/en"
+
+    def parse(self, url: str) -> list[Recipe]:
+        soup = self.fetch(url)
+        links = []
+        for a in soup.select("a[href*='/global/en/recipe/']"):
+            href = a["href"]
+            # カテゴリページ・一覧ページを除外して個別レシピのみ
+            if re.search(r"/recipe/[a-z]+_\d+", href):
+                full = href if href.startswith("http") else "https://www.marukome.co.jp" + href
+                links.append(full)
+        links = list(dict.fromkeys(links))[:MAX_RECIPES_PER_SITE]
+        recipes = []
+        for link in links:
+            try:
+                r = self._parse_detail(link)
+                if r:
+                    recipes.append(r)
+                time.sleep(1)
+            except Exception as e:
+                log.warning(f"Marukome スキップ: {link} ({e})")
+        log.info(f"Marukome: {len(recipes)} レシピ取得")
+        return recipes
+
+    def _parse_detail(self, url: str) -> Optional[Recipe]:
+        soup = self.fetch(url)
+        # タイトル
+        h1 = soup.select_one("h1")
+        title = h1.get_text(strip=True) if h1 else ""
+        if not title:
+            return None
+
+        # 材料: h2「Ingredients」の直後のdl > dt(名前) + dd(分量)
+        ingredients = []
+        for h2 in soup.find_all("h2"):
+            if "ingredient" in h2.get_text().lower():
+                dl = h2.find_next("dl")
+                if dl:
+                    dts = dl.find_all("dt")
+                    dds = dl.find_all("dd")
+                    for dt, dd in zip(dts, dds):
+                        name   = dt.get_text(strip=True)
+                        amount = dd.get_text(strip=True)
+                        if name:
+                            ingredients.append(Ingredient(name_ja=name, amount=amount))
+                break
+
+        # 手順: h2「Recipe」の直後のol > dd
+        steps = []
+        for h2 in soup.find_all("h2"):
+            if h2.get_text(strip=True).lower() == "recipe":
+                ol = h2.find_next("ol")
+                if ol:
+                    for dd in ol.find_all("dd"):
+                        txt = dd.get_text(strip=True)
+                        if txt:
+                            steps.append(txt)
+                break
+
+        if not ingredients and not steps:
+            return None
+
+        # 画像
+        img_url = ""
+        img = soup.select_one("img[src*='wp-content/uploads']")
+        if img and img.get("src"):
+            src = img["src"]
+            img_url = f"https://images.weserv.nl/?url={src}&w=600&output=jpg"
+
+        return Recipe(
+            id=self.make_id(url),
+            source_url=url,
+            source_site="Marukome",
+            title_ja=title,
+            description_ja="",
             ingredients=ingredients,
             steps_ja=steps,
             image_url=img_url,
@@ -854,10 +936,10 @@ def main():
     scrapers = {
         "kewpie":    KewpieScraper(),
         "kikkoman":  KikkomanScraper(),
+        "marukome":  MarukomeScraper(),
         "ajinomoto": GenericScraper("Ajinomoto", "https://www.ajinomoto.co.jp"),
         "mizkan":    GenericScraper("Mizkan",    "https://www.mizkan.co.jp"),
         "yamasa":    GenericScraper("Yamasa",    "https://www.yamasa.com"),
-        "marukome":  GenericScraper("Marukome",  "https://www.marukome.co.jp"),
         "house":     GenericScraper("House",     "https://housefoods.jp"),
     }
 
