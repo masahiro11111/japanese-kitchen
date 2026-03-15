@@ -70428,5 +70428,1335 @@
         "테리테리! 닭고기 끓여"
       ]
     }
+  },
+  {
+    "id": "09b0c4ce",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=20351",
+    "source_site": "Mizkan",
+    "title_ja": "新じゃが楽しむポテト鍋",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "新じゃがいも",
+        "amount": "４個",
+        "name_translated": {
+          "en": "new potatoes",
+          "zh_tw": "新馬鈴薯",
+          "zh_cn": "新土豆",
+          "vi": "khoai tây mới",
+          "hi": "नया आलू",
+          "ru": "молодой картофель",
+          "th": "มันฝรั่งใหม่",
+          "id": "kentang baru",
+          "ms": "kentang baru",
+          "ko": "새 감자"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%B0%E3%81%98%E3%82%83%E3%81%8C%E3%81%84%E3%82%82&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%B0%E3%81%98%E3%82%83%E3%81%8C%E3%81%84%E3%82%82/?tag="
+      },
+      {
+        "name_ja": "キャベツ",
+        "amount": "１／４個（３００ｇ）",
+        "name_translated": {
+          "en": "cabbage",
+          "zh_tw": "高麗菜",
+          "zh_cn": "卷心菜",
+          "vi": "bắp cải",
+          "hi": "पत्ता गोभी",
+          "ru": "капуста",
+          "th": "กะหล่ำปลี",
+          "id": "kubis",
+          "ms": "kubis",
+          "ko": "양배추"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84/?tag="
+      },
+      {
+        "name_ja": "ブロッコリー",
+        "amount": "１株",
+        "name_translated": {
+          "en": "broccoli",
+          "zh_tw": "綠色花椰菜",
+          "zh_cn": "西兰花",
+          "vi": "bông cải xanh",
+          "hi": "ब्रोकोली",
+          "ru": "брокколи",
+          "th": "บรอกโคลี",
+          "id": "brokoli",
+          "ms": "brokoli",
+          "ko": "브로콜리"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC/?tag="
+      },
+      {
+        "name_ja": "ミニトマト",
+        "amount": "１２個",
+        "name_translated": {
+          "en": "cherry tomatoes",
+          "zh_tw": "櫻桃番茄",
+          "zh_cn": "樱桃番茄",
+          "vi": "cà chua bi",
+          "hi": "चैरी टमाटर",
+          "ru": "помидоры черри",
+          "th": "มะเขือเทศเชอร์รี่",
+          "id": "tomat ceri",
+          "ms": "tomato ceri",
+          "ko": "미니 토마토"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%8B%E3%83%88%E3%83%9E%E3%83%88/?tag="
+      },
+      {
+        "name_ja": "エリンギ",
+        "amount": "１パック（１００ｇ）",
+        "name_translated": {
+          "en": "Eringi",
+          "zh_tw": "埃林吉",
+          "zh_cn": "埃林吉",
+          "vi": "Eringi",
+          "hi": "इरिंगी",
+          "ru": "Эринги",
+          "th": "เอรินกิ",
+          "id": "Eringi",
+          "ms": "Eringi",
+          "ko": "에링기"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%A8%E3%83%AA%E3%83%B3%E3%82%AE&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%A8%E3%83%AA%E3%83%B3%E3%82%AE/?tag="
+      },
+      {
+        "name_ja": "豚バラ肉　薄切り",
+        "amount": "３００ｇ",
+        "name_translated": {
+          "en": "Thinly sliced ​​pork belly",
+          "zh_tw": "五花肉切成薄片",
+          "zh_cn": "五花肉切成薄片",
+          "vi": "Thịt ba chỉ thái mỏng",
+          "hi": "पतले कटा हुआ सूअर का मांस पेट",
+          "ru": "Тонко нарезанная свиная грудинка",
+          "th": "หมูสามชั้นหั่นบางๆ",
+          "id": "Perut babi diiris tipis",
+          "ms": "Perut babi yang dihiris nipis",
+          "ko": "돼지 장미 고기 얇게 썬다."
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%B1%9A%E3%83%90%E3%83%A9%E8%82%89%E3%80%80%E8%96%84%E5%88%87%E3%82%8A&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%B1%9A%E3%83%90%E3%83%A9%E8%82%89%E3%80%80%E8%96%84%E5%88%87%E3%82%8A/?tag="
+      },
+      {
+        "name_ja": "〆まで美味しい　ごま豆乳鍋つゆ　ｽﾄﾚｰﾄ",
+        "amount": "１袋",
+        "name_translated": {
+          "en": "Delicious until the end - sesame soy milk hot pot soup straight",
+          "zh_tw": "好吃到最後－芝麻豆漿火鍋湯直",
+          "zh_cn": "好吃到最后——芝麻豆浆火锅汤直",
+          "vi": "Ngon đến cùng - Lẩu sữa đậu nành mè thẳng",
+          "hi": "अंत तक स्वादिष्ट - तिल सोया दूध गर्म पॉट सूप सीधे",
+          "ru": "Вкусно до конца - горячий суп в горшочке с кунжутно-соевым молоком",
+          "th": "อร่อยจนหยดสุดท้าย - ซุปหม้อไฟนมถั่วเหลืองงาดำตรง",
+          "id": "Lezat sampai akhir - sup hot pot susu kedelai wijen lurus",
+          "ms": "Sedap sampai habis - sup periuk panas susu soya bijan terus",
+          "ko": "〆까지 맛있는 참깨 두유 냄비 츠유 스트로트"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%86%E3%81%BE%E3%81%A7%E7%BE%8E%E5%91%B3%E3%81%97%E3%81%84%E3%80%80%E3%81%94%E3%81%BE%E8%B1%86%E4%B9%B3%E9%8D%8B%E3%81%A4%E3%82%86%E3%80%80%EF%BD%BD%EF%BE%84%EF%BE%9A%EF%BD%B0%EF%BE%84&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%86%E3%81%BE%E3%81%A7%E7%BE%8E%E5%91%B3%E3%81%97%E3%81%84%E3%80%80%E3%81%94%E3%81%BE%E8%B1%86%E4%B9%B3%E9%8D%8B%E3%81%A4%E3%82%86%E3%80%80%EF%BD%BD%EF%BE%84%EF%BE%9A%EF%BD%B0%EF%BE%84/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "にする。豚肉は食べやすい大きさに切る。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "を加え、具材に火を通す。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      }
+    ],
+    "steps_ja": [
+      "じゃがいもは乱切りに、キャベツはザク切りにする。ブロッコリーは小房に分け、ミニトマトはヘタを取る。エリンギは薄切りにする。豚肉は食べやすい大きさに切る。",
+      "鍋に「ごま豆乳鍋つゆストレート」をよく振ってから注ぎ、火にかける。煮立ったら１を加え、具材に火を通す。"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Potato hotpot with new potatoes",
+      "zh_tw": "新馬鈴薯馬鈴薯火鍋",
+      "zh_cn": "新土豆土豆火锅",
+      "vi": "Lẩu khoai tây với khoai tây mới",
+      "hi": "नए आलू के साथ आलू का हॉटपॉट",
+      "ru": "Картофельное жаркое с молодым картофелем",
+      "th": "หม้อไฟมันฝรั่งกับมันฝรั่งใหม่",
+      "id": "Hotpot kentang dengan kentang baru",
+      "ms": "Hotpot kentang dengan kentang baru",
+      "ko": "새가 즐기는 감자 냄비"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Cut the potatoes into chunks and the cabbage into chunks. Divide the broccoli into florets and remove the stems from the cherry tomatoes. Slice the eringi mushrooms into thin slices. Cut the pork into bite-sized pieces.",
+        "Shake the ``Sesame Soy Milk Nabe Tsuyu Straight'' in a pot well, then pour it over the heat. When it comes to a boil, add 1 and heat the ingredients."
+      ],
+      "zh_tw": [
+        "將馬鈴薯切成塊，將高麗菜切成塊狀。將青花菜分成小朵，並去除櫻桃番茄的莖。將杏鮑菇切成薄片。將豬肉切成一口大小的塊狀。",
+        "將鍋中的「芝麻豆漿火鍋醬」充分搖勻，然後倒入火中。沸騰時，加入1並加熱食材。"
+      ],
+      "zh_cn": [
+        "将土豆切成块，将卷心菜切成块。将西兰花分成小朵，并去除樱桃番茄的茎。将杏鲍菇切成薄片。将猪肉切成一口大小的块。",
+        "将锅中的“芝麻豆浆火锅酱”充分摇匀，然后倒入火中。当沸腾时，加入1并加热配料。"
+      ],
+      "vi": [
+        "Cắt khoai tây thành khối và bắp cải thành khối. Chia bông cải xanh thành những bông hoa nhỏ và cắt bỏ cuống của cà chua bi. Cắt nấm eringi thành từng lát mỏng. Cắt thịt lợn thành miếng vừa ăn.",
+        "Lắc đều ``Sữa đậu nành mè Nabe Tsuyu Straight'' trong nồi, sau đó đổ lên bếp. Khi sôi, thêm 1 và đun nóng nguyên liệu."
+      ],
+      "hi": [
+        "आलू को टुकड़ों में और पत्तागोभी को टुकड़ों में काट लीजिये. ब्रोकोली को फूलों में विभाजित करें और चेरी टमाटर से डंठल हटा दें। इरिंगी मशरूम को पतले स्लाइस में काटें। सूअर के मांस को छोटे टुकड़ों में काट लें।",
+        "``तिल सोया मिल्क नाबे त्सुयू स्ट्रेट'' को एक बर्तन में अच्छी तरह से हिलाएं, फिर इसे आंच पर डालें। जब इसमें उबाल आ जाए तो 1 डालें और सामग्री को गर्म करें।"
+      ],
+      "ru": [
+        "Картофель нарезаем ломтиками, а капусту – ломтиками. Разделите брокколи на соцветия и удалите стебли у помидоров черри. Нарезаем грибы эринги тонкими ломтиками. Нарезаем свинину некрупными кусочками.",
+        "Встряхните «Кунжутно-соевое молоко Набэ Цую прямо» в кастрюле, затем вылейте его на огонь. Когда дело доходит до кипения, добавьте 1 и нагрейте ингредиенты."
+      ],
+      "th": [
+        "หั่นมันฝรั่งเป็นชิ้น และกะหล่ำปลีเป็นชิ้น แบ่งบรอกโคลีออกเป็นดอกเล็กๆ และเอาก้านออกจากมะเขือเทศเชอรี่ หั่นเห็ดออรินจิเป็นชิ้นบางๆ หั่นหมูเป็นชิ้นขนาดพอดีคำ",
+        "เขย่า ``นาเบะสึยุนมถั่วเหลืองงา'' ในหม้อให้เข้ากัน จากนั้นเทลงบนไฟ เมื่อเดือด ให้เติม 1 และตั้งส่วนผสมให้ร้อน"
+      ],
+      "id": [
+        "Potong kentang menjadi beberapa bagian dan kubis menjadi beberapa bagian. Bagi brokoli menjadi kuntum dan buang batang tomat ceri. Iris jamur eringi menjadi irisan tipis. Potong daging babi menjadi potongan-potongan kecil.",
+        "Kocok ``Susu Kedelai Wijen Nabe Tsuyu Lurus'' di dalam panci, lalu tuang ke atas api. Jika sudah mendidih, masukkan 1 dan panaskan bahan."
+      ],
+      "ms": [
+        "Potong kentang menjadi kepingan dan kubis menjadi kepingan. Bahagikan brokoli kepada bunga dan keluarkan batang dari tomato ceri. Potong cendawan eringi menjadi kepingan nipis. Potong daging babi menjadi kepingan bersaiz gigitan.",
+        "Goncangkan ``Sesame Soya Milk Nabe Tsuyu Straight'' dalam periuk dengan baik, kemudian tuangkan di atas api. Bila dah mendidih masukkan 1 dan panaskan bahan."
+      ],
+      "ko": [
+        "감자는 방해에, 양배추는 자쿠 자른다. 브로콜리는 소방으로 나누고 미니 토마토는 헤타를 취한다. 에린기는 얇게 썬다. 돼지고기는 먹기 쉬운 크기로 자른다.",
+        "냄비에 \"참깨 두유 냄비 츠유 스트레이트\"를 잘 흔들고 나서 부어 불에 뿌린다. 끓인다면 1을 넣고 재료에 불을 통과시킨다."
+      ]
+    }
+  },
+  {
+    "id": "34e53a18",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=526",
+    "source_site": "Mizkan",
+    "title_ja": "はまぐりのお吸い物",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "はまぐり",
+        "amount": "４個",
+        "name_translated": {
+          "en": "Clam",
+          "zh_tw": "蛤",
+          "zh_cn": "蛤",
+          "vi": "Nghêu",
+          "hi": "क्लैम",
+          "ru": "Моллюск",
+          "th": "หอย",
+          "id": "Kerang",
+          "ms": "kerang",
+          "ko": "하마 구리"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%AF%E3%81%BE%E3%81%90%E3%82%8A&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%AF%E3%81%BE%E3%81%90%E3%82%8A/?tag="
+      },
+      {
+        "name_ja": "菜の花",
+        "amount": "適量",
+        "name_translated": {
+          "en": "rape blossoms",
+          "zh_tw": "油菜花",
+          "zh_cn": "油菜花",
+          "vi": "hoa cải dầu",
+          "hi": "बलात्कार के फूल खिलते हैं",
+          "ru": "рапс цветет",
+          "th": "ดอกข่มขืน",
+          "id": "bunga pemerkosaan",
+          "ms": "bunga rogol",
+          "ko": "유채꽃"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%8F%9C%E3%81%AE%E8%8A%B1&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%8F%9C%E3%81%AE%E8%8A%B1/?tag="
+      },
+      {
+        "name_ja": "ミツカン　プロが使う味　白だし",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "Mizkan - Flavor used by professionals - White dashi",
+          "zh_tw": "口味滋康 - 專業人士使用的風味 - 白高湯",
+          "zh_cn": "味滋康 - 专业人士使用的风味 - 白高汤",
+          "vi": "Mizkan - Hương vị được giới chuyên môn sử dụng - Dashi trắng",
+          "hi": "मिज़कान - पेशेवरों द्वारा उपयोग किया जाने वाला स्वाद - सफेद दशी",
+          "ru": "Мизкан - Аромат, используемый профессионалами - Белый даси",
+          "th": "มิซคาน - รสชาติที่มืออาชีพใช้ - ดาชิสีขาว",
+          "id": "Mizkan - Rasa yang digunakan oleh para profesional - Dashi putih",
+          "ms": "Mizkan - Perisa yang digunakan oleh profesional - Dashi putih",
+          "ko": "미츠칸 프로가 사용하는 맛 흰색입니다."
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%83%97%E3%83%AD%E3%81%8C%E4%BD%BF%E3%81%86%E5%91%B3%E3%80%80%E7%99%BD%E3%81%A0%E3%81%97&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%83%97%E3%83%AD%E3%81%8C%E4%BD%BF%E3%81%86%E5%91%B3%E3%80%80%E7%99%BD%E3%81%A0%E3%81%97/?tag="
+      },
+      {
+        "name_ja": "水",
+        "amount": "３６０ｍｌ",
+        "name_translated": {
+          "en": "water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "вода",
+          "th": "น้ำ",
+          "id": "air",
+          "ms": "air",
+          "ko": "물"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B0%B4&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%B0%B4/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "はまぐりは砂だしし、菜の花は色よく下ゆでする。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "鍋に＜吸い地＞を入れて火にかけ、沸騰したらはまぐりを入れる。はまぐりが口を開けたら、火を止める。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "の＜吸い地＞をはる。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      }
+    ],
+    "steps_ja": [
+      "はまぐりは砂だしし、菜の花は色よく下ゆでする。",
+      "鍋に＜吸い地＞を入れて火にかけ、沸騰したらはまぐりを入れる。はまぐりが口を開けたら、火を止める。",
+      "器に、はまぐりと菜の花を入れて２の＜吸い地＞をはる。"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Clam soup",
+      "zh_tw": "蛤蜊湯",
+      "zh_cn": "蛤蜊汤",
+      "vi": "Súp nghêu",
+      "hi": "क्लैम सूप",
+      "ru": "Суп из моллюсков",
+      "th": "ซุปหอยลาย",
+      "id": "Sup kerang",
+      "ms": "Sup kerang",
+      "ko": "하마 구리 흡입"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "The clams are made in a sand-based broth, and the rape blossoms are par-boiled for a nice color.",
+        "Put the ``sukitori'' in a pot, heat it, and when it boils, add the clams. When the clams open their mouths, turn off the heat.",
+        "Place the clams and rape blossoms in a bowl and spread the ``sukitori'' from Step 2."
+      ],
+      "zh_tw": [
+        "蛤蜊是用沙基肉湯製成的，油菜花則煮至半熟，顏色漂亮。",
+        "將“sukitori”放入鍋中，加熱，煮沸後加入蛤蜊。當蛤蜊張開嘴時，關掉火。",
+        "將蛤蜊和油菜花放入碗中，然後鋪上步驟 2 的「sukitori」。"
+      ],
+      "zh_cn": [
+        "蛤蜊是用沙基肉汤制成的，油菜花则煮至半熟，颜色漂亮。",
+        "将“sukitori”放入锅中，加热，煮沸后加入蛤蜊。当蛤蜊张开嘴时，关掉火。",
+        "将蛤蜊和油菜花放入碗中，然后铺上步骤 2 的“sukitori”。"
+      ],
+      "vi": [
+        "Nghêu được nấu trong nước dùng làm từ cát và hoa cải được luộc chín để có màu sắc đẹp mắt.",
+        "Cho ``sukitori'' vào nồi, đun nóng và khi sôi thì cho nghêu vào. Khi nghêu há miệng thì tắt bếp.",
+        "Đặt nghêu và hoa cải dầu vào tô và trải ''sukitori'' ở Bước 2."
+      ],
+      "hi": [
+        "क्लैम को रेत आधारित शोरबा में बनाया जाता है, और अच्छे रंग के लिए रेप ब्लॉसम को हल्का उबाला जाता है।",
+        "``सुकिटोरी'' को एक बर्तन में डालें, गर्म करें और जब यह उबल जाए तो इसमें क्लैम डालें। जब क्लैम अपना मुंह खोलें, तो आंच बंद कर दें।",
+        "क्लैम्स और रेप ब्लॉसम को एक कटोरे में रखें और चरण 2 से ``सुकिटोरी'' फैलाएं।"
+      ],
+      "ru": [
+        "Моллюски готовятся в бульоне на основе песка, а цветы рапса варятся на пару для придания им красивого цвета.",
+        "Положите «сукитори» в кастрюлю, нагрейте, а когда закипит, добавьте моллюсков. Когда моллюски откроют рот, выключите огонь.",
+        "Поместите моллюсков и цветы рапса в миску и разложите «сукитори» из шага 2."
+      ],
+      "th": [
+        "หอยกาบทำในน้ำซุปที่มีส่วนผสมของทราย และดอกเรปนำมาต้มให้ได้สีสวยงาม",
+        "ใส่ ``สุกิโทริ'' ลงในหม้อ ตั้งไฟให้ร้อน และเมื่อเดือดก็ใส่หอยลงไป เมื่อหอยอ้าปากก็ปิดไฟ",
+        "วางหอยกาบและดอกข่มขืนลงในชาม แล้วเกลี่ย ``สุกิโทริ'' จากขั้นตอนที่ 2"
+      ],
+      "id": [
+        "Kerang dibuat dengan kaldu berbahan dasar pasir, dan bunga lobak direbus setengah matang untuk mendapatkan warna yang bagus.",
+        "Masukkan ``sukitori'' ke dalam panci, panaskan, dan jika sudah mendidih, masukkan kerang. Saat kerang membuka mulutnya, matikan api.",
+        "Tempatkan kerang dan bunga lobak dalam mangkuk dan sebarkan ``sukitori'' dari Langkah 2."
+      ],
+      "ms": [
+        "Kerang dibuat dalam sup berasaskan pasir, dan bunga rogol direbus separa untuk mendapatkan warna yang menarik.",
+        "Masukkan ``sukitori'' dalam periuk, panaskan, dan apabila mendidih, masukkan kerang. Apabila kerang membuka mulut, tutup api.",
+        "Letakkan kerang dan bunga rogol dalam mangkuk dan ratakan ``sukitori'' dari Langkah 2."
+      ],
+      "ko": [
+        "하마 구리는 모래이고, 유채 꽃은 색깔 좋게 아래 삶은다.",
+        "냄비에 <흡착지>를 넣고 불에 넣고 끓으면 참치를 넣는다. 하마구리가 입을 열면 불을 멈춘다.",
+        "그릇에 하마구리와 유채꽃을 넣고 2의 <흡착지>를 넣는다."
+      ]
+    }
+  },
+  {
+    "id": "bf6b6124",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=19278",
+    "source_site": "Mizkan",
+    "title_ja": "新玉ねぎのチヂミ",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "新たまねぎ",
+        "amount": "１個（２００ｇ）",
+        "name_translated": {
+          "en": "new onion",
+          "zh_tw": "新洋蔥",
+          "zh_cn": "新洋葱",
+          "vi": "hành tây mới",
+          "hi": "नया प्याज",
+          "ru": "новый лук",
+          "th": "หัวหอมใหม่",
+          "id": "bawang baru",
+          "ms": "bawang baru",
+          "ko": "새 양파"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%B0%E3%81%9F%E3%81%BE%E3%81%AD%E3%81%8E&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%B0%E3%81%9F%E3%81%BE%E3%81%AD%E3%81%8E/?tag="
+      },
+      {
+        "name_ja": "ピザ用チーズ",
+        "amount": "３０ｇ",
+        "name_translated": {
+          "en": "cheese for pizza",
+          "zh_tw": "披薩用起司",
+          "zh_cn": "披萨用奶酪",
+          "vi": "phô mai cho pizza",
+          "hi": "पिज्जा के लिए पनीर",
+          "ru": "сыр для пиццы",
+          "th": "ชีสสำหรับพิซซ่า",
+          "id": "keju untuk pizza",
+          "ms": "keju untuk pizza",
+          "ko": "피자 치즈"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%94%E3%82%B6%E7%94%A8%E3%83%81%E3%83%BC%E3%82%BA&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%94%E3%82%B6%E7%94%A8%E3%83%81%E3%83%BC%E3%82%BA/?tag="
+      },
+      {
+        "name_ja": "桜えび　（素干し）",
+        "amount": "大さじ２（山盛り）",
+        "name_translated": {
+          "en": "Sakura shrimp (dried)",
+          "zh_tw": "櫻花蝦（乾）",
+          "zh_cn": "樱花虾（干）",
+          "vi": "Tôm Sakura (khô)",
+          "hi": "सकुरा झींगा (सूखा)",
+          "ru": "Креветки Сакура (сушеные)",
+          "th": "กุ้งซากุระ (แห้ง)",
+          "id": "Udang Sakura (kering)",
+          "ms": "Udang sakura (kering)",
+          "ko": "벚꽃 새우 (소 말린)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%A1%9C%E3%81%88%E3%81%B3%E3%80%80%EF%BC%88%E7%B4%A0%E5%B9%B2%E3%81%97%EF%BC%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%A1%9C%E3%81%88%E3%81%B3%E3%80%80%EF%BC%88%E7%B4%A0%E5%B9%B2%E3%81%97%EF%BC%89/?tag="
+      },
+      {
+        "name_ja": "小麦粉",
+        "amount": "５０ｇ",
+        "name_translated": {
+          "en": "flour",
+          "zh_tw": "麵粉",
+          "zh_cn": "面粉",
+          "vi": "bột mì",
+          "hi": "आटा",
+          "ru": "мука",
+          "th": "แป้ง",
+          "id": "tepung",
+          "ms": "tepung",
+          "ko": "밀가루"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B0%8F%E9%BA%A6%E7%B2%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%B0%8F%E9%BA%A6%E7%B2%89/?tag="
+      },
+      {
+        "name_ja": "片栗粉",
+        "amount": "５０ｇ",
+        "name_translated": {
+          "en": "potato starch",
+          "zh_tw": "馬鈴薯澱粉",
+          "zh_cn": "马铃薯淀粉",
+          "vi": "tinh bột khoai tây",
+          "hi": "आलू स्टार्च",
+          "ru": "картофельный крахмал",
+          "th": "แป้งมันฝรั่ง",
+          "id": "tepung kentang",
+          "ms": "kanji kentang",
+          "ko": "가문 가루"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%89%87%E6%A0%97%E7%B2%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%89%87%E6%A0%97%E7%B2%89/?tag="
+      },
+      {
+        "name_ja": "水",
+        "amount": "１００ｍｌ",
+        "name_translated": {
+          "en": "water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "вода",
+          "th": "น้ำ",
+          "id": "air",
+          "ms": "air",
+          "ko": "물"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B0%B4&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%B0%B4/?tag="
+      },
+      {
+        "name_ja": "卵",
+        "amount": "１個",
+        "name_translated": {
+          "en": "egg",
+          "zh_tw": "蛋",
+          "zh_cn": "蛋",
+          "vi": "trứng",
+          "hi": "अंडा",
+          "ru": "яйцо",
+          "th": "ไข่",
+          "id": "telur",
+          "ms": "telur",
+          "ko": "계란"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%8D%B5&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%8D%B5/?tag="
+      },
+      {
+        "name_ja": "サラダ油",
+        "amount": "大さじ１",
+        "name_translated": {
+          "en": "salad oil",
+          "zh_tw": "沙拉油",
+          "zh_cn": "色拉油",
+          "vi": "dầu trộn salad",
+          "hi": "वनस्पति - तेल",
+          "ru": "салатное масло",
+          "th": "น้ำมันสลัด",
+          "id": "minyak salad",
+          "ms": "minyak salad",
+          "ko": "샐러드 오일"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9/?tag="
+      },
+      {
+        "name_ja": "ごま油",
+        "amount": "小さじ１",
+        "name_translated": {
+          "en": "sesame oil",
+          "zh_tw": "香油",
+          "zh_cn": "香油",
+          "vi": "dầu mè",
+          "hi": "तिल का तेल",
+          "ru": "кунжутное масло",
+          "th": "น้ำมันงา",
+          "id": "minyak wijen",
+          "ms": "minyak bijan",
+          "ko": "참기름"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%94%E3%81%BE%E6%B2%B9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%94%E3%81%BE%E6%B2%B9/?tag="
+      },
+      {
+        "name_ja": "青じそ",
+        "amount": "２枚",
+        "name_translated": {
+          "en": "Blue perilla",
+          "zh_tw": "藍紫蘇",
+          "zh_cn": "蓝紫苏",
+          "vi": "Tía tô xanh",
+          "hi": "नीला पेरिला",
+          "ru": "Голубая перилла",
+          "th": "เพริลล่าสีน้ำเงิน",
+          "id": "Perila biru",
+          "ms": "Perilla biru",
+          "ko": "청지소"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%9D%92%E3%81%98%E3%81%9D&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%9D%92%E3%81%98%E3%81%9D/?tag="
+      },
+      {
+        "name_ja": "ミツカン　味ぽん",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "Mizkan Ajipon",
+          "zh_tw": "味滋康味精",
+          "zh_cn": "味滋康味精",
+          "vi": "Mizkan Ajipon",
+          "hi": "मिज़कान अजिपोन",
+          "ru": "Мизкан Аджипон",
+          "th": "มิซกัน อาจิปอน",
+          "id": "Mizkan Ajipon",
+          "ms": "Mizkan Ajipon",
+          "ko": "미츠칸 미포"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E5%91%B3%E3%81%BD%E3%82%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E5%91%B3%E3%81%BD%E3%82%93/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "にする。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "ボウルに卵を溶き、水と合わせ、薄力粉、片栗粉を加え混ぜる。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "とピザ用チーズ、桜えびを入れ、全体が均一になるように混ぜる。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "を流し入れて、厚さを平らにならす。焼き色がついたら上下を返し、フライ返しで時々押さえながら、カリッと両面を焼く。仕上げにごま油をフライパンの縁から流し入れ、全体に回す。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      },
+      {
+        "name_ja": "５",
+        "amount": "食べやすい大きさに切り、器に盛り、青じそをちぎりながらかける。「味ぽん」を添える。",
+        "name_translated": {
+          "en": "5",
+          "zh_tw": "5",
+          "zh_cn": "5",
+          "vi": "5",
+          "hi": "5",
+          "ru": "5",
+          "th": "5",
+          "id": "5",
+          "ms": "5",
+          "ko": "5"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%95&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%95/?tag="
+      },
+      {
+        "name_ja": "まるごと春キャベツのごま豆乳鍋",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Whole spring cabbage sesame soy milk hotpot",
+          "zh_tw": "全春白菜芝麻豆漿火鍋",
+          "zh_cn": "全春白菜芝麻豆浆火锅",
+          "vi": "Lẩu sữa đậu nành mè bắp cải nguyên con",
+          "hi": "साबुत वसंत पत्तागोभी तिल सोया दूध हॉटपॉट",
+          "ru": "Тушеное мясо из цельной весенней капусты с кунжутом и соевым молоком",
+          "th": "หม้อไฟนมถั่วเหลืองงากะหล่ำปลีทั้งฤดูใบไม้ผลิ",
+          "id": "Hotpot susu kedelai wijen kubis musim semi utuh",
+          "ms": "Kobis musim bunga penuh bijan susu soya hotpot",
+          "ko": "통째로 봄 양배추 참깨 두유 냄비"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%BE%E3%82%8B%E3%81%94%E3%81%A8%E6%98%A5%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E3%81%94%E3%81%BE%E8%B1%86%E4%B9%B3%E9%8D%8B&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%BE%E3%82%8B%E3%81%94%E3%81%A8%E6%98%A5%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E3%81%94%E3%81%BE%E8%B1%86%E4%B9%B3%E9%8D%8B/?tag="
+      },
+      {
+        "name_ja": "新玉ねぎのガーリックぽんステーキ",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Fresh onion garlic pop steak",
+          "zh_tw": "新鮮洋蔥大蒜流行牛排",
+          "zh_cn": "新鲜洋葱大蒜流行牛排",
+          "vi": "Bít tết hành tỏi tươi",
+          "hi": "ताजा प्याज लहसुन पॉप स्टेक",
+          "ru": "Поп-стейк из свежего лука и чеснока",
+          "th": "สเต็กป๊อปหัวหอมกระเทียมสด",
+          "id": "Steak pop bawang putih bawang segar",
+          "ms": "Steak pop bawang putih bawang segar",
+          "ko": "새로운 양파 마늘 스테이크"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%96%B0%E7%8E%89%E3%81%AD%E3%81%8E%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%AA%E3%83%83%E3%82%AF%E3%81%BD%E3%82%93%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%96%B0%E7%8E%89%E3%81%AD%E3%81%8E%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%AA%E3%83%83%E3%82%AF%E3%81%BD%E3%82%93%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD/?tag="
+      },
+      {
+        "name_ja": "丸ごと新玉ねぎの炊き込みご飯",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Rice cooked with whole new onions",
+          "zh_tw": "用新鮮洋蔥煮的米飯",
+          "zh_cn": "用新鲜洋葱煮的米饭",
+          "vi": "Cơm nấu với hành mới",
+          "hi": "पूरे नए प्याज के साथ पकाया गया चावल",
+          "ru": "Рис, приготовленный с новым луком",
+          "th": "ข้าวหุงด้วยหัวหอมใหม่ทั้งหมด",
+          "id": "Nasi dimasak dengan bawang bombay utuh",
+          "ms": "Nasi dimasak dengan bawang baru",
+          "ko": "통째로 신양파의 밥솥밥"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E4%B8%B8%E3%81%94%E3%81%A8%E6%96%B0%E7%8E%89%E3%81%AD%E3%81%8E%E3%81%AE%E7%82%8A%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%94%E9%A3%AF&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E4%B8%B8%E3%81%94%E3%81%A8%E6%96%B0%E7%8E%89%E3%81%AD%E3%81%8E%E3%81%AE%E7%82%8A%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%94%E9%A3%AF/?tag="
+      }
+    ],
+    "steps_ja": [
+      "新たまねぎは１ｃｍの角切りにする。",
+      "ボウルに卵を溶き、水と合わせ、薄力粉、片栗粉を加え混ぜる。",
+      "に１とピザ用チーズ、桜えびを入れ、全体が均一になるように混ぜる。",
+      "フライパンにサラダ油を中火で熱し、３を流し入れて、厚さを平らにならす。焼き色がついたら上下を返し、フライ返しで時々押さえながら、カリッと両面を焼く。仕上げにごま油をフライパンの縁から流し入れ、全体に回す。",
+      "食べやすい大きさに切り、器に盛り、青じそをちぎりながらかける。「味ぽん」を添える。",
+      "まるごと春キャベツのごま豆乳鍋",
+      "新玉ねぎのガーリックぽんステーキ",
+      "丸ごと新玉ねぎの炊き込みご飯"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Fresh onion pancake",
+      "zh_tw": "新鮮洋蔥煎餅",
+      "zh_cn": "新鲜洋葱煎饼",
+      "vi": "Bánh xèo hành tươi",
+      "hi": "ताजा प्याज पैनकेक",
+      "ru": "Блинчик из свежего лука",
+      "th": "แพนเค้กหัวหอมสด",
+      "id": "Pancake bawang segar",
+      "ms": "Lempeng bawang segar",
+      "ko": "신양파의 치즈미"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Cut the new onions into 1cm cubes.",
+        "Beat eggs in a bowl, mix with water, add flour and potato starch, and mix.",
+        "Add 1, pizza cheese, and sakura shrimp to the mixture and mix until evenly distributed.",
+        "Heat salad oil in a frying pan over medium heat, pour in step 3 and smooth out the thickness. When browned, turn it over and press it occasionally with a spatula to crisp up both sides. To finish, pour sesame oil from the edges of the frying pan and swirl it around.",
+        "Cut into bite-sized pieces, place in a bowl, and sprinkle with chopped green perilla. Add ``Ajipon''.",
+        "Whole spring cabbage sesame soy milk hotpot",
+        "Fresh onion garlic pop steak",
+        "Rice cooked with whole new onions"
+      ],
+      "zh_tw": [
+        "將新洋蔥切成 1 公分見方的方塊。",
+        "將雞蛋打入碗中，加水混合，加入麵粉和馬鈴薯澱粉，攪拌均勻。",
+        "將1、披薩起司和櫻花蝦加入混合物中，攪拌至均勻分佈。",
+        "煎鍋中火加熱沙拉油，倒入步驟3，抹平厚度。當變成棕色時，將其翻過來，偶爾用抹刀按壓，使兩面都酥脆。最後，從煎鍋邊緣倒入芝麻油並旋轉。",
+        "切成一口大小的塊，放入碗中，撒上切碎的青紫蘇。新增“Ajipon”。",
+        "全春白菜芝麻豆漿火鍋",
+        "新鮮洋蔥大蒜流行牛排",
+        "用新鮮洋蔥煮的米飯"
+      ],
+      "zh_cn": [
+        "将新洋葱切成 1 厘米见方的方块。",
+        "将鸡蛋打入碗中，加水混合，加入面粉和马铃薯淀粉，搅拌均匀。",
+        "将1、披萨奶酪和樱花虾加入混合物中，搅拌直至均匀分布。",
+        "煎锅中中火加热色拉油，倒入步骤3，抹平厚度。当变成棕色时，将其翻过来，偶尔用抹刀按压，使两面都酥脆。最后，从煎锅边缘倒入芝麻油并旋转。",
+        "切成一口大小的块，放入碗中，撒上切碎的青紫苏。添加“Ajipon”。",
+        "全春白菜芝麻豆浆火锅",
+        "新鲜洋葱大蒜流行牛排",
+        "用新鲜洋葱煮的米饭"
+      ],
+      "vi": [
+        "Cắt hành tây mới thành khối 1cm.",
+        "Đánh trứng vào tô, trộn với nước, thêm bột mì và tinh bột khoai tây vào rồi trộn đều.",
+        "Thêm 1, phô mai pizza và tôm sakura vào hỗn hợp và trộn cho đến khi phân bố đều.",
+        "Đun nóng dầu salad trong chảo trên lửa vừa, đổ vào bước 3 và dàn đều độ dày. Khi bánh chín vàng, lật lại và thỉnh thoảng dùng thìa ấn vào để chiên giòn cả hai mặt. Để hoàn tất, đổ dầu mè từ các cạnh của chảo rán và xoay xung quanh.",
+        "Cắt thành từng miếng vừa ăn, cho vào tô và rắc tía tô xanh cắt nhỏ. Thêm ``Ajipon''.",
+        "Lẩu sữa đậu nành mè bắp cải nguyên con",
+        "Bít tết hành tỏi tươi",
+        "Cơm nấu với hành mới"
+      ],
+      "hi": [
+        "नए प्याज को 1 सेमी क्यूब्स में काटें।",
+        "एक कटोरे में अंडे फेंटें, पानी मिलाएं, आटा और आलू स्टार्च डालें और मिलाएँ।",
+        "मिश्रण में 1, पिज़्ज़ा चीज़ और सकुरा झींगा डालें और समान रूप से वितरित होने तक मिलाएँ।",
+        "मध्यम आंच पर एक फ्राइंग पैन में सलाद तेल गरम करें, चरण 3 में डालें और मोटाई को चिकना करें। जब यह ब्राउन हो जाए तो इसे पलट दें और बीच-बीच में स्पैटुला से दबाते रहें ताकि दोनों तरफ से कुरकुरा हो जाए। ख़त्म करने के लिए, फ्राइंग पैन के किनारों से तिल का तेल डालें और इसे चारों ओर घुमाएँ।",
+        "काटने के आकार के टुकड़ों में काटें, एक कटोरे में रखें और कटा हुआ हरा पेरिला छिड़कें। ``अजिपोन'' जोड़ें।",
+        "साबुत वसंत पत्तागोभी तिल सोया दूध हॉटपॉट",
+        "ताजा प्याज लहसुन पॉप स्टेक",
+        "पूरे नए प्याज के साथ पकाया गया चावल"
+      ],
+      "ru": [
+        "Новый лук нарезаем кубиками по 1 см.",
+        "Яйца взбейте в миске, смешайте с водой, добавьте муку и картофельный крахмал, перемешайте.",
+        "Добавьте в смесь 1 сыр для пиццы и креветки сакура и перемешайте до равномерного распределения.",
+        "Нагрейте салатное масло в сковороде на среднем огне, влейте его в шаге 3 и разровняйте по толщине. Когда он подрумянится, переверните его и время от времени надавливайте лопаткой, чтобы он стал хрустящим с обеих сторон. В завершение налейте кунжутное масло по краям сковороды и перемешайте его.",
+        "Нарежьте небольшими кусочками, положите в миску и посыпьте нарезанной зеленой периллой. Добавьте «Аджипон».",
+        "Тушеное мясо из цельной весенней капусты с кунжутом и соевым молоком",
+        "Поп-стейк из свежего лука и чеснока",
+        "Рис, приготовленный с новым луком"
+      ],
+      "th": [
+        "หั่นหัวหอมใหม่เป็นก้อนขนาด 1 ซม.",
+        "ตีไข่ในชาม ผสมกับน้ำ ใส่แป้งและแป้งมันฝรั่ง แล้วผสมให้เข้ากัน",
+        "เพิ่ม 1 พิซซ่าชีส และกุ้งซากุระลงในส่วนผสมและคลุกเคล้าให้เข้ากัน",
+        "ตั้งน้ำมันสลัดในกระทะบนไฟร้อนปานกลาง เทในขั้นตอนที่ 3 และทำให้ความหนาเรียบลง เมื่อเป็นสีน้ำตาล ให้พลิกกลับด้านแล้วใช้ไม้พายกดเป็นครั้งคราวเพื่อให้เกรียมทั้งสองด้าน เสร็จแล้วให้เทน้ำมันงาจากขอบกระทะแล้วหมุนไปรอบๆ",
+        "หั่นเป็นชิ้นขนาดพอดีคำ ใส่ในชาม แล้วโรยด้วยใบเพริลลาสีเขียวสับ เพิ่ม `` อาจิปอน ''",
+        "หม้อไฟนมถั่วเหลืองงากะหล่ำปลีทั้งฤดูใบไม้ผลิ",
+        "สเต็กป๊อปหัวหอมกระเทียมสด",
+        "ข้าวหุงด้วยหัวหอมใหม่ทั้งหมด"
+      ],
+      "id": [
+        "Potong bawang bombay baru menjadi kubus berukuran 1 cm.",
+        "Kocok telur dalam mangkuk, campur dengan air, tambahkan tepung dan tepung kentang, lalu aduk.",
+        "Tambahkan 1 buah, keju pizza, dan udang sakura ke dalam adonan lalu aduk hingga merata.",
+        "Panaskan minyak salad dalam wajan dengan api sedang, tuang pada langkah 3 dan ratakan hingga kental. Jika sudah kecoklatan, balikkan dan tekan sesekali dengan spatula hingga kedua sisinya garing. Untuk menyelesaikannya, tuangkan minyak wijen dari tepi penggorengan dan putar.",
+        "Potong-potong seukuran sekali gigit, masukkan ke dalam mangkuk, dan taburi dengan perilla hijau cincang. Tambahkan ``Ajipon''.",
+        "Hotpot susu kedelai wijen kubis musim semi utuh",
+        "Steak pop bawang putih bawang segar",
+        "Nasi dimasak dengan bawang bombay utuh"
+      ],
+      "ms": [
+        "Potong bawang baru menjadi kiub 1cm.",
+        "Pukul telur dalam mangkuk, campurkan dengan air, masukkan tepung dan kanji kentang, dan gaul.",
+        "Masukkan 1, keju pizza, dan udang sakura ke dalam adunan dan gaul sehingga sekata.",
+        "Panaskan minyak salad dalam kuali dengan api sederhana, tuangkan dalam langkah 3 dan ratakan ketebalannya. Apabila sudah keperangan, balikkan dan tekan sekali-sekala dengan spatula untuk garing kedua-dua belah. Untuk selesai, tuangkan minyak bijan dari tepi kuali dan pusingkannya.",
+        "Potong menjadi kepingan bersaiz gigitan, masukkan ke dalam mangkuk, dan taburkan dengan perilla hijau cincang. Tambah ``Ajipon''.",
+        "Kobis musim bunga penuh bijan susu soya hotpot",
+        "Steak pop bawang putih bawang segar",
+        "Nasi dimasak dengan bawang baru"
+      ],
+      "ko": [
+        "새 양파는 1cm의 각도로 한다.",
+        "그릇에 달걀을 녹이고 물과 합하고 얇은 가루와 밤나무 가루를 넣고 섞는다.",
+        "에 1과 피자용 치즈, 벚꽃 새우를 넣고 전체가 균일해지도록 섞는다.",
+        "프라이팬에 샐러드유를 중불로 가열하고, 3을 흘려 넣어, 두께를 평평하게 한다. 구운 색이 붙으면 상하를 돌려, 플라이 되돌려로 가끔 누르면서, 바삭하게 양면을 굽는다. 마무리에 참기름을 프라이팬의 가장자리에서 흘려 넣고 전체로 돌린다.",
+        "먹기 쉬운 크기로 잘라, 그릇에 담아, 청지소를 찡그리면서 건다. 「아이폰」을 더한다.",
+        "통째로 봄 양배추 참깨 두유 냄비",
+        "새로운 양파 마늘 스테이크",
+        "통째로 신양파의 밥솥밥"
+      ]
+    }
+  },
+  {
+    "id": "f822275d",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=20026",
+    "source_site": "Mizkan",
+    "title_ja": "そぼろ丼",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "ご飯",
+        "amount": "軽く丼４杯分",
+        "name_translated": {
+          "en": "cooked rice",
+          "zh_tw": "乾飯",
+          "zh_cn": "干饭",
+          "vi": "cơm chín",
+          "hi": "पका हुआ चावल",
+          "ru": "приготовленный рис",
+          "th": "ข้าวสวย",
+          "id": "nasi",
+          "ms": "nasi masak",
+          "ko": "밥"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%94%E9%A3%AF&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%94%E9%A3%AF/?tag="
+      },
+      {
+        "name_ja": "鶏ひき肉",
+        "amount": "２５０ｇ",
+        "name_translated": {
+          "en": "minced chicken",
+          "zh_tw": "雞肉末",
+          "zh_cn": "鸡肉末",
+          "vi": "thịt gà băm",
+          "hi": "चिकन का कीमा",
+          "ru": "куриный фарш",
+          "th": "ไก่สับ",
+          "id": "ayam cincang",
+          "ms": "ayam cincang",
+          "ko": "닭고기 고기"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%B6%8F%E3%81%B2%E3%81%8D%E8%82%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%B6%8F%E3%81%B2%E3%81%8D%E8%82%89/?tag="
+      },
+      {
+        "name_ja": "おろししょうが",
+        "amount": "小さじ１",
+        "name_translated": {
+          "en": "Grated ginger",
+          "zh_tw": "薑末",
+          "zh_cn": "姜末",
+          "vi": "Gừng bào sợi",
+          "hi": "कसा हुआ अदरक",
+          "ru": "Тертый имбирь",
+          "th": "ขิงขูด",
+          "id": "jahe parut",
+          "ms": "Halia parut",
+          "ko": "오로시 생강"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%8A%E3%82%8D%E3%81%97%E3%81%97%E3%82%87%E3%81%86%E3%81%8C&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%8A%E3%82%8D%E3%81%97%E3%81%97%E3%82%87%E3%81%86%E3%81%8C/?tag="
+      },
+      {
+        "name_ja": "しょうゆ",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "soy sauce",
+          "zh_tw": "醬油",
+          "zh_cn": "酱油",
+          "vi": "nước tương",
+          "hi": "सोया सॉस",
+          "ru": "соевый соус",
+          "th": "ซอสถั่วเหลือง",
+          "id": "kecap",
+          "ms": "kicap",
+          "ko": "간장"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%97%E3%82%87%E3%81%86%E3%82%86&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%97%E3%82%87%E3%81%86%E3%82%86/?tag="
+      },
+      {
+        "name_ja": "砂糖",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "sugar",
+          "zh_tw": "糖",
+          "zh_cn": "糖",
+          "vi": "đường",
+          "hi": "चीनी",
+          "ru": "сахар",
+          "th": "น้ำตาล",
+          "id": "gula",
+          "ms": "gula",
+          "ko": "설탕"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A0%82%E7%B3%96&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%A0%82%E7%B3%96/?tag="
+      },
+      {
+        "name_ja": "酒",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "Alcohol",
+          "zh_tw": "酒精",
+          "zh_cn": "酒精",
+          "vi": "Rượu bia",
+          "hi": "शराब",
+          "ru": "Алкоголь",
+          "th": "แอลกอฮอล์",
+          "id": "Alkohol",
+          "ms": "Alkohol",
+          "ko": "술"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%85%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%85%92/?tag="
+      },
+      {
+        "name_ja": "卵",
+        "amount": "４個",
+        "name_translated": {
+          "en": "egg",
+          "zh_tw": "蛋",
+          "zh_cn": "蛋",
+          "vi": "trứng",
+          "hi": "अंडा",
+          "ru": "яйцо",
+          "th": "ไข่",
+          "id": "telur",
+          "ms": "telur",
+          "ko": "계란"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%8D%B5&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%8D%B5/?tag="
+      },
+      {
+        "name_ja": "砂糖",
+        "amount": "小さじ４",
+        "name_translated": {
+          "en": "sugar",
+          "zh_tw": "糖",
+          "zh_cn": "糖",
+          "vi": "đường",
+          "hi": "चीनी",
+          "ru": "сахар",
+          "th": "น้ำตาล",
+          "id": "gula",
+          "ms": "gula",
+          "ko": "설탕"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%A0%82%E7%B3%96&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%A0%82%E7%B3%96/?tag="
+      },
+      {
+        "name_ja": "ミツカン  穀物酢",
+        "amount": "小さじ２",
+        "name_translated": {
+          "en": "Mizkan grain vinegar",
+          "zh_tw": "口味滋康穀物醋",
+          "zh_cn": "味滋康谷物醋",
+          "vi": "Giấm ngũ cốc Mizkan",
+          "hi": "मिज़कान अनाज सिरका",
+          "ru": "Мизкан зерновой уксус",
+          "th": "น้ำส้มสายชูหมักจากเมล็ดมิซคาน",
+          "id": "Cuka biji-bijian Mizkan",
+          "ms": "Cuka bijirin mizkan",
+          "ko": "미쓰칸 곡물 식초"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%20%20%E7%A9%80%E7%89%A9%E9%85%A2&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%20%20%E7%A9%80%E7%89%A9%E9%85%A2/?tag="
+      },
+      {
+        "name_ja": "さやいんげん",
+        "amount": "適宜",
+        "name_translated": {
+          "en": "green beans",
+          "zh_tw": "綠豆",
+          "zh_cn": "绿豆",
+          "vi": "đậu xanh",
+          "hi": "हरी सेम",
+          "ru": "зеленая фасоль",
+          "th": "ถั่วเขียว",
+          "id": "kacang hijau",
+          "ms": "kacang hijau",
+          "ko": "사야 겐겐"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%95%E3%82%84%E3%81%84%E3%82%93%E3%81%92%E3%82%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%95%E3%82%84%E3%81%84%E3%82%93%E3%81%92%E3%82%93/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "鍋またはフライパンに＜Ａ＞を入れて、菜箸でよく混ぜる。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "を中火にかけ、菜箸４～５本で混ぜながら、ひき肉に火を通す。ひき肉がぽろぽろになって全体に色が変わり、火が通ったら混ぜるのをやめて、汁けをとばす。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "時々混ぜながら、汁けがほとんどなくなったら、容器に移して「穀物酢」を回しかけ、全体を混ぜ合わせる。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "鍋またはフライパンに卵を溶きほぐし、砂糖を加える。中火にかけ、菜箸で混ぜながらぽろぽろになるまで炒る。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      },
+      {
+        "name_ja": "５",
+        "amount": "したさやいんげんを添える。",
+        "name_translated": {
+          "en": "5",
+          "zh_tw": "5",
+          "zh_cn": "5",
+          "vi": "5",
+          "hi": "5",
+          "ru": "5",
+          "th": "5",
+          "id": "5",
+          "ms": "5",
+          "ko": "5"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%95&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%95/?tag="
+      }
+    ],
+    "steps_ja": [
+      "鍋またはフライパンに＜Ａ＞を入れて、菜箸でよく混ぜる。",
+      "を中火にかけ、菜箸４～５本で混ぜながら、ひき肉に火を通す。ひき肉がぽろぽろになって全体に色が変わり、火が通ったら混ぜるのをやめて、汁けをとばす。",
+      "時々混ぜながら、汁けがほとんどなくなったら、容器に移して「穀物酢」を回しかけ、全体を混ぜ合わせる。",
+      "鍋またはフライパンに卵を溶きほぐし、砂糖を加える。中火にかけ、菜箸で混ぜながらぽろぽろになるまで炒る。",
+      "丼にご飯をよそい、３の鶏そぼろと４の卵そぼろをのせ、お好みで、さっと塩ゆでし斜め切りしたさやいんげんを添える。"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Minced rice bowl",
+      "zh_tw": "碎飯碗",
+      "zh_cn": "碎饭碗",
+      "vi": "Bát cơm bằm",
+      "hi": "कीमा चावल का कटोरा",
+      "ru": "Миска из рисового фарша",
+      "th": "ชามข้าวสับ",
+      "id": "Mangkuk nasi cincang",
+      "ms": "Mangkuk nasi cincang",
+      "ko": "소보로 덮밥"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Add <A> to a pot or frying pan and mix well with chopsticks.",
+        "Heat over medium heat and cook the minced meat while stirring with 4 to 5 chopsticks. When the minced meat becomes crumbly and changes color all over, and it's cooked through, stop stirring and let the liquid drain away.",
+        "Stir occasionally until the liquid is almost gone, transfer to a container, sprinkle with ``cereal vinegar'' and mix everything together.",
+        "Beat the eggs in a pot or frying pan and add the sugar. Heat over medium heat and fry, stirring with chopsticks, until crumbly.",
+        "Pour the rice into a bowl, top with the minced chicken from Step 3 and the minced egg from Step 4, and if you like, add the green beans that have been lightly boiled with salt and cut diagonally."
+      ],
+      "zh_tw": [
+        "將<A>加入鍋子或煎鍋中，用筷子攪拌均勻。",
+        "中火加熱，邊用4到5根筷子攪拌肉末，邊煮。當肉末變得易碎並全部變色並且煮熟時，停止攪拌，讓液體流掉。",
+        "偶爾攪拌，直到液體幾乎消失，轉移到容器中，撒上“穀物醋”，然後將所有東西混合在一起。",
+        "在鍋子或煎鍋中打蛋，然後加入糖。中火加熱，用筷子攪拌，直到酥脆。",
+        "將米飯倒入碗中，上面放上步驟 3 的雞肉末和步驟 4 的雞蛋末，如果您願意，可以加入加鹽微煮的青豆，斜切。"
+      ],
+      "zh_cn": [
+        "将<A>加入锅或煎锅中，用筷子搅拌均匀。",
+        "中火加热，边用4到5根筷子搅拌肉末，边煮。当肉末变得易碎并全部变色并且煮熟时，停止搅拌，让液体流掉。",
+        "偶尔搅拌，直到液体几乎消失，转移到容器中，撒上“谷物醋”，然后将所有东西混合在一起。",
+        "在锅或煎锅中打鸡蛋，然后加入糖。中火加热，用筷子搅拌，直至酥脆。",
+        "将米饭倒入碗中，上面放上步骤 3 的鸡肉末和步骤 4 的鸡蛋末，如果您愿意，可以加入加盐微煮的青豆，斜切。"
+      ],
+      "vi": [
+        "Thêm <A> vào nồi hoặc chảo rán và trộn đều bằng đũa.",
+        "Đun nóng trên lửa vừa và nấu thịt băm trong khi khuấy bằng 4 đến 5 chiếc đũa. Khi thịt băm trở nên vụn và đổi màu toàn thân và chín kỹ thì ngừng khuấy và để nước chảy ra.",
+        "Thỉnh thoảng khuấy cho đến khi gần hết chất lỏng, chuyển sang hộp đựng, rắc ''giấm ngũ cốc'' và trộn mọi thứ lại với nhau.",
+        "Đánh trứng vào nồi hoặc chảo rán và thêm đường. Đun nóng trên lửa vừa và chiên, dùng đũa khuấy đều cho đến khi giòn.",
+        "Đổ cơm vào tô, đặt thịt gà băm ở Bước 3 và trứng băm ở Bước 4 lên trên, nếu thích thì cho thêm đậu xanh đã luộc sơ với muối vào rồi cắt chéo."
+      ],
+      "hi": [
+        "एक बर्तन या फ्राइंग पैन में <ए> डालें और चॉपस्टिक के साथ अच्छी तरह मिलाएं।",
+        "मध्यम आंच पर गर्म करें और कीमा को 4 से 5 चॉपस्टिक से हिलाते हुए पकाएं। जब कीमा भुरभुरा हो जाए और उसका रंग बदल जाए और वह पूरी तरह पक जाए, तो उसे हिलाना बंद कर दें और तरल को निकल जाने दें।",
+        "कभी-कभी हिलाएं जब तक कि तरल लगभग खत्म न हो जाए, एक कंटेनर में डालें, ``अनाज सिरका'' छिड़कें और सब कुछ एक साथ मिलाएं।",
+        "एक बर्तन या फ्राइंग पैन में अंडे फेंटें और चीनी डालें। मध्यम आंच पर गर्म करें और चॉपस्टिक से हिलाते हुए कुरकुरे होने तक भूनें।",
+        "चावल को एक कटोरे में डालें, ऊपर से चरण 3 से कीमा बनाया हुआ चिकन और चरण 4 से कीमा बनाया हुआ अंडा डालें, और यदि आप चाहें, तो हरी फलियाँ डालें जिन्हें नमक के साथ हल्का उबाला गया है और तिरछे काट लिया गया है।"
+      ],
+      "ru": [
+        "Добавьте <A> в кастрюлю или сковороду и хорошо перемешайте палочками для еды.",
+        "Нагрейте на среднем огне и готовьте фарш, помешивая 4–5 палочками для еды. Когда фарш станет рассыпчатым, полностью изменит цвет и будет готов, перестаньте помешивать и дайте жидкости стечь.",
+        "Периодически помешивайте, пока жидкость почти не уйдет, переложите в емкость, сбрызните «зерновым уксусом» и все перемешайте.",
+        "Яйца взбейте в кастрюле или сковороде и добавьте сахар. Нагрейте на среднем огне и обжарьте, помешивая палочками, до состояния крошки.",
+        "Высыпьте рис в миску, сверху выложите куриный фарш из шага 3 и яичный фарш из шага 4 и, если хотите, добавьте слегка отваренную с солью зеленую фасоль, нарезанную по диагонали."
+      ],
+      "th": [
+        "เพิ่ม <A> ลงในหม้อหรือกระทะและผสมให้เข้ากันกับตะเกียบ",
+        "ตั้งไฟปานกลางและปรุงเนื้อสับโดยใช้ตะเกียบ 4 ถึง 5 อัน เมื่อเนื้อสับเริ่มร่วนและเปลี่ยนสีไปทั่ว และสุกแล้ว ให้หยุดคนและปล่อยให้ของเหลวไหลออกไป",
+        "คนเป็นครั้งคราวจนของเหลวเกือบหมด ย้ายไปยังภาชนะ โรยด้วย ``น้ำส้มสายชูธัญพืช'' แล้วผสมทุกอย่างเข้าด้วยกัน",
+        "ตีไข่ในหม้อหรือกระทะแล้วเติมน้ำตาล ตั้งไฟปานกลางแล้วทอดด้วยตะเกียบคนจนร่วน",
+        "เทข้าวลงในชาม โรยหน้าด้วยไก่สับจากขั้นตอนที่ 3 และไข่สับจากขั้นตอนที่ 4 และถ้าต้องการ ให้ใส่ถั่วเขียวที่ต้มเกลือเล็กน้อยแล้วหั่นเป็นแนวทแยงหากต้องการ"
+      ],
+      "id": [
+        "Tambahkan <A> ke dalam panci atau penggorengan dan aduk rata dengan sumpit.",
+        "Panaskan dengan api sedang dan masak daging cincang sambil diaduk dengan 4 hingga 5 sumpit. Jika daging cincang menjadi rapuh dan berubah warna seluruhnya, serta sudah matang, hentikan pengadukan dan biarkan cairannya mengalir.",
+        "Aduk sesekali hingga cairan hampir habis, pindahkan ke wadah, taburi dengan ``cuka sereal'' dan campur semuanya.",
+        "Kocok telur dalam panci atau penggorengan dan tambahkan gula. Panaskan dengan api sedang lalu goreng sambil diaduk dengan sumpit hingga berbutir halus.",
+        "Tuang nasi ke dalam mangkuk, taburi dengan ayam cincang dari Langkah 3 dan telur cincang dari Langkah 4, dan jika suka, tambahkan kacang hijau yang sudah direbus sebentar dengan garam dan dipotong secara diagonal."
+      ],
+      "ms": [
+        "Masukkan <A> ke dalam periuk atau kuali dan gaul rata dengan penyepit.",
+        "Panaskan dengan api sederhana dan masak daging cincang sambil dikacau dengan 4 hingga 5 penyepit. Apabila daging cincang menjadi rapuh dan berubah warna, dan ia masak, hentikan kacau dan biarkan cecair mengalir.",
+        "Kacau sekali-sekala sehingga cecair hampir habis, pindahkan ke dalam bekas, taburkan ``cuka bijirin'' dan gaulkan kesemuanya.",
+        "Pukul telur dalam periuk atau kuali dan masukkan gula. Panaskan dengan api sederhana dan goreng, kacau dengan penyepit, hingga lumat.",
+        "Tuangkan nasi ke dalam mangkuk, atas dengan ayam cincang dari Langkah 3 dan telur cincang dari Langkah 4, dan jika suka, masukkan kacang hijau yang telah direbus sedikit dengan garam dan potong menyerong."
+      ],
+      "ko": [
+        "냄비 또는 프라이팬에 <A>를 넣고 채젓가락으로 잘 섞는다.",
+        "을 중불에 넣고, 젓가락 4~5개로 섞으면서, 갈고리에 불을 통과시킨다. 갈고리가 뾰족해져 전체에 색이 바뀌고, 불이 지나면 섞는 것을 그만두고, 국물을 건넨다.",
+        "때때로 섞으면서 국물이 거의 없어지면 용기에 옮겨 \"곡물 식초\"를 돌려 전체를 섞는다.",
+        "냄비 또는 프라이팬에 계란을 녹여 설탕을 넣으십시오. 중불에 걸려, 젓가락으로 섞으면서 떡볶이 될 때까지 볶는다.",
+        "덮밥에 밥을 얹고, 3의 닭 소붐과 4의 달걀 소붐을 얹어, 기호로, 살짝 소금 삶아 비스듬히 잘라낸 사야인겐을 더한다."
+      ]
+    }
   }
 ]
