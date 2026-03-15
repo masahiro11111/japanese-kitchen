@@ -405,44 +405,117 @@ def build_affiliate_links(recipe: Recipe) -> Recipe:
     return recipe
 
 # ─── HTML 出力 ───────────────────────────────────────────
-HTML_TEMPLATE = """<!DOCTYPE html>
+def build_html(recipes: list[Recipe], langs: list[str]) -> str:
+    flags  = {"en":"🇺🇸","zh_tw":"🇹🇼","zh_cn":"🇨🇳","vi":"🇻🇳","hi":"🇮🇳","ru":"🇷🇺","th":"🇹🇭","id":"🇮🇩","ms":"🇲🇾","ko":"🇰🇷"}
+    labels = {"en":"English","zh_tw":"繁體中文","zh_cn":"简体中文","vi":"Tiếng Việt","hi":"हिन्दी","ru":"Русский","th":"ภาษาไทย","id":"Bahasa Indonesia","ms":"Bahasa Melayu","ko":"한국어"}
+    sec_tr = {
+        "en":    {"ingredients":"Ingredients","steps":"Steps","buy":"🛒 Buy Ingredients","search_placeholder":"Search recipes...","source":"Source","back":"← Back to list","page":"Page"},
+        "zh_tw": {"ingredients":"食材","steps":"步驟","buy":"🛒 購買食材","search_placeholder":"搜尋食譜...","source":"來源","back":"← 返回列表","page":"頁"},
+        "zh_cn": {"ingredients":"食材","steps":"步骤","buy":"🛒 购买食材","search_placeholder":"搜索食谱...","source":"来源","back":"← 返回列表","page":"页"},
+        "vi":    {"ingredients":"Nguyên Liệu","steps":"Các Bước","buy":"🛒 Mua Nguyên Liệu","search_placeholder":"Tìm kiếm công thức...","source":"Nguồn","back":"← Quay lại","page":"Trang"},
+        "hi":    {"ingredients":"सामग्री","steps":"चरण","buy":"🛒 सामग्री खरीदें","search_placeholder":"रेसिपी खोजें...","source":"स्रोत","back":"← वापस जाएं","page":"पृष्ठ"},
+        "ru":    {"ingredients":"Ингредиенты","steps":"Шаги","buy":"🛒 Купить","search_placeholder":"Поиск рецептов...","source":"Источник","back":"← Назад","page":"Стр."},
+        "th":    {"ingredients":"ส่วนผสม","steps":"ขั้นตอน","buy":"🛒 ซื้อวัตถุดิบ","search_placeholder":"ค้นหาสูตรอาหาร...","source":"แหล่งที่มา","back":"← กลับ","page":"หน้า"},
+        "id":    {"ingredients":"Bahan","steps":"Langkah","buy":"🛒 Beli Bahan","search_placeholder":"Cari resep...","source":"Sumber","back":"← Kembali","page":"Hal"},
+        "ms":    {"ingredients":"Bahan","steps":"Langkah","buy":"🛒 Beli Bahan","search_placeholder":"Cari resipi...","source":"Sumber","back":"← Kembali","page":"Halaman"},
+        "ko":    {"ingredients":"재료","steps":"만드는 법","buy":"🛒 재료 구매","search_placeholder":"레시피 검색...","source":"출처","back":"← 목록으로","page":"페이지"},
+    }
+    used_sec = {l: sec_tr.get(l, sec_tr["en"]) for l in langs}
+
+    # 言語ドロップダウン options
+    options = "".join(f'<option value="{l}">{flags.get(l,"")} {labels.get(l,l)}</option>' for l in langs)
+
+    # レシピデータをJSONに変換（JS側で使用）
+    recipe_data = []
+    for recipe in recipes:
+        ing_list = []
+        for ing in recipe.ingredients:
+            ing_list.append({
+                "name_ja": ing.name_ja,
+                "amount": ing.amount,
+                "translated": ing.name_translated,
+                "amazon": ing.amazon_url,
+                "rakuten": ing.rakuten_url,
+            })
+        steps_dict = {}
+        for l in langs:
+            steps_dict[l] = recipe.steps.get(l, recipe.steps_ja)
+        recipe_data.append({
+            "id": recipe.id,
+            "source_url": recipe.source_url,
+            "source_site": recipe.source_site,
+            "image": recipe.image_url,
+            "title": recipe.title,
+            "title_ja": recipe.title_ja,
+            "desc": recipe.description,
+            "desc_ja": recipe.description_ja,
+            "ingredients": ing_list,
+            "steps": steps_dict,
+        })
+
+    recipes_json = json.dumps(recipe_data, ensure_ascii=False)
+    sec_json     = json.dumps(used_sec, ensure_ascii=False)
+    default_lang = langs[0]
+    title_en     = recipes[0].title.get("en", recipes[0].title_ja) if recipes else "Japanese Kitchen"
+
+    return f"""<!DOCTYPE html>
 <html lang="{default_lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{title_en}</title>
+<title>{title_en} | JapaneseKitchen</title>
 <style>
-  :root{{--ink:#1a0a00;--rice:#faf7f0;--gold:#c9a84c;--red:#c0392b;}}
-  *{{margin:0;padding:0;box-sizing:border-box;}}
-  body{{font-family:sans-serif;background:var(--rice);color:var(--ink);}}
-  header{{background:var(--ink);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;}}
-  .logo{{color:var(--gold);font-size:1.4rem;font-weight:bold;}}
-  .lang-bar button{{padding:.3rem .8rem;border:1.5px solid var(--gold);background:transparent;color:var(--gold);border-radius:2rem;cursor:pointer;font-size:.8rem;margin:.1rem;}}
-  .lang-bar button.active{{background:var(--gold);color:var(--ink);font-weight:bold;}}
-  main{{max-width:860px;margin:2rem auto;padding:0 1rem 4rem;}}
-  .card{{background:#fff;border-radius:10px;box-shadow:0 3px 20px rgba(0,0,0,.1);margin-bottom:2rem;overflow:hidden;border:1px solid #e8d9b0;}}
-  .card-head{{background:linear-gradient(135deg,#2d1200,#5c2d1a);color:var(--rice);padding:1.5rem;}}
-  .card-head h2{{color:var(--gold);font-size:1.4rem;margin-bottom:.4rem;}}
-  .card-head p{{opacity:.8;font-size:.88rem;}}
-  .card-body{{padding:1.5rem;}}
-  .sec{{font-weight:bold;color:#8b6914;border-bottom:2px solid var(--gold);padding-bottom:.2rem;margin:1.2rem 0 .8rem;}}
-  .ing-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem;}}
-  .ing{{background:var(--rice);border-left:3px solid var(--gold);padding:.5rem .8rem;border-radius:6px;font-size:.88rem;}}
-  .ing .amt{{color:var(--red);font-weight:bold;font-size:.8rem;}}
-  .steps li{{margin-bottom:.6rem;line-height:1.7;font-size:.9rem;}}
-  .aff-box{{background:#fffdf5;border:1.5px solid var(--gold);border-radius:8px;padding:1rem;margin-top:1.5rem;}}
-  .aff-box .ttl{{font-weight:bold;color:#8b6914;margin-bottom:.7rem;}}
-  .prod-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.6rem;}}
-  .prod{{background:#fff;border:1px solid #e8d9b0;border-radius:7px;padding:.7rem;}}
-  .prod-name{{font-size:.8rem;font-weight:bold;margin-bottom:.4rem;}}
-  .aff-link{{display:inline-block;padding:.25rem .6rem;border-radius:4px;font-size:.72rem;font-weight:bold;text-decoration:none;margin:.2rem .2rem 0 0;}}
-  .amz{{background:#FF9900;color:#000;}}
-  .rkt{{background:#BF0000;color:#fff;}}
-  .note{{font-size:.65rem;color:#aaa;margin-top:.3rem;}}
-  #jp-wall{{display:none;position:fixed;inset:0;background:#111;color:#faf7f0;z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:1rem;text-align:center;padding:2rem;}}
-  #jp-wall h2{{color:var(--gold);font-size:1.8rem;}}
-  #jp-wall a{{color:var(--gold);}}
-  footer{{background:var(--ink);color:rgba(250,247,240,.5);text-align:center;padding:1.2rem;font-size:.75rem;}}
+:root{{--ink:#1a0a00;--rice:#faf7f0;--gold:#c9a84c;--red:#c0392b;--brown:#5c2d1a;}}
+*{{margin:0;padding:0;box-sizing:border-box;}}
+body{{font-family:sans-serif;background:var(--rice);color:var(--ink);}}
+/* ── HEADER ── */
+header{{background:var(--ink);padding:.9rem 1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;position:sticky;top:0;z-index:100;}}
+.logo{{color:var(--gold);font-size:1.3rem;font-weight:bold;cursor:pointer;}}
+.lang-select{{padding:.4rem .9rem;border:1.5px solid var(--gold);background:var(--ink);color:var(--gold);border-radius:2rem;cursor:pointer;font-size:.85rem;font-weight:bold;outline:none;}}
+/* ── SEARCH BAR ── */
+.search-bar{{background:#fff;border-bottom:2px solid #e8d9b0;padding:.9rem 1.5rem;position:sticky;top:52px;z-index:99;}}
+.search-bar input{{width:100%;max-width:600px;display:block;margin:0 auto;padding:.6rem 1rem;border:1.5px solid #c9a84c;border-radius:2rem;font-size:.95rem;outline:none;}}
+/* ── LIST VIEW ── */
+#list-view{{max-width:960px;margin:1.5rem auto;padding:0 1rem 4rem;}}
+.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem;}}
+.recipe-thumb{{background:#fff;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.1);overflow:hidden;border:1px solid #e8d9b0;cursor:pointer;transition:transform .2s,box-shadow .2s;}}
+.recipe-thumb:hover{{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.15);}}
+.recipe-thumb img{{width:100%;height:180px;object-fit:cover;display:block;background:#e8d9b0;}}
+.recipe-thumb .no-img{{width:100%;height:180px;background:linear-gradient(135deg,#2d1200,#5c2d1a);display:flex;align-items:center;justify-content:center;font-size:2.5rem;}}
+.thumb-body{{padding:.9rem;}}
+.thumb-title{{font-size:.92rem;font-weight:bold;color:var(--ink);line-height:1.4;margin-bottom:.3rem;}}
+.thumb-site{{font-size:.72rem;color:#999;}}
+/* ── PAGINATION ── */
+.pagination{{display:flex;justify-content:center;gap:.4rem;margin:1.5rem 0;flex-wrap:wrap;}}
+.page-btn{{padding:.4rem .9rem;border:1.5px solid var(--gold);background:transparent;color:var(--gold);border-radius:1rem;cursor:pointer;font-size:.82rem;font-weight:bold;}}
+.page-btn.active,.page-btn:hover{{background:var(--gold);color:var(--ink);}}
+/* ── DETAIL VIEW ── */
+#detail-view{{display:none;max-width:860px;margin:1.5rem auto;padding:0 1rem 4rem;}}
+.back-btn{{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;background:var(--ink);color:var(--gold);border:none;border-radius:2rem;cursor:pointer;font-size:.88rem;font-weight:bold;margin-bottom:1.2rem;}}
+.detail-card{{background:#fff;border-radius:12px;box-shadow:0 3px 20px rgba(0,0,0,.1);overflow:hidden;border:1px solid #e8d9b0;}}
+.detail-img{{width:100%;max-height:300px;object-fit:cover;display:block;}}
+.detail-head{{background:linear-gradient(135deg,#2d1200,#5c2d1a);color:var(--rice);padding:1.5rem;}}
+.detail-head h2{{color:var(--gold);font-size:1.4rem;margin-bottom:.4rem;}}
+.detail-head p{{opacity:.8;font-size:.88rem;}}
+.source-link{{display:inline-block;margin-top:.6rem;font-size:.75rem;color:var(--gold);opacity:.8;text-decoration:underline;}}
+.detail-body{{padding:1.5rem;}}
+.sec{{font-weight:bold;color:#8b6914;border-bottom:2px solid var(--gold);padding-bottom:.2rem;margin:1.2rem 0 .8rem;}}
+.ing-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem;}}
+.ing{{background:var(--rice);border-left:3px solid var(--gold);padding:.5rem .8rem;border-radius:6px;font-size:.88rem;display:flex;flex-direction:column;gap:.2rem;}}
+.ing .amt{{color:var(--red);font-weight:bold;font-size:.8rem;}}
+.ing .aff-row{{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.2rem;}}
+.aff-link{{padding:.2rem .55rem;border-radius:4px;font-size:.68rem;font-weight:bold;text-decoration:none;}}
+.amz{{background:#FF9900;color:#000;}}
+.rkt{{background:#BF0000;color:#fff;}}
+.steps ol{{padding-left:1.3rem;}}
+.steps li{{margin-bottom:.7rem;line-height:1.7;font-size:.9rem;}}
+.aff-box{{background:#fffdf5;border:1.5px solid var(--gold);border-radius:8px;padding:1rem;margin-top:1.5rem;}}
+.aff-box .ttl{{font-weight:bold;color:#8b6914;margin-bottom:.4rem;font-size:.9rem;}}
+#jp-wall{{display:none;position:fixed;inset:0;background:#111;color:#faf7f0;z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:1rem;text-align:center;padding:2rem;}}
+#jp-wall h2{{color:var(--gold);font-size:1.8rem;}}
+#jp-wall a{{color:var(--gold);}}
+footer{{background:var(--ink);color:rgba(250,247,240,.5);text-align:center;padding:1.2rem;font-size:.75rem;line-height:1.8;}}
+footer a{{color:var(--gold);}}
 </style>
 </head>
 <body>
@@ -451,134 +524,171 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <p>This site is for international visitors only.</p>
   <a href="https://www.kewpie.co.jp/recipes/" target="_blank">→ Kewpie 公式サイトへ</a>
 </div>
+
 <header>
-  <div class="logo">🍱 JapaneseKitchen</div>
-  <div class="lang-bar">{lang_buttons}</div>
+  <div class="logo" onclick="showList()">🍱 JapaneseKitchen</div>
+  <select class="lang-select" onchange="setLang(this.value)">{options}</select>
 </header>
-<main>
-{recipe_cards}
-</main>
+
+<div class="search-bar">
+  <input type="text" id="search-input" placeholder="Search recipes..." oninput="onSearch()">
+</div>
+
+<!-- LIST VIEW -->
+<div id="list-view">
+  <div class="grid" id="recipe-grid"></div>
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<!-- DETAIL VIEW -->
+<div id="detail-view">
+  <button class="back-btn" onclick="showList()">← Back</button>
+  <div class="detail-card">
+    <img id="d-img" class="detail-img" src="" alt="" onerror="this.style.display='none'">
+    <div class="detail-head">
+      <h2 id="d-title"></h2>
+      <p id="d-desc"></p>
+      <a id="d-source" class="source-link" href="#" target="_blank" rel="nofollow"></a>
+    </div>
+    <div class="detail-body">
+      <div class="sec" id="d-sec-ing">Ingredients</div>
+      <div class="ing-grid" id="d-ing-grid"></div>
+      <div class="sec" id="d-sec-steps">Steps</div>
+      <div class="steps"><ol id="d-steps-list"></ol></div>
+      <div class="aff-box">
+        <div class="ttl" id="d-aff-ttl">🛒 Buy These Ingredients</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <footer>
-  © 2025 JapaneseKitchen.site · Affiliate links included · <a href="#" style="color:var(--gold)">Privacy</a>
+  © 2025 JapaneseKitchen.site · Recipes inspired by <a href="https://www.kewpie.co.jp/recipes/" target="_blank">Kewpie</a> and <a href="https://www.kikkoman.co.jp/homecook/" target="_blank">Kikkoman</a> · Affiliate links included
 </footer>
+
 <script>
-{js_code}
-</script>
-</body>
-</html>
-"""
+const RECIPES = {recipes_json};
+const SEC     = {sec_json};
+const PER_PAGE = 10;
+let currentLang = '{default_lang}';
+let currentPage = 1;
+let filtered = RECIPES;
 
-def build_html(recipes: list[Recipe], langs: list[str]) -> str:
-    # 言語ボタン
-    flags = {"en":"🇺🇸","zh_tw":"🇹🇼","zh_cn":"🇨🇳","vi":"🇻🇳","hi":"🇮🇳","ru":"🇷🇺","th":"🇹🇭","id":"🇮🇩","ms":"🇲🇾","ko":"🇰🇷"}
-    labels = {"en":"EN","zh_tw":"繁中","zh_cn":"简中","vi":"Việt","hi":"हिं","ru":"RU","th":"ไทย","id":"ID","ms":"MY","ko":"한"}
-    buttons = "".join(
-        f'<button onclick="setLang(\'{l}\')" id="btn-{l}" class="{"active" if i==0 else ""}">{flags.get(l,"")} {labels.get(l,l)}</button>'
-        for i, l in enumerate(langs)
-    )
-
-    # レシピカード
-    cards_html = ""
-    for recipe in recipes:
-        # 材料HTML (data属性に各言語を埋め込む)
-        ing_items = ""
-        for ing in recipe.ingredients:
-            tr_attrs = " ".join(
-                f'data-{l}="{ing.name_translated.get(l, ing.name_ja)}"'
-                for l in langs
-            )
-            aff = ""
-            if ing.amazon_url:
-                aff += f'<a class="aff-link amz" href="{ing.amazon_url}" target="_blank" rel="nofollow">Amazon</a>'
-            if ing.rakuten_url:
-                aff += f'<a class="aff-link rkt" href="{ing.rakuten_url}" target="_blank" rel="nofollow">楽天</a>'
-            ing_items += f"""
-            <div class="ing">
-              <span class="amt">{ing.amount}</span>
-              <span class="ing-name" {tr_attrs}>{ing.name_translated.get(langs[0], ing.name_ja)}</span>
-              <div>{aff}</div>
-            </div>"""
-
-        # 手順HTML
-        steps_html = ""
-        for l in langs:
-            steps_list = recipe.steps.get(l, recipe.steps_ja)
-            steps_str = "".join(f"<li>{s}</li>" for s in steps_list)
-            hidden = "" if l == langs[0] else ' style="display:none"'
-            steps_html += f'<ol class="steps step-block" data-lang="{l}"{hidden}>{steps_str}</ol>'
-
-        # タイトル・説明のdata属性
-        title_attrs = " ".join(f'data-{l}="{recipe.title.get(l, recipe.title_ja)}"' for l in langs)
-        desc_attrs  = " ".join(f'data-{l}="{recipe.description.get(l, recipe.description_ja)}"' for l in langs)
-
-        cards_html += f"""
-<div class="card">
-  <div class="card-head">
-    {"<img src='"+recipe.image_url+"' alt='"+recipe.title.get(langs[0], recipe.title_ja)+"' style='width:100%;max-height:260px;object-fit:cover;display:block;'>" if recipe.image_url else ""}
-    <div style="padding:1.5rem 1.5rem 0.5rem">
-    <h2 class="t-title" {title_attrs}>{recipe.title.get(langs[0], recipe.title_ja)}</h2>
-    <p class="t-desc" {desc_attrs}>{recipe.description.get(langs[0], recipe.description_ja)}</p>
-    </div>
-  </div>
-  <div class="card-body">
-    <div class="sec" data-key="ingredients">Ingredients</div>
-    <div class="ing-grid">{ing_items}</div>
-    <div class="sec" data-key="steps">Steps</div>
-    {steps_html}
-    <div class="aff-box">
-      <div class="ttl" data-key="buy">🛒 Buy These Ingredients</div>
-    </div>
-  </div>
-</div>"""
-
-    # JavaScript
-    sec_translations = {
-        "en":    {"ingredients":"Ingredients","steps":"Steps","buy":"🛒 Buy These Ingredients"},
-        "zh_tw": {"ingredients":"食材","steps":"步驟","buy":"🛒 購買食材"},
-        "zh_cn": {"ingredients":"食材","steps":"步骤","buy":"🛒 购买食材"},
-        "vi":    {"ingredients":"Nguyên Liệu","steps":"Các Bước","buy":"🛒 Mua Nguyên Liệu"},
-        "hi":    {"ingredients":"सामग्री","steps":"चरण","buy":"🛒 सामग्री खरीदें"},
-        "ru":    {"ingredients":"Ингредиенты","steps":"Шаги","buy":"🛒 Купить ингредиенты"},
-        "th":    {"ingredients":"ส่วนผสม","steps":"ขั้นตอน","buy":"🛒 ซื้อวัตถุดิบ"},
-        "id":    {"ingredients":"Bahan","steps":"Langkah","buy":"🛒 Beli Bahan"},
-        "ms":    {"ingredients":"Bahan","steps":"Langkah","buy":"🛒 Beli Bahan"},
-        "ko":    {"ingredients":"재료","steps":"만드는 법","buy":"🛒 재료 구매"},
-    }
-    used_sec = {l: sec_translations.get(l, sec_translations["en"]) for l in langs}
-
-    js = f"""
-const SEC = {json.dumps(used_sec, ensure_ascii=False)};
-let currentLang = '{langs[0]}';
-
+// ── 言語切替 ──
 function setLang(lang) {{
   currentLang = lang;
-  // タイトル・説明
-  document.querySelectorAll('.t-title').forEach(el => {{
-    el.textContent = el.dataset[lang] || el.textContent;
-  }});
-  document.querySelectorAll('.t-desc').forEach(el => {{
-    el.textContent = el.dataset[lang] || el.textContent;
-  }});
-  // 材料名
-  document.querySelectorAll('.ing-name').forEach(el => {{
-    el.textContent = el.dataset[lang] || el.textContent;
-  }});
-  // 手順
-  document.querySelectorAll('.step-block').forEach(el => {{
-    el.style.display = el.dataset.lang === lang ? '' : 'none';
-  }});
-  // セクション見出し
-  const s = SEC[lang] || SEC['{langs[0]}'];
-  document.querySelectorAll('[data-key="ingredients"]').forEach(el => el.textContent = s.ingredients);
-  document.querySelectorAll('[data-key="steps"]').forEach(el => el.textContent = s.steps);
-  document.querySelectorAll('[data-key="buy"]').forEach(el => el.textContent = s.buy);
-  // ボタン
-  document.querySelectorAll('.lang-bar button').forEach(b => b.classList.remove('active'));
-  const btn = document.getElementById('btn-' + lang);
-  if (btn) btn.classList.add('active');
+  document.querySelector('.lang-select').value = lang;
+  document.getElementById('search-input').placeholder = (SEC[lang]||SEC['{default_lang}']).search_placeholder;
+  document.querySelector('.back-btn').textContent = (SEC[lang]||SEC['{default_lang}']).back;
+  renderList();
 }}
 
-// GEO BLOCK JAPAN (テスト中は無効)
+// ── 検索 ──
+function onSearch() {{
+  const q = document.getElementById('search-input').value.toLowerCase();
+  filtered = q ? RECIPES.filter(r => {{
+    const t = (r.title[currentLang]||r.title_ja||'').toLowerCase();
+    return t.includes(q);
+  }}) : RECIPES;
+  currentPage = 1;
+  renderList();
+}}
+
+// ── 一覧表示 ──
+function showList() {{
+  document.getElementById('list-view').style.display = '';
+  document.getElementById('detail-view').style.display = 'none';
+  renderList();
+}}
+
+function renderList() {{
+  const grid = document.getElementById('recipe-grid');
+  const total = filtered.length;
+  const pages = Math.ceil(total / PER_PAGE);
+  const start = (currentPage - 1) * PER_PAGE;
+  const slice = filtered.slice(start, start + PER_PAGE);
+
+  grid.innerHTML = slice.map(r => {{
+    const title = r.title[currentLang] || r.title_ja;
+    const imgHtml = r.image
+      ? `<img src="${{r.image}}" alt="${{title}}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=no-img>🍽️</div>'">`
+      : `<div class="no-img">🍽️</div>`;
+    return `<div class="recipe-thumb" onclick="showDetail('${{r.id}}')">
+      ${{imgHtml}}
+      <div class="thumb-body">
+        <div class="thumb-title">${{title}}</div>
+        <div class="thumb-site">${{r.source_site}}</div>
+      </div>
+    </div>`;
+  }}).join('');
+
+  // ページネーション
+  const pag = document.getElementById('pagination');
+  if (pages <= 1) {{ pag.innerHTML = ''; return; }}
+  const s = SEC[currentLang]||SEC['{default_lang}'];
+  pag.innerHTML = Array.from({{length: pages}}, (_, i) =>
+    `<button class="page-btn${{i+1===currentPage?' active':''}}" onclick="goPage(${{i+1}})">${{s.page}} ${{i+1}}</button>`
+  ).join('');
+}}
+
+function goPage(p) {{
+  currentPage = p;
+  renderList();
+  window.scrollTo(0,0);
+}}
+
+// ── 詳細表示 ──
+function showDetail(id) {{
+  const r = RECIPES.find(x => x.id === id);
+  if (!r) return;
+  const lang = currentLang;
+  const s = SEC[lang]||SEC['{default_lang}'];
+
+  // 画像
+  const img = document.getElementById('d-img');
+  if (r.image) {{ img.src = r.image; img.alt = r.title[lang]||r.title_ja; img.style.display='block'; }}
+  else img.style.display = 'none';
+
+  // タイトル・説明
+  document.getElementById('d-title').textContent = r.title[lang]||r.title_ja;
+  document.getElementById('d-desc').textContent  = r.desc[lang]||r.desc_ja||'';
+
+  // 出典リンク
+  const srcEl = document.getElementById('d-source');
+  srcEl.textContent = `${{s.source}}: ${{r.source_site}}`;
+  srcEl.href = r.source_url;
+
+  // セクション見出し
+  document.getElementById('d-sec-ing').textContent   = s.ingredients;
+  document.getElementById('d-sec-steps').textContent = s.steps;
+  document.getElementById('d-aff-ttl').textContent   = s.buy;
+  document.querySelector('.back-btn').textContent    = s.back;
+
+  // 材料
+  const ingGrid = document.getElementById('d-ing-grid');
+  ingGrid.innerHTML = r.ingredients.map(ing => {{
+    const name = (ing.translated&&ing.translated[lang]) || ing.name_ja;
+    const aff = [
+      ing.amazon  ? `<a class="aff-link amz" href="${{ing.amazon}}"  target="_blank" rel="nofollow">Amazon</a>` : '',
+      ing.rakuten ? `<a class="aff-link rkt" href="${{ing.rakuten}}" target="_blank" rel="nofollow">楽天</a>`   : '',
+    ].join('');
+    return `<div class="ing">
+      <span class="amt">${{ing.amount}}</span>
+      <span>${{name}}</span>
+      ${{aff ? `<div class="aff-row">${{aff}}</div>` : ''}}
+    </div>`;
+  }}).join('');
+
+  // 手順
+  const stepsList = r.steps[lang] || r.steps['{default_lang}'] || [];
+  document.getElementById('d-steps-list').innerHTML = stepsList.map(s => `<li>${{s}}</li>`).join('');
+
+  document.getElementById('list-view').style.display   = 'none';
+  document.getElementById('detail-view').style.display = '';
+  window.scrollTo(0,0);
+}}
+
+// ── GEO BLOCK JAPAN（テスト中は無効）──
 // async function checkGeo() {{
 //   try {{
 //     const r = await fetch('https://ipapi.co/json/');
@@ -591,25 +701,16 @@ function setLang(lang) {{
 // }}
 // checkGeo();
 
-// ブラウザ言語自動選択
+// ── ブラウザ言語自動選択 ──
 (function() {{
-  const nav = navigator.language || '';
-  const c = nav.toLowerCase().slice(0,2);
+  const c = (navigator.language||'').toLowerCase().slice(0,2);
   const map = {{'zh':'zh_cn','vi':'vi','hi':'hi','ru':'ru','th':'th','id':'id','ms':'ms','ko':'ko'}};
-  if (map[c] && document.getElementById('btn-' + map[c])) setLang(map[c]);
+  if (map[c]) {{ currentLang = map[c]; document.querySelector('.lang-select').value = map[c]; }}
+  showList();
 }})();
-"""
-
-    default_lang = langs[0] if langs else "en"
-    title_en = recipes[0].title.get("en", recipes[0].title_ja) if recipes else "Japanese Kitchen"
-
-    return HTML_TEMPLATE.format(
-        default_lang=default_lang,
-        title_en=title_en,
-        lang_buttons=buttons,
-        recipe_cards=cards_html,
-        js_code=js,
-    )
+</script>
+</body>
+</html>"""
 
 # ─── メイン処理 ───────────────────────────────────────────
 def main():
