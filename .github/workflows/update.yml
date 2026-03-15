@@ -1,9 +1,9 @@
-name: Update & Deploy Recipes
+name: Update and Deploy Recipes
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 毎朝JST 6:00に自動実行
-  workflow_dispatch:         # 手動実行ボタンも有効化
+    - cron: '0 21 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 anthropic
 
-      - name: Run scraper & translator
+      - name: Run scraper and translator
         run: python recipe_scraper.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -31,44 +31,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
-```
-
-**Commit changes** で保存。
-
----
-
-### STEP 6：GitHub Pagesを有効化
-
-リポジトリの **Settings → Pages**：
-- Source: `Deploy from a branch`
-- Branch: `gh-pages` / `/ (root)`
-- **Save**
-
----
-
-### STEP 7：初回を手動実行
-
-**Actions タブ → Update & Deploy Recipes → Run workflow** で今すぐ実行。
-
-数分後に以下のURLでサイトが公開されます：
-```
-https://あなたのGitHubユーザー名.github.io/japanese-kitchen/
-```
-
----
-
-### 独自ドメインを使いたい場合（オプション）
-
-お名前.com や Cloudflare でドメインを取得後、GitHub Pages の **Custom domain** に入力するだけです。`www.japanesekitchen.com` のような形にできます。
-
----
-
-### 全体の流れ（完成後）
-```
-毎朝6:00
-  ↓ GitHub Actionsが自動起動
-  ↓ recipe_scraper.py 実行
-  ↓ 新規レシピを取得・翻訳
-  ↓ output/index.html を更新
-  ↓ gh-pages ブランチに自動デプロイ
-  ↓ サイトが最新状態に
