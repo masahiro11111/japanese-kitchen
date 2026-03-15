@@ -80,9 +80,36 @@ TARGET_SITES = [
         "url":  "https://www.kikkoman.co.jp/homecook/theme/",
         "parser": "kikkoman",
     },
-    # ── 追加サイトはここに足す ──
-    # {"name": "Ajinomoto", "url": "https://www.ajinomoto.co.jp/recipe/", "parser": "kewpie"},
-    # {"name": "Mizkan",    "url": "https://www.mizkan.co.jp/recipe/",    "parser": "kikkoman"},
+    # ── 味の素 ──
+    {
+        "name": "Ajinomoto",
+        "url":  "https://www.ajinomoto.co.jp/recipe/",
+        "parser": "kewpie",
+    },
+    # ── ミツカン ──
+    {
+        "name": "Mizkan",
+        "url":  "https://www.mizkan.co.jp/recipe/",
+        "parser": "kikkoman",
+    },
+    # ── ヤマサ醤油 ──
+    {
+        "name": "Yamasa",
+        "url":  "https://www.yamasa.com/recipe/",
+        "parser": "kikkoman",
+    },
+    # ── マルコメ ──
+    {
+        "name": "Marukome",
+        "url":  "https://www.marukome.co.jp/recipe/",
+        "parser": "kewpie",
+    },
+    # ── ハウス食品 ──
+    {
+        "name": "House",
+        "url":  "https://housefoods.jp/recipe/",
+        "parser": "kewpie",
+    },
 ]
 
 # ─── データ構造 ───────────────────────────────────────────
