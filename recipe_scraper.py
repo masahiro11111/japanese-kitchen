@@ -3,11 +3,11 @@
 =============================================================
  Japanese Recipe Scraper + Multi-Language Translator
  対応言語: EN / ZH-TW / ZH-CN / VI / HI / RU / TH / ID / MS / KO
+ 翻訳エンジン: Google翻訳（無料・APIキー不要）
 =============================================================
  使い方:
-   1. pip install requests beautifulsoup4 anthropic
-   2. export ANTHROPIC_API_KEY="sk-ant-..."
-   3. python recipe_scraper.py
+   1. pip install requests beautifulsoup4
+   2. python recipe_scraper.py
 =============================================================
 """
 
@@ -18,11 +18,11 @@ import time
 import hashlib
 import logging
 import requests
+import urllib.parse
 from pathlib import Path
 from dataclasses import dataclass, field, asdict
 from typing import Optional
 from bs4 import BeautifulSoup
-import anthropic
 
 # ─── ログ設定 ────────────────────────────────────────────
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -109,12 +109,82 @@ class Recipe:
     description: dict = field(default_factory=dict)    # lang -> str
     steps: dict = field(default_factory=dict)          # lang -> list[str]
 
-# ─── Anthropic クライアント ──────────────────────────────
-def get_client() -> anthropic.Anthropic:
-    api_key = os.getenv("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise EnvironmentError("ANTHROPIC_API_KEY が設定されていません。\nexport ANTHROPIC_API_KEY='sk-ant-...' を実行してください。")
-    return anthropic.Anthropic(api_key=api_key)
+# ─── Google翻訳エンジン（APIキー不要）───────────────────
+# Google翻訳の言語コードマッピング
+GOOGLE_LANG_CODES = {
+    "en":    "en",
+    "zh_tw": "zh-TW",
+    "zh_cn": "zh-CN",
+    "vi":    "vi",
+    "hi":    "hi",
+    "ru":    "ru",
+    "th":    "th",
+    "id":    "id",
+    "ms":    "ms",
+    "ko":    "ko",
+}
+
+class Translator:
+    """Google翻訳を使った無料翻訳エンジン"""
+
+    HEADERS = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    }
+
+    def __init__(self):
+        self._cache: dict = {}
+
+    def translate(self, text: str, target_lang: str) -> str:
+        """1テキストを翻訳して返す"""
+        if not text or not text.strip():
+            return text
+
+        gl = GOOGLE_LANG_CODES.get(target_lang, target_lang)
+        cache_key = hashlib.md5(f"{gl}:{text}".encode()).hexdigest()
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+
+        try:
+            url = "https://translate.googleapis.com/translate_a/single"
+            params = {
+                "client": "gtx",
+                "sl":     "ja",
+                "tl":     gl,
+                "dt":     "t",
+                "q":      text,
+            }
+            r = requests.get(url, params=params, headers=self.HEADERS, timeout=10)
+            r.raise_for_status()
+            data = r.json()
+            result = "".join(part[0] for part in data[0] if part[0])
+            self._cache[cache_key] = result
+            time.sleep(0.3)   # レート制限対策
+            return result
+        except Exception as e:
+            log.warning(f"翻訳失敗 ({target_lang}): {e}")
+            return text   # 失敗時は原文を返す
+
+    def translate_recipe(self, recipe: "Recipe", langs: list[str]) -> "Recipe":
+        log.info(f"翻訳中: {recipe.title_ja}")
+
+        for lang in langs:
+            # タイトル
+            recipe.title[lang] = self.translate(recipe.title_ja, lang)
+
+            # 説明文
+            recipe.description[lang] = self.translate(recipe.description_ja, lang) if recipe.description_ja else ""
+
+            # 材料名
+            for ing in recipe.ingredients:
+                ing.name_translated[lang] = self.translate(ing.name_ja, lang)
+
+            # 手順（1ステップずつ翻訳）
+            translated_steps = []
+            for step in recipe.steps_ja:
+                translated_steps.append(self.translate(step, lang))
+            recipe.steps[lang] = translated_steps
+
+        return recipe
 
 # ─── スクレイパー基底クラス ──────────────────────────────
 class BaseScraper:
@@ -289,88 +359,6 @@ class KikkomanScraper(BaseScraper):
             steps_ja=steps,
             image_url=img_url,
         )
-
-# ─── 翻訳エンジン ────────────────────────────────────────
-class Translator:
-    def __init__(self, client: anthropic.Anthropic):
-        self.client = client
-        self._cache: dict = {}
-
-    def _call(self, prompt: str) -> str:
-        """Claude API呼び出し（JSON返却）"""
-        key = hashlib.md5(prompt.encode()).hexdigest()
-        if key in self._cache:
-            return self._cache[key]
-
-        msg = self.client.messages.create(
-            model="claude-sonnet-4-20250514",
-            max_tokens=1000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        result = msg.content[0].text
-        self._cache[key] = result
-        time.sleep(0.5)   # レート制限対策
-        return result
-
-    def translate_recipe(self, recipe: Recipe, langs: list[str]) -> Recipe:
-        log.info(f"翻訳中: {recipe.title_ja} → {langs}")
-
-        for lang in langs:
-            lang_name = LANGUAGES[lang]
-
-            # タイトル＋説明文
-            prompt_meta = f"""Translate the following Japanese recipe title and description into {lang_name}.
-Return ONLY a JSON object with keys "title" and "description". No markdown, no explanation.
-
-Title: {recipe.title_ja}
-Description: {recipe.description_ja or "（説明なし）"}
-"""
-            try:
-                raw = self._call(prompt_meta)
-                clean = re.sub(r"```(?:json)?|```", "", raw).strip()
-                data = json.loads(clean)
-                recipe.title[lang] = data.get("title", recipe.title_ja)
-                recipe.description[lang] = data.get("description", "")
-            except Exception as e:
-                log.warning(f"タイトル翻訳失敗 ({lang}): {e}")
-                recipe.title[lang] = recipe.title_ja
-                recipe.description[lang] = recipe.description_ja
-
-            # 材料名
-            if recipe.ingredients:
-                names_ja = [i.name_ja for i in recipe.ingredients]
-                prompt_ing = f"""Translate these Japanese ingredient names into {lang_name}.
-Return ONLY a JSON array of strings in the same order. No markdown.
-
-{json.dumps(names_ja, ensure_ascii=False)}
-"""
-                try:
-                    raw = self._call(prompt_ing)
-                    clean = re.sub(r"```(?:json)?|```", "", raw).strip()
-                    names_tr = json.loads(clean)
-                    for i, ing in enumerate(recipe.ingredients):
-                        if i < len(names_tr):
-                            ing.name_translated[lang] = names_tr[i]
-                except Exception as e:
-                    log.warning(f"材料翻訳失敗 ({lang}): {e}")
-
-            # 手順
-            if recipe.steps_ja:
-                prompt_steps = f"""Translate these Japanese cooking steps into {lang_name}.
-Return ONLY a JSON array of strings in the same order. No markdown.
-
-{json.dumps(recipe.steps_ja, ensure_ascii=False)}
-"""
-                try:
-                    raw = self._call(prompt_steps)
-                    clean = re.sub(r"```(?:json)?|```", "", raw).strip()
-                    steps_tr = json.loads(clean)
-                    recipe.steps[lang] = steps_tr
-                except Exception as e:
-                    log.warning(f"手順翻訳失敗 ({lang}): {e}")
-                    recipe.steps[lang] = recipe.steps_ja
-
-        return recipe
 
 # ─── アフィリエイトリンク生成 ────────────────────────────
 def build_affiliate_links(recipe: Recipe) -> Recipe:
@@ -599,9 +587,8 @@ def main():
     # 使用言語を選択（必要なら絞り込み）
     selected_langs = ["en", "zh_tw", "zh_cn", "vi", "hi", "ru", "th", "id", "ms", "ko"]
 
-    # Anthropicクライアント初期化
-    client = get_client()
-    translator = Translator(client)
+    # Translator初期化（APIキー不要）
+    translator = Translator()
 
     # ── 既存JSONキャッシュを読み込む（翻訳済みレシピを再翻訳しない）──
     out_dir = Path("output")
