@@ -10910,5 +10910,2805 @@
         "⑤형의 가장자리에 나이프 등을 넣고 빙글빙글 돌고 접시를 씌워 뒤집어 상하로 꺼낸다. 딸기, 키위를 얹는다."
       ]
     }
+  },
+  {
+    "id": "8b10798e",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/miso_016/",
+    "source_site": "Marukome",
+    "title_ja": "Korean Miso Tofu Jjigae Stew",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Tofu",
+        "amount": "300g",
+        "name_translated": {
+          "en": "Tofu",
+          "zh_tw": "豆腐",
+          "zh_cn": "豆腐",
+          "vi": "Đậu phụ",
+          "hi": "टोफू",
+          "ru": "Тофу",
+          "th": "เต้าหู้",
+          "id": "Tahu",
+          "ms": "tauhu",
+          "ko": "Tofu"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Tofu&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Tofu/?tag="
+      },
+      {
+        "name_ja": "Green onion",
+        "amount": "50g",
+        "name_translated": {
+          "en": "Green onion",
+          "zh_tw": "蔥",
+          "zh_cn": "葱",
+          "vi": "Hành lá",
+          "hi": "हरी प्याज",
+          "ru": "Зеленый лук",
+          "th": "หัวหอมสีเขียว",
+          "id": "bawang hijau",
+          "ms": "Bawang hijau",
+          "ko": "Green onion"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Green%20onion&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Green%20onion/?tag="
+      },
+      {
+        "name_ja": "Shimeji Mushrooms",
+        "amount": "100g",
+        "name_translated": {
+          "en": "Shimeji Mushrooms",
+          "zh_tw": "姬菇",
+          "zh_cn": "姬菇",
+          "vi": "Nấm Shimeji",
+          "hi": "शिमेजी मशरूम",
+          "ru": "Грибы симеджи",
+          "th": "เห็ดชิเมจิ",
+          "id": "Jamur Shimeji",
+          "ms": "Cendawan Shimeji",
+          "ko": "Shimeji Mushrooms"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Shimeji%20Mushrooms&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Shimeji%20Mushrooms/?tag="
+      },
+      {
+        "name_ja": "Enoki mushrooms",
+        "amount": "100g",
+        "name_translated": {
+          "en": "Enoki mushrooms",
+          "zh_tw": "金針菇",
+          "zh_cn": "金针菇",
+          "vi": "nấm kim châm",
+          "hi": "एनोकी मशरूम",
+          "ru": "Грибы Эноки",
+          "th": "เห็ดเข็มทอง",
+          "id": "jamur enoki",
+          "ms": "Cendawan Enoki",
+          "ko": "Enoki mushrooms"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Enoki%20mushrooms&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Enoki%20mushrooms/?tag="
+      },
+      {
+        "name_ja": "Chinese chive",
+        "amount": "50g",
+        "name_translated": {
+          "en": "Chinese chive",
+          "zh_tw": "韭菜",
+          "zh_cn": "韭菜",
+          "vi": "hẹ Trung Quốc",
+          "hi": "चीनी चिव",
+          "ru": "Китайский чеснок",
+          "th": "กุ้ยช่ายจีน",
+          "id": "kucai Cina",
+          "ms": "kucai cina",
+          "ko": "Chinese chive"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chinese%20chive&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chinese%20chive/?tag="
+      },
+      {
+        "name_ja": "(if Chinese chive is not available, use Green Onion or Spinach)Chili PowderOptional(a)EKIMISO RYOUTEI NO AJI2 - 3 tbsp.Water400ccGouchujang1 tbsp.Garlic (Chopped)10gKimchi160g",
+        "amount": "Optional",
+        "name_translated": {
+          "en": "(if Chinese chive is not available, use Green Onion or Spinach)Chili PowderOptional(a)EKIMISO RYOUTEI NO AJI2 - 3 tbsp.Water400ccGouchujang1 tbsp.Garlic (Chopped)10gKimchi160g",
+          "zh_tw": "(如果沒有韭菜，可以用蔥或菠菜)辣椒粉可選(a)EKIMISO RYOUTEI NO AJI2 - 3 湯匙.水400ccGouchujang1 湯匙.大蒜（切碎）10g 泡菜160g",
+          "zh_cn": "(如果没有韭菜，可以用葱或菠菜)辣椒粉可选(a)EKIMISO RYOUTEI NO AJI2 - 3 汤匙.水400ccGouchujang1 汤匙.大蒜（切碎）10g 泡菜160g",
+          "vi": "(nếu không có hẹ Trung Quốc, dùng Hành lá hoặc Rau chân vịt)Bột ớtTùy chọn(a)EKIMISO RYOUTEI NO AJI2 - 3 muỗng canh.Nước400ccGouchujang1 muỗng canh.Tỏi (Xắt nhỏ)10gKimchi160g",
+          "hi": "(यदि चीनी चिव उपलब्ध नहीं है, तो हरा प्याज या पालक का उपयोग करें) मिर्च पाउडर वैकल्पिक (ए) एकिमिसो ​​रयूटेई नो एजीआई2 - 3 बड़े चम्मच पानी400सीसीगौचुजांग1 बड़ा चम्मच लहसुन (कटा हुआ)10 ग्राम किमची160 ग्राम",
+          "ru": "(если китайского чеснока нет, используйте зеленый лук или шпинат) Порошок чили Дополнительно (а) ЭКИМИСО РЮТЕЙ НО АДЖИ 2 — 3 ст. л. Вода 400 мл. Гучуджанг 1 ст.",
+          "th": "(หากไม่มีกุ้ยช่ายจีน ให้ใช้ต้นหอมหรือผักโขม)ผงพริก (กุ้ยช่าย)เอคิมิโซะ RYOUTEI NO AJI2 - 3 ช้อนโต๊ะ น้ำ 400 ซีซีโกชูจัง 1 ช้อนโต๊ะ กระเทียม (สับ) 10 ก.กิมจิ 160 ก.",
+          "id": "(jika kucai tidak tersedia, gunakan Daun Bawang atau Bayam)Bubuk CabaiOpsional(a)EKIMISO RYOUTEI NO AJI2 - 3 sdm.Air400ccGouchujang1 sdm.Bawang Putih (Cincang)10gKimchi160g",
+          "ms": "(jika kucai Cina tidak ada, gunakan Bawang Hijau atau Bayam)Serbuk CiliPilihan(a)EKIMISO RYOUTEI NO AJI2 - 3 sudu besar.Air400ccGouchujang1 sudu besar.Bawang putih (Dihiris)10gKimchi160g",
+          "ko": "(if Chinese chive is not available, use Green Onion or Spinach)Chili PowderOptional(a) EKIMISO RYOUTEI NO AJI2 - 3 tbsp.Water400ccGouchujang1 tbsp.Garlic (Chopped)10gKimchi160g"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28if%20Chinese%20chive%20is%20not%20available%2C%20use%20Green%20Onion%20or%20Spinach%29Chili%20PowderOptional%28a%29EKIMISO%20RYOUTEI%20NO%20AJI2%20-%203%20tbsp.Water400ccGouchujang1%20tbsp.Garlic%20%28Chopped%2910gKimchi160g&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28if%20Chinese%20chive%20is%20not%20available%2C%20use%20Green%20Onion%20or%20Spinach%29Chili%20PowderOptional%28a%29EKIMISO%20RYOUTEI%20NO%20AJI2%20-%203%20tbsp.Water400ccGouchujang1%20tbsp.Garlic%20%28Chopped%2910gKimchi160g/?tag="
+      },
+      {
+        "name_ja": "Chili Powder",
+        "amount": "",
+        "name_translated": {
+          "en": "Chili powder",
+          "zh_tw": "辣椒粉",
+          "zh_cn": "辣椒粉",
+          "vi": "Bột ớt",
+          "hi": "मिर्च बुकनी",
+          "ru": "порошок чили",
+          "th": "พริกป่น",
+          "id": "Bubuk cabai",
+          "ms": "Serbuk cili",
+          "ko": "Chili Powder"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chili%20Powder&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chili%20Powder/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "2 - 3 tbsp.",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "EKIMISO RYOUTEI NO AJI",
+        "amount": "400cc",
+        "name_translated": {
+          "en": "EKIMISO RYOUTEI NO AJI",
+          "zh_tw": "站味噌醬料之味",
+          "zh_cn": "站味噌酱料之味",
+          "vi": "EKIMISO RYOUTEI NO AJI",
+          "hi": "एकिमिसो ​​रयौतेई नो अजी",
+          "ru": "ЭКИМИСО РЮТЕЙ НО АДЗИ",
+          "th": "เอกิมิโซะ เรียวเท โนะ อาจิ",
+          "id": "EKIMISO ROUTEI NO AJI",
+          "ms": "EKIMISO RYOUTEI NO AJI",
+          "ko": "EKIMISO RYOUTEI NO AJI"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=EKIMISO%20RYOUTEI%20NO%20AJI&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/EKIMISO%20RYOUTEI%20NO%20AJI/?tag="
+      },
+      {
+        "name_ja": "Water",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "Вода",
+          "th": "น้ำ",
+          "id": "Air",
+          "ms": "air",
+          "ko": "Water"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Water&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Water/?tag="
+      },
+      {
+        "name_ja": "Gouchujang",
+        "amount": "10g",
+        "name_translated": {
+          "en": "Gouchujang",
+          "zh_tw": "溝渠江",
+          "zh_cn": "沟渠江",
+          "vi": "Gouchujang",
+          "hi": "गौचुजांग",
+          "ru": "Гочуджанг",
+          "th": "กูชูจัง",
+          "id": "Gouchujang",
+          "ms": "Gouchujang",
+          "ko": "Gouchujang"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Gouchujang&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Gouchujang/?tag="
+      },
+      {
+        "name_ja": "Garlic (Chopped)",
+        "amount": "160g",
+        "name_translated": {
+          "en": "Garlic (Chopped)",
+          "zh_tw": "Garlic (Chopped)",
+          "zh_cn": "大蒜（切碎）",
+          "vi": "Tỏi (băm nhỏ)",
+          "hi": "लहसुन (कटा हुआ)",
+          "ru": "Чеснок (Нарезанный)",
+          "th": "กระเทียม (สับ)",
+          "id": "Bawang Putih (Cincang)",
+          "ms": "Bawang putih (dicincang)",
+          "ko": "Garlic (Chopped)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Garlic%20%28Chopped%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Garlic%20%28Chopped%29/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2021/08/ekimiso_001n.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Korean Miso Tofu Jjigae Stew",
+      "zh_tw": "韓國味噌豆腐燉菜",
+      "zh_cn": "韩国味噌豆腐炖菜",
+      "vi": "Đậu hũ Miso Hàn Quốc Jjigae hầm",
+      "hi": "कोरियाई मिसो टोफू जजिगे स्टू",
+      "ru": "Корейское рагу мисо с тофу чджигэ",
+      "th": "มิโซะเต้าหู้จิเกสตูว์เกาหลี",
+      "id": "Rebusan Jjigae Tahu Miso Korea",
+      "ms": "Rebus Tauhu Jjigae Miso Korea",
+      "ko": "Korean Miso Tofu Jjigae Stew"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "9b76826f",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/miso_015/",
+    "source_site": "Marukome",
+    "title_ja": "Summer Vegetables Steamed in Foil",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Corn On The Cob",
+        "amount": "1/2 piece",
+        "name_translated": {
+          "en": "Corn On The Cob",
+          "zh_tw": "玉米棒子",
+          "zh_cn": "玉米棒子",
+          "vi": "Ngô Trên Lõi",
+          "hi": "भुट्टा",
+          "ru": "Кукуруза в початках",
+          "th": "ข้าวโพดบนซัง",
+          "id": "Jagung Rebus",
+          "ms": "Jagung Bertongkol",
+          "ko": "Corn On The Cob"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Corn%20On%20The%20Cob&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Corn%20On%20The%20Cob/?tag="
+      },
+      {
+        "name_ja": "Paprika",
+        "amount": "1/4 piece",
+        "name_translated": {
+          "en": "Paprika",
+          "zh_tw": "辣椒",
+          "zh_cn": "辣椒",
+          "vi": "ớt bột",
+          "hi": "लाल शिमला मिर्च",
+          "ru": "Паприка",
+          "th": "ปาปริก้า",
+          "id": "Paprika",
+          "ms": "Paprika",
+          "ko": "Paprika"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Paprika&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Paprika/?tag="
+      },
+      {
+        "name_ja": "Cherry Tomato",
+        "amount": "4 piece",
+        "name_translated": {
+          "en": "Cherry Tomato",
+          "zh_tw": "櫻桃蕃茄",
+          "zh_cn": "圣女果",
+          "vi": "cà chua bi",
+          "hi": "चेरी टमाटर",
+          "ru": "Помидоры Черри",
+          "th": "มะเขือเทศเชอรี่",
+          "id": "Tomat Ceri",
+          "ms": "Tomato Ceri",
+          "ko": "체리 토마토"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cherry%20Tomato&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cherry%20Tomato/?tag="
+      },
+      {
+        "name_ja": "Zucchini",
+        "amount": "1/3 piece",
+        "name_translated": {
+          "en": "Zucchini",
+          "zh_tw": "西葫蘆",
+          "zh_cn": "西葫芦",
+          "vi": "bí xanh",
+          "hi": "तोरी",
+          "ru": "Цуккини",
+          "th": "บวบ",
+          "id": "timun Jepang",
+          "ms": "Zucchini",
+          "ko": "Zucchini"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Zucchini&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Zucchini/?tag="
+      },
+      {
+        "name_ja": "Ryotei No Aji FD Granulated Miso",
+        "amount": "1 tsp.",
+        "name_translated": {
+          "en": "Ryotei No Aji FD Granulated Miso",
+          "zh_tw": "Ryotei No Aji FD 粒狀味噌",
+          "zh_cn": "Ryotei No Aji FD 粒状味噌",
+          "vi": "Ryotei No Aji FD Miso dạng hạt",
+          "hi": "रयोटेई नो अजी एफडी ग्रेनुलेटेड मिसो",
+          "ru": "Рётей Но Аджи FD Гранулированное Мисо",
+          "th": "Ryotei No Aji FD มิโซะชนิดเม็ด",
+          "id": "Miso Butiran Ryotei No Aji FD",
+          "ms": "Ryotei No Aji FD Granulated Miso",
+          "ko": "Ryotei No Aji FD Granulated Miso"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Ryotei%20No%20Aji%20FD%20Granulated%20Miso&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Ryotei%20No%20Aji%20FD%20Granulated%20Miso/?tag="
+      },
+      {
+        "name_ja": "Olive Oil",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Olive Oil",
+          "zh_tw": "橄欖油",
+          "zh_cn": "橄榄油",
+          "vi": "Dầu ô liu",
+          "hi": "जैतून का तेल",
+          "ru": "Оливковое масло",
+          "th": "น้ำมันมะกอก",
+          "id": "Minyak zaitun",
+          "ms": "Minyak Zaitun",
+          "ko": "올리브 오일"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Olive%20Oil&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Olive%20Oil/?tag="
+      },
+      {
+        "name_ja": "Black Pepper",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Black Pepper",
+          "zh_tw": "黑胡椒",
+          "zh_cn": "黑胡椒",
+          "vi": "Tiêu đen",
+          "hi": "काली मिर्च",
+          "ru": "Черный перец",
+          "th": "พริกไทยดำ",
+          "id": "Lada Hitam",
+          "ms": "Lada Hitam",
+          "ko": "Black Pepper"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Black%20Pepper&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Black%20Pepper/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/06/412407料亭の味FD顆粒みそ.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Summer Vegetables Steamed in Foil",
+      "zh_tw": "鋁箔蒸夏季蔬菜",
+      "zh_cn": "铝箔蒸夏季蔬菜",
+      "vi": "Rau Mùa Hè Hấp Trong Giấy Bạc",
+      "hi": "पन्नी में उबली हुई ग्रीष्मकालीन सब्जियाँ",
+      "ru": "Летние овощи, приготовленные на пару в фольге",
+      "th": "ผักฤดูร้อนนึ่งในกระดาษฟอยล์",
+      "id": "Sayuran Musim Panas Dikukus dalam Kertas Timah",
+      "ms": "Sayuran Musim Panas Dikukus dalam Kerajang",
+      "ko": "Summer Vegetables Steamed in Foil"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "129c8cd4",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/kojiamazake_017/",
+    "source_site": "Marukome",
+    "title_ja": "Freeze-Marinated Tender Miso Oyakodon",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Chicken Thigh",
+        "amount": "100g",
+        "name_translated": {
+          "en": "Chicken Thigh",
+          "zh_tw": "雞大腿",
+          "zh_cn": "鸡大腿",
+          "vi": "Đùi gà",
+          "hi": "चिकन थाई",
+          "ru": "Куриное бедро",
+          "th": "สะโพกไก่",
+          "id": "Paha Ayam",
+          "ms": "Peha Ayam",
+          "ko": "Chicken Thigh"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chicken%20Thigh&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chicken%20Thigh/?tag="
+      },
+      {
+        "name_ja": "Onion",
+        "amount": "1/4 piece",
+        "name_translated": {
+          "en": "Onion",
+          "zh_tw": "洋蔥",
+          "zh_cn": "洋葱",
+          "vi": "Củ hành",
+          "hi": "प्याज",
+          "ru": "Лук",
+          "th": "หัวหอม",
+          "id": "Bawang bombai",
+          "ms": "Bawang besar",
+          "ko": "Onion"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Onion&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Onion/?tag="
+      },
+      {
+        "name_ja": "Egg",
+        "amount": "2 piece",
+        "name_translated": {
+          "en": "Egg",
+          "zh_tw": "蛋",
+          "zh_cn": "蛋",
+          "vi": "Trứng",
+          "hi": "अंडा",
+          "ru": "Яйцо",
+          "th": "ไข่",
+          "id": "Telur",
+          "ms": "Telur",
+          "ko": "Egg"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Egg&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Egg/?tag="
+      },
+      {
+        "name_ja": "Cooked Rice",
+        "amount": "A bowl of rice",
+        "name_translated": {
+          "en": "Cooked Rice",
+          "zh_tw": "乾飯",
+          "zh_cn": "干饭",
+          "vi": "Cơm nấu chín",
+          "hi": "पका हुआ चावल",
+          "ru": "Приготовленный рис",
+          "th": "ข้าวสวย",
+          "id": "Nasi",
+          "ms": "Nasi Masak",
+          "ko": "Cooked Rice"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cooked%20Rice&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cooked%20Rice/?tag="
+      },
+      {
+        "name_ja": "Green onion (Diagonal Cut)",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Green onion (Diagonal Cut)",
+          "zh_tw": "蔥（斜切）",
+          "zh_cn": "葱（斜切）",
+          "vi": "Hành lá (Cắt chéo)",
+          "hi": "हरा प्याज (विकर्ण कटा हुआ)",
+          "ru": "Зеленый лук (диагональный разрез)",
+          "th": "หัวหอมสีเขียว (ตัดแนวทแยง)",
+          "id": "Daun bawang (Potongan Diagonal)",
+          "ms": "Bawang hijau (Potongan Diagonal)",
+          "ko": "Green onion (Diagonal Cut)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Green%20onion%20%28Diagonal%20Cut%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Green%20onion%20%28Diagonal%20Cut%29/?tag="
+      },
+      {
+        "name_ja": "Water",
+        "amount": "50cc",
+        "name_translated": {
+          "en": "Water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "Вода",
+          "th": "น้ำ",
+          "id": "Air",
+          "ms": "air",
+          "ko": "Water"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Water&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Water/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "Plus Koji Koji Amazake",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Plus Koji Koji Amazake",
+          "zh_tw": "加 甘酒浩司 甘酒浩司",
+          "zh_cn": "加 甘酒浩司 甘酒浩司",
+          "vi": "Cộng với Koji Koji Amazake",
+          "hi": "प्लस कोजी कोजी अमेज़ेक",
+          "ru": "Плюс Кодзи Кодзи Амазаке",
+          "th": "แถมโคจิ โคจิ อามาซาเกะ",
+          "id": "Ditambah Koji Koji Amazake",
+          "ms": "Tambahan pula Koji Koji Amazake",
+          "ko": "Plus Koji Koji Amazake"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plus%20Koji%20Koji%20Amazake&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plus%20Koji%20Koji%20Amazake/?tag="
+      },
+      {
+        "name_ja": "EKIMISO RYOUTEI NO AJI",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "EKIMISO RYOUTEI NO AJI",
+          "zh_tw": "站味噌醬料之味",
+          "zh_cn": "站味噌酱料之味",
+          "vi": "EKIMISO RYOUTEI NO AJI",
+          "hi": "एकिमिसो ​​रयौतेई नो अजी",
+          "ru": "ЭКИМИСО РЮТЕЙ НО АДЗИ",
+          "th": "เอกิมิโซะ เรียวเท โนะ อาจิ",
+          "id": "EKIMISO ROUTEI NO AJI",
+          "ms": "EKIMISO RYOUTEI NO AJI",
+          "ko": "EKIMISO RYOUTEI NO AJI"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=EKIMISO%20RYOUTEI%20NO%20AJI&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/EKIMISO%20RYOUTEI%20NO%20AJI/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=/global/en/wp-global/wp-content/uploads/2021/08/kojiamazake_017_02.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Freeze-Marinated Tender Miso Oyakodon",
+      "zh_tw": "凍醃嫩味噌親子丼",
+      "zh_cn": "冻腌嫩味噌亲子丼",
+      "vi": "Miso Oyakodon ướp đông lạnh",
+      "hi": "फ़्रीज़-मैरिनेटेड टेंडर मिसो ओयाकोडोन",
+      "ru": "Нежный маринованный в замороженном виде мисо оякодон",
+      "th": "มิโซะโอยาโกะด้งเนื้อนุ่มหมักแบบแช่แข็ง",
+      "id": "Miso Oyakodon Lembut yang Diasinkan Beku",
+      "ms": "Tender Perap Beku Miso Oyakodon",
+      "ko": "Freeze-Marinated Tender Miso Oyakodon"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "911343d1",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/koji_009/",
+    "source_site": "Marukome",
+    "title_ja": "Garlic-Shoyu Koji Pan-Fried Pork Cutlets",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Pork Loin",
+        "amount": "4 piece (320g)",
+        "name_translated": {
+          "en": "Pork Loin",
+          "zh_tw": "豬腰肉",
+          "zh_cn": "猪腰肉",
+          "vi": "thăn lợn",
+          "hi": "सूअर का मांस कमर",
+          "ru": "Свиная корейка",
+          "th": "เนื้อซี่โครงหมู",
+          "id": "pinggang babi",
+          "ms": "Pinggang Babi",
+          "ko": "Pork Loin"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Pork%20Loin&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Pork%20Loin/?tag="
+      },
+      {
+        "name_ja": "Garlic (grated)",
+        "amount": "10g",
+        "name_translated": {
+          "en": "Garlic (grated)",
+          "zh_tw": "大蒜（磨碎）",
+          "zh_cn": "大蒜（磨碎）",
+          "vi": "Tỏi (băm)",
+          "hi": "लहसुन (कद्दूकस किया हुआ)",
+          "ru": "Чеснок (тертый)",
+          "th": "กระเทียม (ขูด)",
+          "id": "Bawang putih (parut)",
+          "ms": "Bawang putih (parut)",
+          "ko": "Garlic (grated)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Garlic%20%28grated%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Garlic%20%28grated%29/?tag="
+      },
+      {
+        "name_ja": "Lettuce",
+        "amount": "120g",
+        "name_translated": {
+          "en": "Lettuce",
+          "zh_tw": "萵苣",
+          "zh_cn": "莴苣",
+          "vi": "Rau xà lách",
+          "hi": "सलाद",
+          "ru": "Латук",
+          "th": "ผักกาดหอม",
+          "id": "Selada",
+          "ms": "selada",
+          "ko": "Lettuce"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Lettuce&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Lettuce/?tag="
+      },
+      {
+        "name_ja": "Plus Koji Shoyu Koji",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Plus Koji Shoyu Koji",
+          "zh_tw": "Plus Koji醬油 Koji",
+          "zh_cn": "Plus Koji酱油 Koji",
+          "vi": "Cộng với Koji Shoyu Koji",
+          "hi": "प्लस कोजी शोयू कोजी",
+          "ru": "Плюс Кодзи Сёю Кодзи",
+          "th": "แถมโคจิโชยุโคจิด้วย",
+          "id": "Ditambah Koji Shoyu Koji",
+          "ms": "Ditambah pula dengan Koji Shoyu Koji",
+          "ko": "Plus Koji Shoyu Koji"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plus%20Koji%20Shoyu%20Koji&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plus%20Koji%20Shoyu%20Koji/?tag="
+      },
+      {
+        "name_ja": "Grained Mustard",
+        "amount": "2 tsp.",
+        "name_translated": {
+          "en": "Grained mustard",
+          "zh_tw": "Grained Mustard",
+          "zh_cn": "粒状芥末",
+          "vi": "Hạt mù tạt",
+          "hi": "दानेदार सरसों",
+          "ru": "Зернистая горчица",
+          "th": "มัสตาร์ดเม็ด",
+          "id": "mustard berbutir",
+          "ms": "Sawi berbutir",
+          "ko": "Grained Mustard"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Grained%20Mustard&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Grained%20Mustard/?tag="
+      },
+      {
+        "name_ja": "Olive Oil",
+        "amount": "1 tsp.",
+        "name_translated": {
+          "en": "Olive Oil",
+          "zh_tw": "橄欖油",
+          "zh_cn": "橄榄油",
+          "vi": "Dầu ô liu",
+          "hi": "जैतून का तेल",
+          "ru": "Оливковое масло",
+          "th": "น้ำมันมะกอก",
+          "id": "Minyak zaitun",
+          "ms": "Minyak Zaitun",
+          "ko": "올리브 오일"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Olive%20Oil&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Olive%20Oil/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/05/412119プラス糀生しょうゆ糀200g.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Garlic-Shoyu Koji Pan-Fried Pork Cutlets",
+      "zh_tw": "蒜醬油曲煎炸豬排",
+      "zh_cn": "蒜酱油曲煎炸猪排",
+      "vi": "Thịt lợn chiên tỏi Shoyu Koji cốt lết",
+      "hi": "लहसुन-शोयू कोजी पैन-फ्राइड पोर्क कटलेट",
+      "ru": "Свиные котлеты, жареные на сковороде с чесноком и сёю кодзи",
+      "th": "หมูทอดกระเทียมโชยุโคจิ",
+      "id": "Potongan Daging Babi Goreng Bawang Putih-Shoyu Koji",
+      "ms": "Potongan Daging Babi Goreng Bawang Putih-Shoyu Koji",
+      "ko": "Garlic-Shoyu Koji Pan-Fried Pork Cutlets"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "4bfb12cf",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/koji_008/",
+    "source_site": "Marukome",
+    "title_ja": "Shio Koji Freeze-Marinated Chicken Breast",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Chicken breast",
+        "amount": "250g",
+        "name_translated": {
+          "en": "Chicken breast",
+          "zh_tw": "雞胸肉",
+          "zh_cn": "鸡胸肉",
+          "vi": "Ức gà",
+          "hi": "चिकन ब्रेस्ट",
+          "ru": "Куриная грудка",
+          "th": "อกไก่",
+          "id": "Dada ayam",
+          "ms": "Dada ayam",
+          "ko": "Chicken breast"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chicken%20breast&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chicken%20breast/?tag="
+      },
+      {
+        "name_ja": "Onion",
+        "amount": "1/2 piece",
+        "name_translated": {
+          "en": "Onion",
+          "zh_tw": "洋蔥",
+          "zh_cn": "洋葱",
+          "vi": "Củ hành",
+          "hi": "प्याज",
+          "ru": "Лук",
+          "th": "หัวหอม",
+          "id": "Bawang bombai",
+          "ms": "Bawang besar",
+          "ko": "Onion"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Onion&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Onion/?tag="
+      },
+      {
+        "name_ja": "Maitake mushroom (or other mushrooms)",
+        "amount": "50g",
+        "name_translated": {
+          "en": "Maitake mushroom (or other mushrooms)",
+          "zh_tw": "舞茸（或其他蘑菇）",
+          "zh_cn": "舞茸（或其他蘑菇）",
+          "vi": "Nấm Maitake (hoặc các loại nấm khác)",
+          "hi": "मैटेक मशरूम (या अन्य मशरूम)",
+          "ru": "Гриб майтаке (или другие грибы)",
+          "th": "เห็ดไมตาเกะ (หรือเห็ดอื่นๆ)",
+          "id": "Jamur maitake (atau jamur lainnya)",
+          "ms": "Cendawan Maitake (atau cendawan lain)",
+          "ko": "Maitake mushroom (or other mushrooms)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Maitake%20mushroom%20%28or%20other%20mushrooms%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Maitake%20mushroom%20%28or%20other%20mushrooms%29/?tag="
+      },
+      {
+        "name_ja": "Green Pepper",
+        "amount": "1piece (35g)",
+        "name_translated": {
+          "en": "Green Pepper",
+          "zh_tw": "青椒",
+          "zh_cn": "青椒",
+          "vi": "Tiêu xanh",
+          "hi": "हरी मिर्च",
+          "ru": "Зеленый перец",
+          "th": "พริกเขียว",
+          "id": "paprika hijau",
+          "ms": "Lada hijau",
+          "ko": "Green Pepper"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Green%20Pepper&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Green%20Pepper/?tag="
+      },
+      {
+        "name_ja": "Paprika",
+        "amount": "1/4 piece (35g)",
+        "name_translated": {
+          "en": "Paprika",
+          "zh_tw": "辣椒",
+          "zh_cn": "辣椒",
+          "vi": "ớt bột",
+          "hi": "लाल शिमला मिर्च",
+          "ru": "Паприка",
+          "th": "ปาปริก้า",
+          "id": "Paprika",
+          "ms": "Paprika",
+          "ko": "Paprika"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Paprika&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Paprika/?tag="
+      },
+      {
+        "name_ja": "Salad Oil",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Salad Oil",
+          "zh_tw": "沙拉油",
+          "zh_cn": "色拉油",
+          "vi": "Dầu sa-lát",
+          "hi": "वनस्पति - तेल",
+          "ru": "Салатное масло",
+          "th": "น้ำมันสลัด",
+          "id": "Minyak Salad",
+          "ms": "Minyak Salad",
+          "ko": "Salad Oil"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Salad%20Oil&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Salad%20Oil/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "Plus Koji Shio Koji",
+        "amount": "3 tbsp.",
+        "name_translated": {
+          "en": "Plus Koji Shio Koji",
+          "zh_tw": "加鹽浩司 鹽浩司",
+          "zh_cn": "加盐浩司 盐浩司",
+          "vi": "Cộng với Koji Shio Koji",
+          "hi": "प्लस कोजी शियो कोजी",
+          "ru": "Плюс Кодзи Шио Кодзи",
+          "th": "แถมโคจิ ชิโอะ โคจิด้วย",
+          "id": "Ditambah Koji Shio Koji",
+          "ms": "Ditambah pula dengan Koji Shio Koji",
+          "ko": "플러스 코지 시오 코지"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plus%20Koji%20Shio%20Koji&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plus%20Koji%20Shio%20Koji/?tag="
+      },
+      {
+        "name_ja": "Mirin",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Mirin",
+          "zh_tw": "味醂",
+          "zh_cn": "味醂",
+          "vi": "Mirin",
+          "hi": "मिरिन",
+          "ru": "Мирин",
+          "th": "มิริน",
+          "id": "Mirin",
+          "ms": "Mirin",
+          "ko": "미린"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Mirin&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Mirin/?tag="
+      },
+      {
+        "name_ja": "(if Mirin is not available, use 30 ml of White Wine and 1 tsp. of Honey)",
+        "amount": "",
+        "name_translated": {
+          "en": "(if Mirin is not available, use 30 ml of White Wine and 1 tsp. of Honey)",
+          "zh_tw": "（如果沒有味醂，請使用 30 毫升白葡萄酒和 1 茶匙蜂蜜）",
+          "zh_cn": "（如果没有味醂，请使用 30 毫升白葡萄酒和 1 茶匙蜂蜜）",
+          "vi": "(nếu không có Mirin thì dùng 30 ml Rượu trắng và 1 thìa mật ong)",
+          "hi": "(यदि मिरिन उपलब्ध नहीं है, तो 30 मिलीलीटर व्हाइट वाइन और 1 चम्मच शहद का उपयोग करें)",
+          "ru": "(если Мирина нет, используйте 30 мл белого вина и 1 ч. л. меда)",
+          "th": "(หากไม่มีมิริน ให้ใช้ไวน์ขาว 30 มล. และน้ำผึ้ง 1 ช้อนชา)",
+          "id": "(jika Mirin tidak tersedia, gunakan 30 ml White Wine dan 1 sdt Madu)",
+          "ms": "(jika Mirin tidak tersedia, gunakan 30 ml Wain Putih dan 1 sudu kecil Madu)",
+          "ko": "(if Mirin is not available, use 30 ml of White Wine and 1 tsp. of Honey)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28if%20Mirin%20is%20not%20available%2C%20use%2030%20ml%20of%20White%20Wine%20and%201%20tsp.%20of%20Honey%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28if%20Mirin%20is%20not%20available%2C%20use%2030%20ml%20of%20White%20Wine%20and%201%20tsp.%20of%20Honey%29/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=/global/en/wp-global/wp-content/uploads/2021/08/koji_008_02.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Shio Koji Freeze-Marinated Chicken Breast",
+      "zh_tw": "鹽曲冷凍醃漬雞胸肉",
+      "zh_cn": "盐曲冷冻腌制鸡胸肉",
+      "vi": "Ức gà ướp đông lạnh Shio Koji",
+      "hi": "शियो कोजी फ़्रीज़-मैरिनेटेड चिकन ब्रेस्ट",
+      "ru": "Куриная грудка, маринованная в замороженном виде Шио Кодзи",
+      "th": "อกไก่หมักชิโอะโคจิแช่แข็ง",
+      "id": "Dada Ayam Bumbu Beku Shio Koji",
+      "ms": "Dada Ayam Perap-Beku Shio Koji",
+      "ko": "Shio Koji Freeze-Marinated Chicken Breast"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "5b14078a",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/koji_007/",
+    "source_site": "Marukome",
+    "title_ja": "Boiled Chicken Wings with Shoyu-Koji and Koji Amazake",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Chicken Wing Sticks",
+        "amount": "180g",
+        "name_translated": {
+          "en": "Chicken Wing Sticks",
+          "zh_tw": "雞翅棒",
+          "zh_cn": "鸡翅棒",
+          "vi": "Que cánh gà",
+          "hi": "चिकन विंग स्टिक",
+          "ru": "Палочки из куриных крылышек",
+          "th": "ปีกไก่ติด",
+          "id": "Stik Sayap Ayam",
+          "ms": "Batang Sayap Ayam",
+          "ko": "Chicken Wing Sticks"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chicken%20Wing%20Sticks&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chicken%20Wing%20Sticks/?tag="
+      },
+      {
+        "name_ja": "Boiled Egg",
+        "amount": "2 pieces",
+        "name_translated": {
+          "en": "Boiled Egg",
+          "zh_tw": "煮雞蛋",
+          "zh_cn": "煮鸡蛋",
+          "vi": "Trứng luộc",
+          "hi": "उबले हुए अंडे",
+          "ru": "вареное яйцо",
+          "th": "ไข่ต้ม",
+          "id": "Telur Rebus",
+          "ms": "Telur Rebus",
+          "ko": "Boiled Egg"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Boiled%20Egg&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Boiled%20Egg/?tag="
+      },
+      {
+        "name_ja": "String Beans",
+        "amount": "2 pieces",
+        "name_translated": {
+          "en": "String beans",
+          "zh_tw": "四季豆",
+          "zh_cn": "四季豆",
+          "vi": "Đậu que",
+          "hi": "स्ट्रिंग बीन्स",
+          "ru": "Стручковая фасоль",
+          "th": "ถั่วฝักยาว",
+          "id": "kacang panjang",
+          "ms": "kacang panjang",
+          "ko": "String Beans"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=String%20Beans&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/String%20Beans/?tag="
+      },
+      {
+        "name_ja": "Sesame Oil",
+        "amount": "1 tsp.",
+        "name_translated": {
+          "en": "Sesame Oil",
+          "zh_tw": "香油",
+          "zh_cn": "香油",
+          "vi": "Dầu mè",
+          "hi": "तिल का तेल",
+          "ru": "Кунжутное масло",
+          "th": "น้ำมันงา",
+          "id": "Minyak Wijen",
+          "ms": "Minyak Bijan",
+          "ko": "Sesame Oil"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Sesame%20Oil&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Sesame%20Oil/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "Plus Koji Shoyu-Koji",
+        "amount": "50g",
+        "name_translated": {
+          "en": "Plus Koji Shoyu-Koji",
+          "zh_tw": "Plus Koji醬油-Koji",
+          "zh_cn": "Plus Koji酱油-Koji",
+          "vi": "Cộng với Koji Shoyu-Koji",
+          "hi": "प्लस कोजी शोयू-कोजी",
+          "ru": "Плюс Кодзи Сёю-Коджи",
+          "th": "แถมโคจิโชยุ-โคจิด้วย",
+          "id": "Ditambah Koji Shoyu-Koji",
+          "ms": "Ditambah pula dengan Koji Shoyu-Koji",
+          "ko": "Plus Koji Shoyu-Koji"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plus%20Koji%20Shoyu-Koji&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plus%20Koji%20Shoyu-Koji/?tag="
+      },
+      {
+        "name_ja": "Koji Amazake",
+        "amount": "120ml",
+        "name_translated": {
+          "en": "Koji Amazake",
+          "zh_tw": "甘酒浩二",
+          "zh_cn": "甘酒浩二",
+          "vi": "Koji Amazake",
+          "hi": "कोजी अमेज़के",
+          "ru": "Кодзи Амазаке",
+          "th": "โคจิ อามาซาเกะ",
+          "id": "Koji Amazake",
+          "ms": "Koji Amazake",
+          "ko": "Koji Amazake"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Koji%20Amazake&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Koji%20Amazake/?tag="
+      },
+      {
+        "name_ja": "Vinegar",
+        "amount": "100ml",
+        "name_translated": {
+          "en": "Vinegar",
+          "zh_tw": "醋",
+          "zh_cn": "醋",
+          "vi": "Giấm",
+          "hi": "सिरका",
+          "ru": "Уксус",
+          "th": "น้ำส้มสายชู",
+          "id": "Cuka",
+          "ms": "Cuka",
+          "ko": "Vinegar"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Vinegar&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Vinegar/?tag="
+      },
+      {
+        "name_ja": "Water",
+        "amount": "50ml",
+        "name_translated": {
+          "en": "Water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "Вода",
+          "th": "น้ำ",
+          "id": "Air",
+          "ms": "air",
+          "ko": "Water"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Water&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Water/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/05/412119プラス糀生しょうゆ糀200g.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Boiled Chicken Wings with Shoyu-Koji and Koji Amazake",
+      "zh_tw": "醬油麴和甘酒麯煮雞翅",
+      "zh_cn": "酱油麴和甘酒麴煮鸡翅",
+      "vi": "Cánh gà luộc với Shoyu-Koji và Koji Amazake",
+      "hi": "शोयू-कोजी और कोजी अमेज़ेक के साथ उबले हुए चिकन विंग्स",
+      "ru": "Отварные куриные крылышки с сёю-кодзи и кодзи амазаке",
+      "th": "ปีกไก่ต้มกับโชยุโคจิและโคจิอามาซาเกะ",
+      "id": "Sayap Ayam Rebus dengan Shoyu-Koji dan Koji Amazake",
+      "ms": "Sayap Ayam Rebus dengan Shoyu-Koji dan Koji Amazake",
+      "ko": "Boiled Chicken Wings with Shoyu-Koji and Koji Amazake"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "dc4ea61c",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/kojiamazake_019/",
+    "source_site": "Marukome",
+    "title_ja": "Banana Koji Amazake Mousse",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Koji Amazake No Moto",
+        "amount": "100ml",
+        "name_translated": {
+          "en": "Koji Amazake No Moto",
+          "zh_tw": "甘酒浩司之本",
+          "zh_cn": "甘酒浩司之本",
+          "vi": "Koji Amazake No Moto",
+          "hi": "कोजी अमेज़ेक नो मोटो",
+          "ru": "Кодзи Амазаке Но Мото",
+          "th": "โคจิ อามาซาเกะ โนะ โมโต",
+          "id": "Koji Amazake No Moto",
+          "ms": "Koji Amazake No Moto",
+          "ko": "코지아마사케노모토"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Koji%20Amazake%20No%20Moto&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Koji%20Amazake%20No%20Moto/?tag="
+      },
+      {
+        "name_ja": "Banana",
+        "amount": "1",
+        "name_translated": {
+          "en": "Banana",
+          "zh_tw": "香蕉",
+          "zh_cn": "香蕉",
+          "vi": "Chuối",
+          "hi": "केला",
+          "ru": "Банан",
+          "th": "กล้วย",
+          "id": "Pisang",
+          "ms": "pisang",
+          "ko": "바나나"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Banana&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Banana/?tag="
+      },
+      {
+        "name_ja": "Fresh Cream (35% fat)",
+        "amount": "100cc",
+        "name_translated": {
+          "en": "Fresh Cream (35% fat)",
+          "zh_tw": "鮮奶油（35%脂肪）",
+          "zh_cn": "鲜奶油（35%脂肪）",
+          "vi": "Kem Tươi (35% béo)",
+          "hi": "ताज़ा क्रीम (35% वसा)",
+          "ru": "Свежие сливки (35% жирности)",
+          "th": "ครีมสด (ไขมัน 35%)",
+          "id": "Krim Segar (35% lemak)",
+          "ms": "Krim Segar (35% lemak)",
+          "ko": "Fresh Cream (35% fat)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Fresh%20Cream%20%2835%25%20fat%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Fresh%20Cream%20%2835%25%20fat%29/?tag="
+      },
+      {
+        "name_ja": "Cocoa Powder",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Cocoa Powder",
+          "zh_tw": "可可粉",
+          "zh_cn": "可可粉",
+          "vi": "Bột cacao",
+          "hi": "कोको पाउडर",
+          "ru": "Какао-порошок",
+          "th": "ผงโกโก้",
+          "id": "Coklat bubuk",
+          "ms": "Serbuk koko",
+          "ko": "코코아 파우더"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cocoa%20Powder&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cocoa%20Powder/?tag="
+      },
+      {
+        "name_ja": "Your Favorite Nuts (Roughly Chopped)",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Your Favorite Nuts (Roughly Chopped)",
+          "zh_tw": "你最喜歡的堅果（粗略切碎）",
+          "zh_cn": "你最喜欢的坚果（粗略切碎）",
+          "vi": "Các loại hạt yêu thích của bạn (Cắt nhỏ)",
+          "hi": "आपके पसंदीदा मेवे (मोटे कटे हुए)",
+          "ru": "Ваши любимые орехи (грубо измельченные)",
+          "th": "ถั่วที่คุณชื่นชอบ (สับประมาณ)",
+          "id": "Kacang Favorit Anda (Cincang Kasar)",
+          "ms": "Kacang Kegemaran Anda (Dipotong Kasar)",
+          "ko": "Your Favorite Nuts (Roughly Chopped)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Your%20Favorite%20Nuts%20%28Roughly%20Chopped%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Your%20Favorite%20Nuts%20%28Roughly%20Chopped%29/?tag="
+      },
+      {
+        "name_ja": "Mint",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Mint",
+          "zh_tw": "薄荷",
+          "zh_cn": "薄荷",
+          "vi": "bạc hà",
+          "hi": "पुदीना",
+          "ru": "Мятный",
+          "th": "มิ้นต์",
+          "id": "daun mint",
+          "ms": "Pudina",
+          "ko": "Mint"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Mint&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Mint/?tag="
+      },
+      {
+        "name_ja": "Powdered Gelatin",
+        "amount": "3g",
+        "name_translated": {
+          "en": "Powdered Gelatin",
+          "zh_tw": "明膠粉",
+          "zh_cn": "明胶粉",
+          "vi": "Gelatin dạng bột",
+          "hi": "पाउडर जिलेटिन",
+          "ru": "Порошок желатина",
+          "th": "เจลาตินผง",
+          "id": "agar-agar bubuk",
+          "ms": "Serbuk Gelatin",
+          "ko": "Powdered Gelatin"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Powdered%20Gelatin&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Powdered%20Gelatin/?tag="
+      },
+      {
+        "name_ja": "Water",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "Вода",
+          "th": "น้ำ",
+          "id": "Air",
+          "ms": "air",
+          "ko": "Water"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Water&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Water/?tag="
+      },
+      {
+        "name_ja": "Lemon Juice",
+        "amount": "1 tsp.",
+        "name_translated": {
+          "en": "Lemon Juice",
+          "zh_tw": "檸檬汁",
+          "zh_cn": "柠檬汁",
+          "vi": "Nước chanh",
+          "hi": "नींबू का रस",
+          "ru": "Лимонный сок",
+          "th": "น้ำมะนาว",
+          "id": "Air jeruk",
+          "ms": "Jus Lemon",
+          "ko": "Lemon Juice"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Lemon%20Juice&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Lemon%20Juice/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/06/412165プラス糀糀甘酒の素500ml.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Banana Koji Amazake Mousse",
+      "zh_tw": "香蕉曲甘酒慕斯",
+      "zh_cn": "香蕉曲甘酒慕斯",
+      "vi": "Mousse chuối Koji Amazake",
+      "hi": "केला कोजी अमेज़ेक मूस",
+      "ru": "Банановый Кодзи Амазаке Мусс",
+      "th": "มูสกล้วยโคจิอามาซาเกะ",
+      "id": "Pisang Koji Amazake Mousse",
+      "ms": "Pisang Koji Amazake Mousse",
+      "ko": "Banana Koji Amazake Mousse"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "23c30f6d",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/kojiamazake_018/",
+    "source_site": "Marukome",
+    "title_ja": "Koji Amazake Kinako Mochi Rice Cakes",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Plus Koji Koji Amazake",
+        "amount": "125ml",
+        "name_translated": {
+          "en": "Plus Koji Koji Amazake",
+          "zh_tw": "加 甘酒浩司 甘酒浩司",
+          "zh_cn": "加 甘酒浩司 甘酒浩司",
+          "vi": "Cộng với Koji Koji Amazake",
+          "hi": "प्लस कोजी कोजी अमेज़ेक",
+          "ru": "Плюс Кодзи Кодзи Амазаке",
+          "th": "แถมโคจิ โคจิ อามาซาเกะ",
+          "id": "Ditambah Koji Koji Amazake",
+          "ms": "Tambahan pula Koji Koji Amazake",
+          "ko": "Plus Koji Koji Amazake"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plus%20Koji%20Koji%20Amazake&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plus%20Koji%20Koji%20Amazake/?tag="
+      },
+      {
+        "name_ja": "Starch",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Starch",
+          "zh_tw": "澱粉",
+          "zh_cn": "淀粉",
+          "vi": "tinh bột",
+          "hi": "स्टार्च",
+          "ru": "Крахмал",
+          "th": "แป้ง",
+          "id": "Pati",
+          "ms": "kanji",
+          "ko": "Starch"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Starch&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Starch/?tag="
+      },
+      {
+        "name_ja": "Soybean Flour",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Soybean Flour",
+          "zh_tw": "大豆粉",
+          "zh_cn": "大豆粉",
+          "vi": "Bột đậu nành",
+          "hi": "सोयाबीन का आटा",
+          "ru": "Соевая мука",
+          "th": "แป้งถั่วเหลือง",
+          "id": "Tepung Kedelai",
+          "ms": "Tepung Kacang Soya",
+          "ko": "Soybean Flour"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Soybean%20Flour&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Soybean%20Flour/?tag="
+      },
+      {
+        "name_ja": "Sugar or Brown Sugar Syrup",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Sugar or Brown Sugar Syrup",
+          "zh_tw": "糖或紅糖糖漿",
+          "zh_cn": "糖或红糖糖浆",
+          "vi": "Xi-rô đường hoặc đường nâu",
+          "hi": "चीनी या ब्राउन शुगर सिरप",
+          "ru": "Сахар или сироп из коричневого сахара",
+          "th": "น้ำตาลหรือน้ำเชื่อมน้ำตาลทรายแดง",
+          "id": "Sirup Gula atau Gula Merah",
+          "ms": "Gula atau Sirap Gula Perang",
+          "ko": "Sugar or Brown Sugar Syrup"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Sugar%20or%20Brown%20Sugar%20Syrup&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Sugar%20or%20Brown%20Sugar%20Syrup/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/06/412140プラス糀糀甘酒.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Koji Amazake Kinako Mochi Rice Cakes",
+      "zh_tw": "Koji Amazake Kinako Mochi Rice Cakes",
+      "zh_cn": "甘酒浩二黄子麻糬年糕",
+      "vi": "Bánh gạo Koji Amazake Kinako Mochi",
+      "hi": "कोजी अमेज़के किनाको मोची चावल केक",
+      "ru": "Кодзи Амазакэ Кинако Моти Рисовые лепешки",
+      "th": "เค้กข้าวโคจิ อามาซาเกะ คินาโกะ โมจิ",
+      "id": "Kue Beras Koji Amazake Kinako Mochi",
+      "ms": "Kek Nasi Koji Amazake Kinako Mochi",
+      "ko": "코지아마사케 키나코 모치라이스 케이크"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "d11e25cb",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soymeat_012/",
+    "source_site": "Marukome",
+    "title_ja": "Soy Meat Chopped Salad",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Dried Soy Meat Minced",
+        "amount": "10g",
+        "name_translated": {
+          "en": "Dried Soy Meat Minced",
+          "zh_tw": "乾豆肉碎",
+          "zh_cn": "干豆肉碎",
+          "vi": "Thịt Đậu Nành Khô Băm",
+          "hi": "सूखे सोया मांस कीमा बनाया हुआ",
+          "ru": "Сушеный соевый мясной фарш",
+          "th": "เนื้อถั่วเหลืองสับแห้ง",
+          "id": "Daging Kedelai Kering Cincang",
+          "ms": "Daging Soya Kering Kisar",
+          "ko": "Dried Soy Meat Minced"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Dried%20Soy%20Meat%20Minced&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Dried%20Soy%20Meat%20Minced/?tag="
+      },
+      {
+        "name_ja": "Cucumber",
+        "amount": "1/2 piece",
+        "name_translated": {
+          "en": "Cucumber",
+          "zh_tw": "黃瓜",
+          "zh_cn": "黄瓜",
+          "vi": "Quả dưa chuột",
+          "hi": "खीरा",
+          "ru": "Огурец",
+          "th": "แตงกวา",
+          "id": "Timun",
+          "ms": "timun",
+          "ko": "Cucumber"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cucumber&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cucumber/?tag="
+      },
+      {
+        "name_ja": "Cherry Tomato",
+        "amount": "4 pieces",
+        "name_translated": {
+          "en": "Cherry Tomato",
+          "zh_tw": "櫻桃蕃茄",
+          "zh_cn": "圣女果",
+          "vi": "cà chua bi",
+          "hi": "चेरी टमाटर",
+          "ru": "Помидоры Черри",
+          "th": "มะเขือเทศเชอรี่",
+          "id": "Tomat Ceri",
+          "ms": "Tomato Ceri",
+          "ko": "체리 토마토"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cherry%20Tomato&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cherry%20Tomato/?tag="
+      },
+      {
+        "name_ja": "Egg",
+        "amount": "1",
+        "name_translated": {
+          "en": "Egg",
+          "zh_tw": "蛋",
+          "zh_cn": "蛋",
+          "vi": "Trứng",
+          "hi": "अंडा",
+          "ru": "Яйцо",
+          "th": "ไข่",
+          "id": "Telur",
+          "ms": "Telur",
+          "ko": "Egg"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Egg&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Egg/?tag="
+      },
+      {
+        "name_ja": "Violet Cabbage",
+        "amount": "2 leaves",
+        "name_translated": {
+          "en": "Violet Cabbage",
+          "zh_tw": "紫甘藍",
+          "zh_cn": "紫甘蓝",
+          "vi": "Bắp cải tím",
+          "hi": "बैंगनी गोभी",
+          "ru": "Фиолетовая капуста",
+          "th": "กะหล่ำปลีม่วง",
+          "id": "Kubis Ungu",
+          "ms": "Kubis Violet",
+          "ko": "Violet Cabbage"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Violet%20Cabbage&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Violet%20Cabbage/?tag="
+      },
+      {
+        "name_ja": "Lettuce",
+        "amount": "1 ~ 2 leaves",
+        "name_translated": {
+          "en": "Lettuce",
+          "zh_tw": "萵苣",
+          "zh_cn": "莴苣",
+          "vi": "Rau xà lách",
+          "hi": "सलाद",
+          "ru": "Латук",
+          "th": "ผักกาดหอม",
+          "id": "Selada",
+          "ms": "selada",
+          "ko": "Lettuce"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Lettuce&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Lettuce/?tag="
+      },
+      {
+        "name_ja": "Avocado",
+        "amount": "1/2 piece",
+        "name_translated": {
+          "en": "Avocado",
+          "zh_tw": "酪梨",
+          "zh_cn": "牛油果",
+          "vi": "quả bơ",
+          "hi": "एवोकैडो",
+          "ru": "Авокадо",
+          "th": "อะโวคาโด",
+          "id": "Alpukat",
+          "ms": "Avokado",
+          "ko": "Avocado"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Avocado&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Avocado/?tag="
+      },
+      {
+        "name_ja": "Shrimp (boiled)",
+        "amount": "4",
+        "name_translated": {
+          "en": "Shrimp (boiled)",
+          "zh_tw": "蝦（煮）",
+          "zh_cn": "虾（煮）",
+          "vi": "Tôm (luộc)",
+          "hi": "झींगा (उबला हुआ)",
+          "ru": "Креветки (вареные)",
+          "th": "กุ้ง (ต้ม)",
+          "id": "Udang (direbus)",
+          "ms": "Udang (direbus)",
+          "ko": "Shrimp (boiled)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Shrimp%20%28boiled%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Shrimp%20%28boiled%29/?tag="
+      },
+      {
+        "name_ja": "Your Favorite Dressing",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Your Favorite Dressing",
+          "zh_tw": "你最喜歡的敷料",
+          "zh_cn": "你最喜欢的敷料",
+          "vi": "Trang phục yêu thích của bạn",
+          "hi": "आपकी पसंदीदा ड्रेसिंग",
+          "ru": "Ваша любимая одежда",
+          "th": "การแต่งตัวที่คุณชื่นชอบ",
+          "id": "Pakaian Favorit Anda",
+          "ms": "Pakaian Kegemaran Anda",
+          "ko": "Your Favorite Dressing"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Your%20Favorite%20Dressing&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Your%20Favorite%20Dressing/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2025/06/daizu_010.png&w=600&output=jpg",
+    "title": {
+      "en": "Soy Meat Chopped Salad",
+      "zh_tw": "大豆肉碎沙拉",
+      "zh_cn": "大豆肉碎沙拉",
+      "vi": "Salad thịt đậu nành",
+      "hi": "सोया मांस कटा हुआ सलाद",
+      "ru": "Салат из соевого мяса",
+      "th": "สลัดสับเนื้อถั่วเหลือง",
+      "id": "Salad Cincang Daging Kedelai",
+      "ms": "Salad Cincang Daging Soya",
+      "ko": "Soy Meat Chopped Salad"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "af30ca1a",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soymeat_011/",
+    "source_site": "Marukome",
+    "title_ja": "Soy Meat Tacos",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "【Taco Meat】",
+        "amount": "",
+        "name_translated": {
+          "en": "【Taco Meat】",
+          "zh_tw": "【塔可肉】",
+          "zh_cn": "【塔可肉】",
+          "vi": "[Thịt taco]",
+          "hi": "【टैको मीट】",
+          "ru": "【Тако с мясом】",
+          "th": "【เนื้อทาโก้】",
+          "id": "【Daging Taco】",
+          "ms": "【Daging Taco】",
+          "ko": "【Taco Meat】"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90Taco%20Meat%E3%80%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90Taco%20Meat%E3%80%91/?tag="
+      },
+      {
+        "name_ja": "Dried Soy Meat Minced",
+        "amount": "30g",
+        "name_translated": {
+          "en": "Dried Soy Meat Minced",
+          "zh_tw": "乾豆肉碎",
+          "zh_cn": "干豆肉碎",
+          "vi": "Thịt Đậu Nành Khô Băm",
+          "hi": "सूखे सोया मांस कीमा बनाया हुआ",
+          "ru": "Сушеный соевый мясной фарш",
+          "th": "เนื้อถั่วเหลืองสับแห้ง",
+          "id": "Daging Kedelai Kering Cincang",
+          "ms": "Daging Soya Kering Kisar",
+          "ko": "Dried Soy Meat Minced"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Dried%20Soy%20Meat%20Minced&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Dried%20Soy%20Meat%20Minced/?tag="
+      },
+      {
+        "name_ja": "Taco Seasoning",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Taco Seasoning",
+          "zh_tw": "塔可調味料",
+          "zh_cn": "塔可调味料",
+          "vi": "Gia vị taco",
+          "hi": "टैको मसाला",
+          "ru": "Приправа для тако",
+          "th": "เครื่องปรุงรสทาโก้",
+          "id": "Bumbu Taco",
+          "ms": "Perasa Taco",
+          "ko": "Taco Seasoning"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Taco%20Seasoning&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Taco%20Seasoning/?tag="
+      },
+      {
+        "name_ja": "【Guacamole】",
+        "amount": "",
+        "name_translated": {
+          "en": "[Guacamole]",
+          "zh_tw": "[酪梨醬]",
+          "zh_cn": "[鳄梨酱]",
+          "vi": "[Quả bơ]",
+          "hi": "[गुआकामोल]",
+          "ru": "[Гуакамоле]",
+          "th": "[กัวคาโมเล่]",
+          "id": "[Guacamole]",
+          "ms": "[Guacamole]",
+          "ko": "【Guacamole】"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%80%90Guacamole%E3%80%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%80%90Guacamole%E3%80%91/?tag="
+      },
+      {
+        "name_ja": "Avocado",
+        "amount": "1 piece",
+        "name_translated": {
+          "en": "Avocado",
+          "zh_tw": "酪梨",
+          "zh_cn": "牛油果",
+          "vi": "quả bơ",
+          "hi": "एवोकैडो",
+          "ru": "Авокадо",
+          "th": "อะโวคาโด",
+          "id": "Alpukat",
+          "ms": "Avokado",
+          "ko": "Avocado"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Avocado&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Avocado/?tag="
+      },
+      {
+        "name_ja": "Onion",
+        "amount": "1/8 piece",
+        "name_translated": {
+          "en": "Onion",
+          "zh_tw": "洋蔥",
+          "zh_cn": "洋葱",
+          "vi": "Củ hành",
+          "hi": "प्याज",
+          "ru": "Лук",
+          "th": "หัวหอม",
+          "id": "Bawang bombai",
+          "ms": "Bawang besar",
+          "ko": "Onion"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Onion&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Onion/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "Mayonnaise",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Mayonnaise",
+          "zh_tw": "美乃滋",
+          "zh_cn": "蛋黄酱",
+          "vi": "Mayonnaise",
+          "hi": "मेयोनेज़",
+          "ru": "Майонез",
+          "th": "มายองเนส",
+          "id": "Mayones",
+          "ms": "Mayonis",
+          "ko": "Mayonnaise"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Mayonnaise&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Mayonnaise/?tag="
+      },
+      {
+        "name_ja": "Lemon Juice",
+        "amount": "1 tbsp.",
+        "name_translated": {
+          "en": "Lemon Juice",
+          "zh_tw": "檸檬汁",
+          "zh_cn": "柠檬汁",
+          "vi": "Nước chanh",
+          "hi": "नींबू का रस",
+          "ru": "Лимонный сок",
+          "th": "น้ำมะนาว",
+          "id": "Air jeruk",
+          "ms": "Jus Lemon",
+          "ko": "Lemon Juice"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Lemon%20Juice&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Lemon%20Juice/?tag="
+      },
+      {
+        "name_ja": "Garlic (grated)",
+        "amount": "1/3 teaspoon",
+        "name_translated": {
+          "en": "Garlic (grated)",
+          "zh_tw": "大蒜（磨碎）",
+          "zh_cn": "大蒜（磨碎）",
+          "vi": "Tỏi (băm)",
+          "hi": "लहसुन (कद्दूकस किया हुआ)",
+          "ru": "Чеснок (тертый)",
+          "th": "กระเทียม (ขูด)",
+          "id": "Bawang putih (parut)",
+          "ms": "Bawang putih (parut)",
+          "ko": "Garlic (grated)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Garlic%20%28grated%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Garlic%20%28grated%29/?tag="
+      },
+      {
+        "name_ja": "Salt",
+        "amount": "1/2 teaspoon",
+        "name_translated": {
+          "en": "Salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "Muối",
+          "hi": "नमक",
+          "ru": "Соль",
+          "th": "เกลือ",
+          "id": "Garam",
+          "ms": "garam",
+          "ko": "Salt"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Salt&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Salt/?tag="
+      },
+      {
+        "name_ja": "Tortilla",
+        "amount": "6 slices",
+        "name_translated": {
+          "en": "Tortilla",
+          "zh_tw": "玉米餅",
+          "zh_cn": "玉米饼",
+          "vi": "bánh ngô",
+          "hi": "टॉर्टिला",
+          "ru": "Тортилья",
+          "th": "ตอติญ่า",
+          "id": "Tortila",
+          "ms": "Tortilla",
+          "ko": "Tortilla"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Tortilla&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Tortilla/?tag="
+      },
+      {
+        "name_ja": "Tomato",
+        "amount": "1 piece",
+        "name_translated": {
+          "en": "Tomato",
+          "zh_tw": "番茄",
+          "zh_cn": "番茄",
+          "vi": "Cà chua",
+          "hi": "टमाटर",
+          "ru": "Помидор",
+          "th": "มะเขือเทศ",
+          "id": "Tomat",
+          "ms": "tomato",
+          "ko": "Tomato"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Tomato&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Tomato/?tag="
+      },
+      {
+        "name_ja": "Lettuce",
+        "amount": "80g",
+        "name_translated": {
+          "en": "Lettuce",
+          "zh_tw": "萵苣",
+          "zh_cn": "莴苣",
+          "vi": "Rau xà lách",
+          "hi": "सलाद",
+          "ru": "Латук",
+          "th": "ผักกาดหอม",
+          "id": "Selada",
+          "ms": "selada",
+          "ko": "Lettuce"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Lettuce&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Lettuce/?tag="
+      },
+      {
+        "name_ja": "Cheese (shredded)",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Cheese (shredded)",
+          "zh_tw": "起司（切絲）",
+          "zh_cn": "奶酪（切丝）",
+          "vi": "Phô mai (cắt nhỏ)",
+          "hi": "पनीर (कटा हुआ)",
+          "ru": "Сыр (тертый)",
+          "th": "ชีส (หั่นฝอย)",
+          "id": "Keju (parut)",
+          "ms": "Keju (dicincang)",
+          "ko": "Cheese (shredded)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cheese%20%28shredded%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cheese%20%28shredded%29/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2025/06/daizu_010.png&w=600&output=jpg",
+    "title": {
+      "en": "Soy Meat Tacos",
+      "zh_tw": "大豆肉炸玉米餅",
+      "zh_cn": "大豆肉炸玉米饼",
+      "vi": "Tacos thịt đậu nành",
+      "hi": "सोया मांस टैकोस",
+      "ru": "Тако с соевым мясом",
+      "th": "ทาโก้เนื้อถั่วเหลือง",
+      "id": "Taco Daging Kedelai",
+      "ms": "Taco Daging Soya",
+      "ko": "Soy Meat Tacos"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "1e56053a",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soymeat_010/",
+    "source_site": "Marukome",
+    "title_ja": "Soy Meat Karaage",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Dried Soy Meat Block",
+        "amount": "30g",
+        "name_translated": {
+          "en": "Dried Soy Meat Block",
+          "zh_tw": "豆乾肉塊",
+          "zh_cn": "豆干肉块",
+          "vi": "Khối Thịt Đậu Nành Khô",
+          "hi": "सूखे सोया मांस ब्लॉक",
+          "ru": "Сушеный соевый мясной блок",
+          "th": "บล็อคเนื้อถั่วเหลืองแห้ง",
+          "id": "Blok Daging Kedelai Kering",
+          "ms": "Blok Daging Soya Kering",
+          "ko": "Dried Soy Meat Block"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Dried%20Soy%20Meat%20Block&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Dried%20Soy%20Meat%20Block/?tag="
+      },
+      {
+        "name_ja": "(a)",
+        "amount": "",
+        "name_translated": {
+          "en": "(a)",
+          "zh_tw": "（一個）",
+          "zh_cn": "（一个）",
+          "vi": "(Một)",
+          "hi": "(ए)",
+          "ru": "(а)",
+          "th": "(ก)",
+          "id": "(A)",
+          "ms": "(a)",
+          "ko": "(a)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28a%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28a%29/?tag="
+      },
+      {
+        "name_ja": "Soy Sauce",
+        "amount": "1/2 tbsp.",
+        "name_translated": {
+          "en": "Soy Sauce",
+          "zh_tw": "醬油",
+          "zh_cn": "酱油",
+          "vi": "nước tương",
+          "hi": "सोया सॉस",
+          "ru": "Соевый соус",
+          "th": "ซีอิ๊ว",
+          "id": "Kecap",
+          "ms": "Kicap",
+          "ko": "Soy Sauce"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Soy%20Sauce&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Soy%20Sauce/?tag="
+      },
+      {
+        "name_ja": "Cooking Sake (or Cooking Wine)",
+        "amount": "1/2 tbsp.",
+        "name_translated": {
+          "en": "Cooking Sake (or Cooking Wine)",
+          "zh_tw": "料酒（或料酒）",
+          "zh_cn": "料酒（或料酒）",
+          "vi": "Rượu nấu ăn (hoặc Rượu nấu ăn)",
+          "hi": "खाना पकाने की खातिर (या शराब पकाना)",
+          "ru": "Приготовление саке (или кулинарного вина)",
+          "th": "สาเกทำอาหาร (หรือไวน์ทำอาหาร)",
+          "id": "Memasak Sake (atau Memasak Anggur)",
+          "ms": "Memasak Sake (atau Memasak Wain)",
+          "ko": "Cooking Sake (or Cooking Wine)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Cooking%20Sake%20%28or%20Cooking%20Wine%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Cooking%20Sake%20%28or%20Cooking%20Wine%29/?tag="
+      },
+      {
+        "name_ja": "Ginger (grated)",
+        "amount": "1/2 teaspoon",
+        "name_translated": {
+          "en": "Ginger (grated)",
+          "zh_tw": "薑（磨碎）",
+          "zh_cn": "姜（磨碎）",
+          "vi": "Gừng (bào)",
+          "hi": "अदरक (कद्दूकस किया हुआ)",
+          "ru": "Имбирь (тертый)",
+          "th": "ขิง (ขูด)",
+          "id": "Jahe (parut)",
+          "ms": "Halia (parut)",
+          "ko": "Ginger (grated)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Ginger%20%28grated%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Ginger%20%28grated%29/?tag="
+      },
+      {
+        "name_ja": "Garlic (grated)",
+        "amount": "1/2 teaspoon",
+        "name_translated": {
+          "en": "Garlic (grated)",
+          "zh_tw": "大蒜（磨碎）",
+          "zh_cn": "大蒜（磨碎）",
+          "vi": "Tỏi (băm)",
+          "hi": "लहसुन (कद्दूकस किया हुआ)",
+          "ru": "Чеснок (тертый)",
+          "th": "กระเทียม (ขูด)",
+          "id": "Bawang putih (parut)",
+          "ms": "Bawang putih (parut)",
+          "ko": "Garlic (grated)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Garlic%20%28grated%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Garlic%20%28grated%29/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2020/06/412766_ダイズラボ大豆肉乾燥ブロック.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Soy Meat Karaage",
+      "zh_tw": "豆肉炸雞塊",
+      "zh_cn": "豆肉炸鸡块",
+      "vi": "Karaage thịt đậu nành",
+      "hi": "सोया मांस करेज",
+      "ru": "Соевое мясо Карааге",
+      "th": "เนื้อถั่วเหลืองคาราอาเกะ",
+      "id": "Karaage Daging Kedelai",
+      "ms": "Karaage Daging Soya",
+      "ko": "Soy Meat Karaage"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "41f598e5",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soyflour_011/",
+    "source_site": "Marukome",
+    "title_ja": "White Stew Made with Soy Four White Sauce",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Chicken Thigh",
+        "amount": "150g",
+        "name_translated": {
+          "en": "Chicken Thigh",
+          "zh_tw": "雞大腿",
+          "zh_cn": "鸡大腿",
+          "vi": "Đùi gà",
+          "hi": "चिकन थाई",
+          "ru": "Куриное бедро",
+          "th": "สะโพกไก่",
+          "id": "Paha Ayam",
+          "ms": "Peha Ayam",
+          "ko": "Chicken Thigh"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Chicken%20Thigh&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Chicken%20Thigh/?tag="
+      },
+      {
+        "name_ja": "Onion",
+        "amount": "80g",
+        "name_translated": {
+          "en": "Onion",
+          "zh_tw": "洋蔥",
+          "zh_cn": "洋葱",
+          "vi": "Củ hành",
+          "hi": "प्याज",
+          "ru": "Лук",
+          "th": "หัวหอม",
+          "id": "Bawang bombai",
+          "ms": "Bawang besar",
+          "ko": "Onion"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Onion&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Onion/?tag="
+      },
+      {
+        "name_ja": "Carrot",
+        "amount": "80g",
+        "name_translated": {
+          "en": "Carrot",
+          "zh_tw": "紅蘿蔔",
+          "zh_cn": "胡萝卜",
+          "vi": "cà rốt",
+          "hi": "गाजर",
+          "ru": "Морковь",
+          "th": "แครอท",
+          "id": "Wortel",
+          "ms": "lobak merah",
+          "ko": "Carrot"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Carrot&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Carrot/?tag="
+      },
+      {
+        "name_ja": "Broccoli",
+        "amount": "60g",
+        "name_translated": {
+          "en": "Broccoli",
+          "zh_tw": "綠色花椰菜",
+          "zh_cn": "西兰花",
+          "vi": "bông cải xanh",
+          "hi": "ब्रोकोली",
+          "ru": "Брокколи",
+          "th": "บรอกโคลี",
+          "id": "Brokoli",
+          "ms": "Brokoli",
+          "ko": "Broccoli"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Broccoli&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Broccoli/?tag="
+      },
+      {
+        "name_ja": "Soy Flour White Sauce",
+        "amount": "140g",
+        "name_translated": {
+          "en": "Soy Flour White Sauce",
+          "zh_tw": "黃豆粉白醬",
+          "zh_cn": "黄豆粉白酱",
+          "vi": "Bột đậu nành sốt trắng",
+          "hi": "सोया आटा सफेद सॉस",
+          "ru": "Соевая мука Белый соус",
+          "th": "แป้งซีอิ๊วขาว",
+          "id": "Saus Putih Tepung Kedelai",
+          "ms": "Sos Putih Tepung Soya",
+          "ko": "Soy Flour White Sauce"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Soy%20Flour%20White%20Sauce&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Soy%20Flour%20White%20Sauce/?tag="
+      },
+      {
+        "name_ja": "Consomme Soup",
+        "amount": "200cc",
+        "name_translated": {
+          "en": "Consomme Soup",
+          "zh_tw": "清湯",
+          "zh_cn": "清汤",
+          "vi": "Súp Consomme",
+          "hi": "कन्सोमे सूप",
+          "ru": "Суп-консоме",
+          "th": "ซุปคอนซอมม์",
+          "id": "Konsumsi Sup",
+          "ms": "Sup Consomme",
+          "ko": "Consomme Soup"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Consomme%20Soup&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Consomme%20Soup/?tag="
+      },
+      {
+        "name_ja": "Salt",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "Muối",
+          "hi": "नमक",
+          "ru": "Соль",
+          "th": "เกลือ",
+          "id": "Garam",
+          "ms": "garam",
+          "ko": "Salt"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Salt&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Salt/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2021/01/412743ダイズラボ大豆粉.jpg&w=600&output=jpg",
+    "title": {
+      "en": "White Stew Made with Soy Four White Sauce",
+      "zh_tw": "黃豆四白醬白燉菜",
+      "zh_cn": "黄豆四白酱白炖菜",
+      "vi": "Món hầm trắng làm từ nước sốt đậu nành 4 màu trắng",
+      "hi": "सोया फोर व्हाइट सॉस से बना व्हाइट स्टू",
+      "ru": "Белое рагу с соевым соусом Four White",
+      "th": "สตูว์ขาวที่ทำจากซีอิ๊วขาวสี่ซีอิ๊ว",
+      "id": "Rebusan Putih Dibuat dengan Saus Kedelai Empat Putih",
+      "ms": "Stew Putih Dibuat dengan Sos Empat Kicap Putih",
+      "ko": "White Stew Made with Soy Four White Sauce"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "e9b7ca83",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soyflour_010/",
+    "source_site": "Marukome",
+    "title_ja": "Soy Flour White Sauce",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Soy Flour",
+        "amount": "45g",
+        "name_translated": {
+          "en": "Soy Flour",
+          "zh_tw": "大豆粉",
+          "zh_cn": "大豆粉",
+          "vi": "Bột đậu nành",
+          "hi": "सोया आटा",
+          "ru": "Соевая мука",
+          "th": "แป้งถั่วเหลือง",
+          "id": "Tepung Kedelai",
+          "ms": "Tepung Soya",
+          "ko": "Soy Flour"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Soy%20Flour&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Soy%20Flour/?tag="
+      },
+      {
+        "name_ja": "Butter",
+        "amount": "30g",
+        "name_translated": {
+          "en": "Butter",
+          "zh_tw": "奶油",
+          "zh_cn": "黄油",
+          "vi": "Bơ",
+          "hi": "मक्खन",
+          "ru": "Масло",
+          "th": "เนย",
+          "id": "Mentega",
+          "ms": "Mentega",
+          "ko": "Butter"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Butter&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Butter/?tag="
+      },
+      {
+        "name_ja": "Milk",
+        "amount": "300g",
+        "name_translated": {
+          "en": "Milk",
+          "zh_tw": "牛奶",
+          "zh_cn": "牛奶",
+          "vi": "Sữa",
+          "hi": "दूध",
+          "ru": "Молоко",
+          "th": "น้ำนม",
+          "id": "Susu",
+          "ms": "susu",
+          "ko": "Milk"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Milk&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Milk/?tag="
+      },
+      {
+        "name_ja": "Salt",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "Muối",
+          "hi": "नमक",
+          "ru": "Соль",
+          "th": "เกลือ",
+          "id": "Garam",
+          "ms": "garam",
+          "ko": "Salt"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Salt&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Salt/?tag="
+      },
+      {
+        "name_ja": "Pepper",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Pepper",
+          "zh_tw": "胡椒",
+          "zh_cn": "胡椒",
+          "vi": "Hạt tiêu",
+          "hi": "काली मिर्च",
+          "ru": "Перец",
+          "th": "พริกไทย",
+          "id": "Merica",
+          "ms": "Lada",
+          "ko": "Pepper"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Pepper&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Pepper/?tag="
+      },
+      {
+        "name_ja": "Nutmeg",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Nutmeg",
+          "zh_tw": "肉荳蔻",
+          "zh_cn": "肉豆蔻",
+          "vi": "hạt nhục đậu khấu",
+          "hi": "जायफल",
+          "ru": "Мускатный орех",
+          "th": "ลูกจันทน์เทศ",
+          "id": "Pala",
+          "ms": "Buah pala",
+          "ko": "Nutmeg"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Nutmeg&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Nutmeg/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2021/01/412743ダイズラボ大豆粉.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Soy Flour White Sauce",
+      "zh_tw": "黃豆粉白醬",
+      "zh_cn": "黄豆粉白酱",
+      "vi": "Bột đậu nành sốt trắng",
+      "hi": "सोया आटा सफेद सॉस",
+      "ru": "Соевая мука Белый соус",
+      "th": "แป้งซีอิ๊วขาว",
+      "id": "Saus Putih Tepung Kedelai",
+      "ms": "Sos Putih Tepung Soya",
+      "ko": "Soy Flour White Sauce"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
+  },
+  {
+    "id": "54380469",
+    "source_url": "https://www.marukome.co.jp/global/en/recipe/soyflour_009/",
+    "source_site": "Marukome",
+    "title_ja": "Soy Flour Frying Pan Naan",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "Soy Flour",
+        "amount": "30g",
+        "name_translated": {
+          "en": "Soy Flour",
+          "zh_tw": "大豆粉",
+          "zh_cn": "大豆粉",
+          "vi": "Bột đậu nành",
+          "hi": "सोया आटा",
+          "ru": "Соевая мука",
+          "th": "แป้งถั่วเหลือง",
+          "id": "Tepung Kedelai",
+          "ms": "Tepung Soya",
+          "ko": "Soy Flour"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Soy%20Flour&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Soy%20Flour/?tag="
+      },
+      {
+        "name_ja": "Bread Flour",
+        "amount": "70g",
+        "name_translated": {
+          "en": "Bread Flour",
+          "zh_tw": "麵包粉",
+          "zh_cn": "面包粉",
+          "vi": "Bột mì",
+          "hi": "रोटी का आटा",
+          "ru": "Хлебная Мука",
+          "th": "แป้งขนมปัง",
+          "id": "Tepung Roti",
+          "ms": "Tepung Roti",
+          "ko": "Bread Flour"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Bread%20Flour&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Bread%20Flour/?tag="
+      },
+      {
+        "name_ja": "Plain Yogurt",
+        "amount": "30g",
+        "name_translated": {
+          "en": "Plain Yogurt",
+          "zh_tw": "原味優格",
+          "zh_cn": "原味酸奶",
+          "vi": "sữa chua nguyên chất",
+          "hi": "सादा दही",
+          "ru": "Обычный йогурт",
+          "th": "โยเกิร์ตธรรมดา",
+          "id": "Yoghurt Biasa",
+          "ms": "Yogurt biasa",
+          "ko": "Plain Yogurt"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Plain%20Yogurt&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Plain%20Yogurt/?tag="
+      },
+      {
+        "name_ja": "White Sesame Oil",
+        "amount": "1/2 tbsp.",
+        "name_translated": {
+          "en": "White Sesame Oil",
+          "zh_tw": "白芝麻油",
+          "zh_cn": "白芝麻油",
+          "vi": "Dầu mè trắng",
+          "hi": "सफेद तिल का तेल",
+          "ru": "Масло белого кунжута",
+          "th": "น้ำมันงาขาว",
+          "id": "Minyak Wijen Putih",
+          "ms": "Minyak Bijan Putih",
+          "ko": "White Sesame Oil"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=White%20Sesame%20Oil&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/White%20Sesame%20Oil/?tag="
+      },
+      {
+        "name_ja": "(if White Sesame Oil is not available, use Salad Oil)",
+        "amount": "",
+        "name_translated": {
+          "en": "(if White Sesame Oil is not available, use Salad Oil)",
+          "zh_tw": "(if White Sesame Oil is not available, use Salad Oil)",
+          "zh_cn": "（如果没有白芝麻油，就用色拉油）",
+          "vi": "(nếu không có Dầu Mè Trắng thì dùng Dầu Salad)",
+          "hi": "(यदि सफेद तिल का तेल उपलब्ध नहीं है, तो सलाद तेल का उपयोग करें)",
+          "ru": "(если белого кунжутного масла нет, используйте салатное масло)",
+          "th": "(หากไม่มีน้ำมันงาขาว ให้ใช้น้ำมันสลัด)",
+          "id": "(jika Minyak Wijen Putih tidak tersedia, gunakan Minyak Salad)",
+          "ms": "(jika Minyak Bijan Putih tiada, gunakan Minyak Salad)",
+          "ko": "(if White Sesame Oil is not available, use Salad Oil)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%28if%20White%20Sesame%20Oil%20is%20not%20available%2C%20use%20Salad%20Oil%29&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%28if%20White%20Sesame%20Oil%20is%20not%20available%2C%20use%20Salad%20Oil%29/?tag="
+      },
+      {
+        "name_ja": "Baking Powder",
+        "amount": "3g",
+        "name_translated": {
+          "en": "Baking Powder",
+          "zh_tw": "發酵粉",
+          "zh_cn": "发酵粉",
+          "vi": "bột nở",
+          "hi": "बेकिंग पाउडर",
+          "ru": "Порошок для выпечки",
+          "th": "ผงฟู",
+          "id": "baking powder",
+          "ms": "Serbuk penaik",
+          "ko": "베이킹 파우더"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Baking%20Powder&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Baking%20Powder/?tag="
+      },
+      {
+        "name_ja": "Salt",
+        "amount": "1g",
+        "name_translated": {
+          "en": "Salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "Muối",
+          "hi": "नमक",
+          "ru": "Соль",
+          "th": "เกลือ",
+          "id": "Garam",
+          "ms": "garam",
+          "ko": "Salt"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Salt&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Salt/?tag="
+      },
+      {
+        "name_ja": "Water",
+        "amount": "2 tbsp.",
+        "name_translated": {
+          "en": "Water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "Вода",
+          "th": "น้ำ",
+          "id": "Air",
+          "ms": "air",
+          "ko": "Water"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Water&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Water/?tag="
+      },
+      {
+        "name_ja": "Butter",
+        "amount": "5g (Properly)",
+        "name_translated": {
+          "en": "Butter",
+          "zh_tw": "奶油",
+          "zh_cn": "黄油",
+          "vi": "Bơ",
+          "hi": "मक्खन",
+          "ru": "Масло",
+          "th": "เนย",
+          "id": "Mentega",
+          "ms": "Mentega",
+          "ko": "Butter"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Butter&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Butter/?tag="
+      },
+      {
+        "name_ja": "Untoasted sesame oil for frying",
+        "amount": "Properly",
+        "name_translated": {
+          "en": "Untoasted sesame oil for frying",
+          "zh_tw": "Untoasted sesame oil for frying",
+          "zh_cn": "煎炸用未烤芝麻油",
+          "vi": "Dầu mè chưa nướng để chiên",
+          "hi": "तलने के लिए भुना हुआ तिल का तेल",
+          "ru": "Необжаренное кунжутное масло для жарки",
+          "th": "น้ำมันงาดิบสำหรับทอด",
+          "id": "Minyak wijen yang belum dipanggang untuk menggoreng",
+          "ms": "Minyak bijan yang belum dibakar untuk menggoreng",
+          "ko": "Untoasted sesame oil for frying"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=Untoasted%20sesame%20oil%20for%20frying&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/Untoasted%20sesame%20oil%20for%20frying/?tag="
+      }
+    ],
+    "steps_ja": [],
+    "image_url": "https://images.weserv.nl/?url=https://www.marukome.co.jp/global/en/wp-global/wp-content/uploads/2021/01/412743ダイズラボ大豆粉.jpg&w=600&output=jpg",
+    "title": {
+      "en": "Soy Flour Frying Pan Naan",
+      "zh_tw": "黃豆粉煎鍋馕",
+      "zh_cn": "黄豆粉煎锅馕",
+      "vi": "Chảo chiên bột đậu nành Naan",
+      "hi": "सोया आटा फ्राइंग पैन नान",
+      "ru": "Сковорода из соевой муки Наан",
+      "th": "กระทะแป้งถั่วเหลือง",
+      "id": "Wajan Tepung Kedelai Naan",
+      "ms": "Kuali Penggorengan Tepung Soya Naan",
+      "ko": "Soy Flour Frying Pan Naan"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [],
+      "zh_tw": [],
+      "zh_cn": [],
+      "vi": [],
+      "hi": [],
+      "ru": [],
+      "th": [],
+      "id": [],
+      "ms": [],
+      "ko": []
+    }
   }
 ]
