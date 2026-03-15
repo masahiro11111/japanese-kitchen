@@ -172,156 +172,6 @@ class Translator:
 
         return recipe
 
-# ─── 汎用スクレイパー（新規サイト向け）────────────────────
-class GenericScraper(BaseScraper):
-    """
-    サイト構造を自動判定する汎用パーサー。
-    h1タグ・材料・手順を複数のセレクタで試みる。
-    """
-    def __init__(self, site_name: str, base_url: str):
-        self.site_name = site_name
-        self.base_url  = base_url
-
-    def parse(self, url: str) -> list[Recipe]:
-        soup = self.fetch(url)
-        recipes = []
-
-        # レシピ個別ページへのリンクを収集（よくあるパターン）
-        links = []
-        for a in soup.select("a[href]"):
-            href = a["href"]
-            # URLに "recipe" を含むリンクを収集
-            if re.search(r"/recipe[s]?/", href, re.IGNORECASE):
-                full = href if href.startswith("http") else self.base_url.rstrip("/") + "/" + href.lstrip("/")
-                links.append(full)
-        links = list(dict.fromkeys(links))[:MAX_RECIPES_PER_SITE]
-
-        for link in links:
-            try:
-                r = self._parse_detail(link)
-                if r:
-                    recipes.append(r)
-                time.sleep(1.5)
-            except Exception as e:
-                log.warning(f"スキップ: {link} ({e})")
-
-        log.info(f"{self.site_name}: {len(recipes)} レシピ取得")
-        return recipes
-
-    def _parse_detail(self, url: str) -> Optional[Recipe]:
-        soup = self.fetch(url)
-
-        # ── タイトル ──
-        title_el = soup.select_one("h1")
-        title_text = title_el.get_text(strip=True) if title_el else ""
-        if not title_text:
-            return None
-
-        # ── 説明文 ──
-        desc_text = ""
-        for sel in [".recipe-description", ".description", ".lead", ".intro", "h1 + p", ".recipe-lead"]:
-            el = soup.select_one(sel)
-            if el:
-                desc_text = el.get_text(strip=True)
-                break
-
-        # ── 材料（複数パターンで試みる）──
-        ingredients = []
-        ingredient_selectors = [
-            # パターン1: 見出し「材料」を含むsection
-            None,
-            # パターン2: よくあるクラス名
-            ".ingredient li, .ingredients li, .recipe-ingredient li",
-            ".p-recipe-ingredients li, .recipe-material li",
-            ".material li, .ingredient-list li",
-            "ul.ingredients li, dl.ingredients dt",
-        ]
-
-        # まず「材料」見出しのsectionを探す
-        for section in soup.find_all(["section", "div", "article"]):
-            heading = section.find(["h2", "h3", "h4"])
-            if heading and re.search(r"材料|ingredient", heading.get_text(), re.IGNORECASE):
-                for li in section.select("li, dd"):
-                    text = li.get_text(separator="\n", strip=True)
-                    if not text or len(text) < 2:
-                        continue
-                    parts = [p.strip() for p in text.split("\n") if p.strip()]
-                    if len(parts) >= 2:
-                        ingredients.append(Ingredient(name_ja=parts[0], amount=parts[-1]))
-                    else:
-                        ingredients.append(Ingredient(name_ja=text, amount="適量"))
-                if ingredients:
-                    break
-
-        # セクションで見つからなければクラス名で試みる
-        if not ingredients:
-            for sel in ingredient_selectors[1:]:
-                items = soup.select(sel)
-                for li in items:
-                    text = li.get_text(separator="\n", strip=True)
-                    if not text or len(text) < 2:
-                        continue
-                    parts = [p.strip() for p in text.split("\n") if p.strip()]
-                    if len(parts) >= 2:
-                        ingredients.append(Ingredient(name_ja=parts[0], amount=parts[-1]))
-                    else:
-                        ingredients.append(Ingredient(name_ja=text, amount="適量"))
-                if ingredients:
-                    break
-
-        # ── 手順（複数パターンで試みる）──
-        steps = []
-        # まず「つくり方」「作り方」「手順」見出しのsectionを探す
-        for section in soup.find_all(["section", "div", "article"]):
-            heading = section.find(["h2", "h3", "h4"])
-            if heading and re.search(r"つくり方|作り方|手順|step|how to", heading.get_text(), re.IGNORECASE):
-                for li in section.select("ol li, ul li, .step"):
-                    txt = re.sub(r"^\d+[\.\s]*", "", li.get_text(strip=True))
-                    if txt and len(txt) > 3:
-                        steps.append(txt)
-                if steps:
-                    break
-
-        # セクションで見つからなければクラス名で試みる
-        if not steps:
-            for sel in [".recipe-step li", ".steps li", ".procedure li",
-                        ".recipe-directions li", ".cooking-step", "ol.steps li"]:
-                items = soup.select(sel)
-                for li in items:
-                    txt = re.sub(r"^\d+[\.\s]*", "", li.get_text(strip=True))
-                    if txt and len(txt) > 3:
-                        steps.append(txt)
-                if steps:
-                    break
-
-        # 材料も手順もなければスキップ
-        if not ingredients and not steps:
-            return None
-
-        # ── 画像 ──
-        img_url = ""
-        for sel in ["img.recipe-image", ".recipe-img img", ".recipe-photo img",
-                    "article img", ".recipe-main-image img", "h1 + img",
-                    ".recipe-thumbnail img", "figure img"]:
-            img = soup.select_one(sel)
-            if img and img.get("src"):
-                src = img["src"]
-                img_url = src if src.startswith("http") else self.base_url.rstrip("/") + "/" + src.lstrip("/")
-                # プロキシ経由で表示
-                img_url = f"https://images.weserv.nl/?url={img_url}&w=600&output=jpg"
-                break
-
-        return Recipe(
-            id=self.make_id(url),
-            source_url=url,
-            source_site=self.site_name,
-            title_ja=title_text,
-            description_ja=desc_text,
-            ingredients=ingredients,
-            steps_ja=steps,
-            image_url=img_url,
-        )
-
 # ─── スクレイパー基底クラス ──────────────────────────────
 class BaseScraper:
     HEADERS = {
@@ -341,6 +191,119 @@ class BaseScraper:
 
     def parse(self, url: str) -> list[Recipe]:
         raise NotImplementedError
+
+# ─── 汎用スクレイパー（新規サイト向け）────────────────────
+class GenericScraper(BaseScraper):
+    """サイト構造を自動判定する汎用パーサー"""
+    def __init__(self, site_name: str, base_url: str):
+        self.site_name = site_name
+        self.base_url  = base_url
+
+    def parse(self, url: str) -> list[Recipe]:
+        soup = self.fetch(url)
+        recipes = []
+        links = []
+        for a in soup.select("a[href]"):
+            href = a["href"]
+            if re.search(r"/recipe[s]?/", href, re.IGNORECASE):
+                full = href if href.startswith("http") else self.base_url.rstrip("/") + "/" + href.lstrip("/")
+                links.append(full)
+        links = list(dict.fromkeys(links))[:MAX_RECIPES_PER_SITE]
+        for link in links:
+            try:
+                r = self._parse_detail(link)
+                if r:
+                    recipes.append(r)
+                time.sleep(1.5)
+            except Exception as e:
+                log.warning(f"スキップ: {link} ({e})")
+        log.info(f"{self.site_name}: {len(recipes)} レシピ取得")
+        return recipes
+
+    def _parse_detail(self, url: str) -> Optional[Recipe]:
+        soup = self.fetch(url)
+        title_el = soup.select_one("h1")
+        title_text = title_el.get_text(strip=True) if title_el else ""
+        if not title_text:
+            return None
+        desc_text = ""
+        for sel in [".recipe-description", ".description", ".lead", ".intro", "h1 + p", ".recipe-lead"]:
+            el = soup.select_one(sel)
+            if el:
+                desc_text = el.get_text(strip=True)
+                break
+        # 材料
+        ingredients = []
+        for section in soup.find_all(["section", "div", "article"]):
+            heading = section.find(["h2", "h3", "h4"])
+            if heading and re.search(r"材料|ingredient", heading.get_text(), re.IGNORECASE):
+                for li in section.select("li, dd"):
+                    text = li.get_text(separator="\n", strip=True)
+                    if not text or len(text) < 2:
+                        continue
+                    parts = [p.strip() for p in text.split("\n") if p.strip()]
+                    if len(parts) >= 2:
+                        ingredients.append(Ingredient(name_ja=parts[0], amount=parts[-1]))
+                    else:
+                        ingredients.append(Ingredient(name_ja=text, amount="適量"))
+                if ingredients:
+                    break
+        if not ingredients:
+            for sel in [".ingredient li,.ingredients li,.recipe-ingredient li",
+                        ".p-recipe-ingredients li,.recipe-material li",
+                        ".material li,.ingredient-list li"]:
+                for li in soup.select(sel):
+                    text = li.get_text(separator="\n", strip=True)
+                    if not text or len(text) < 2:
+                        continue
+                    parts = [p.strip() for p in text.split("\n") if p.strip()]
+                    if len(parts) >= 2:
+                        ingredients.append(Ingredient(name_ja=parts[0], amount=parts[-1]))
+                    else:
+                        ingredients.append(Ingredient(name_ja=text, amount="適量"))
+                if ingredients:
+                    break
+        # 手順
+        steps = []
+        for section in soup.find_all(["section", "div", "article"]):
+            heading = section.find(["h2", "h3", "h4"])
+            if heading and re.search(r"つくり方|作り方|手順|step|how to", heading.get_text(), re.IGNORECASE):
+                for li in section.select("ol li, ul li, .step"):
+                    txt = re.sub(r"^\d+[\.\s]*", "", li.get_text(strip=True))
+                    if txt and len(txt) > 3:
+                        steps.append(txt)
+                if steps:
+                    break
+        if not steps:
+            for sel in [".recipe-step li",".steps li",".procedure li",".recipe-directions li","ol.steps li"]:
+                for li in soup.select(sel):
+                    txt = re.sub(r"^\d+[\.\s]*", "", li.get_text(strip=True))
+                    if txt and len(txt) > 3:
+                        steps.append(txt)
+                if steps:
+                    break
+        if not ingredients and not steps:
+            return None
+        # 画像
+        img_url = ""
+        for sel in ["img.recipe-image",".recipe-img img",".recipe-photo img",
+                    "article img",".recipe-main-image img","figure img"]:
+            img = soup.select_one(sel)
+            if img and img.get("src"):
+                src = img["src"]
+                src = src if src.startswith("http") else self.base_url.rstrip("/") + "/" + src.lstrip("/")
+                img_url = f"https://images.weserv.nl/?url={src}&w=600&output=jpg"
+                break
+        return Recipe(
+            id=self.make_id(url),
+            source_url=url,
+            source_site=self.site_name,
+            title_ja=title_text,
+            description_ja=desc_text,
+            ingredients=ingredients,
+            steps_ja=steps,
+            image_url=img_url,
+        )
 
 # ─── Kewpie スクレイパー ─────────────────────────────────
 class KewpieScraper(BaseScraper):
