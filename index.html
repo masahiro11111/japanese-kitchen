@@ -119,8 +119,9 @@ function setLang(lang) {
   currentLang = lang;
   document.querySelector('.lang-select').value = lang;
   document.getElementById('search-input').placeholder = (SEC[lang]||SEC['en']).search_placeholder;
-  document.querySelector('.back-btn').textContent = (SEC[lang]||SEC['en']).back;
-  renderList();
+  const backBtn = document.querySelector('.back-btn');
+  if (backBtn) backBtn.textContent = (SEC[lang]||SEC['en']).back;
+  router();
 }
 
 // ── 検索 ──
@@ -134,10 +135,26 @@ function onSearch() {
   renderList();
 }
 
+// ── ハッシュルーター ──
+function router() {
+  const hash = location.hash;
+  if (hash.startsWith('#recipe/')) {
+    const id = hash.replace('#recipe/', '');
+    renderDetail(id);
+  } else {
+    renderListView();
+  }
+}
+
 // ── 一覧表示 ──
 function showList() {
+  location.hash = '';
+}
+
+function renderListView() {
   document.getElementById('list-view').style.display = 'block';
   document.getElementById('detail-view').style.display = 'none';
+  document.title = 'JapaneseKitchen';
   renderList();
 }
 
@@ -153,7 +170,7 @@ function renderList() {
     const imgHtml = r.image
       ? `<img src="${r.image}" alt="${title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=no-img>🍽️</div>'">`
       : `<div class="no-img">🍽️</div>`;
-    return `<div class="recipe-thumb" onclick="showDetail('${r.id}')">
+    return `<div class="recipe-thumb" onclick="location.hash='recipe/${r.id}'">
       ${imgHtml}
       <div class="thumb-body">
         <div class="thumb-title">${title}</div>
@@ -162,7 +179,6 @@ function renderList() {
     </div>`;
   }).join('');
 
-  // ページネーション
   const pag = document.getElementById('pagination');
   if (pages <= 1) { pag.innerHTML = ''; return; }
   const s = SEC[currentLang]||SEC['en'];
@@ -179,32 +195,32 @@ function goPage(p) {
 
 // ── 詳細表示 ──
 function showDetail(id) {
+  location.hash = 'recipe/' + id;
+}
+
+function renderDetail(id) {
   const r = RECIPES.find(x => x.id === id);
-  if (!r) return;
+  if (!r) { renderListView(); return; }
   const lang = currentLang;
   const s = SEC[lang]||SEC['en'];
 
-  // 画像
   const img = document.getElementById('d-img');
   if (r.image) { img.src = r.image; img.alt = r.title[lang]||r.title_ja; img.style.display='block'; }
   else img.style.display = 'none';
 
-  // タイトル・説明
   document.getElementById('d-title').textContent = r.title[lang]||r.title_ja;
   document.getElementById('d-desc').textContent  = r.desc[lang]||r.desc_ja||'';
+  document.title = (r.title[lang]||r.title_ja) + ' | JapaneseKitchen';
 
-  // 出典リンク
   const srcEl = document.getElementById('d-source');
-  srcEl.textContent = `${s.source}: ${r.source_site}`;
+  srcEl.textContent = s.source + ': ' + r.source_site;
   srcEl.href = r.source_url;
 
-  // セクション見出し
   document.getElementById('d-sec-ing').textContent   = s.ingredients;
   document.getElementById('d-sec-steps').textContent = s.steps;
   document.getElementById('d-aff-ttl').textContent   = s.buy;
   document.querySelector('.back-btn').textContent    = s.back;
 
-  // 材料
   const ingGrid = document.getElementById('d-ing-grid');
   ingGrid.innerHTML = r.ingredients.map(ing => {
     const name = (ing.translated&&ing.translated[lang]) || ing.name_ja;
@@ -219,14 +235,16 @@ function showDetail(id) {
     </div>`;
   }).join('');
 
-  // 手順
   const stepsList = r.steps[lang] || r.steps['en'] || [];
-  document.getElementById('d-steps-list').innerHTML = stepsList.map(s => `<li>${s}</li>`).join('');
+  document.getElementById('d-steps-list').innerHTML = stepsList.map(st => `<li>${st}</li>`).join('');
 
   document.getElementById('list-view').style.display   = 'none';
   document.getElementById('detail-view').style.display = 'block';
   window.scrollTo(0,0);
 }
+
+// ── ハッシュ変化を監視 ──
+window.addEventListener('hashchange', router);
 
 // ── GEO BLOCK JAPAN（テスト中は無効）──
 // async function checkGeo() {
@@ -241,12 +259,12 @@ function showDetail(id) {
 // }
 // checkGeo();
 
-// ── ブラウザ言語自動選択 ──
+// ── 初期化 ──
 (function() {
   const c = (navigator.language||'').toLowerCase().slice(0,2);
   const map = {'zh':'zh_cn','vi':'vi','hi':'hi','ru':'ru','th':'th','id':'id','ms':'ms','ko':'ko'};
   if (map[c]) { currentLang = map[c]; document.querySelector('.lang-select').value = map[c]; }
-  showList();
+  router();
 })();
 </script>
 </body>
