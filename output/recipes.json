@@ -87717,5 +87717,728 @@
         "샤키 샤키 새 양파가 들어간 감자 샐러드"
       ]
     }
+  },
+  {
+    "id": "1488e261",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=17488",
+    "source_site": "Mizkan",
+    "title_ja": "プリプリえびの楽勝炒め",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "むきえび（大）",
+        "amount": "６尾",
+        "name_translated": {
+          "en": "Peeled shrimp (large)",
+          "zh_tw": "去皮蝦（大）",
+          "zh_cn": "去皮虾（大）",
+          "vi": "Tôm bóc vỏ (lớn)",
+          "hi": "छिला हुआ झींगा (बड़ा)",
+          "ru": "Очищенные креветки (большие)",
+          "th": "กุ้งปอกเปลือก (ใหญ่)",
+          "id": "Udang kupas (besar)",
+          "ms": "Udang kupas (besar)",
+          "ko": "무키 새우 (대)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%80%E3%81%8D%E3%81%88%E3%81%B3%EF%BC%88%E5%A4%A7%EF%BC%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%80%E3%81%8D%E3%81%88%E3%81%B3%EF%BC%88%E5%A4%A7%EF%BC%89/?tag="
+      },
+      {
+        "name_ja": "ブロッコリー",
+        "amount": "１／２株",
+        "name_translated": {
+          "en": "broccoli",
+          "zh_tw": "綠色花椰菜",
+          "zh_cn": "西兰花",
+          "vi": "bông cải xanh",
+          "hi": "ब्रोकोली",
+          "ru": "брокколи",
+          "th": "บรอกโคลี",
+          "id": "brokoli",
+          "ms": "brokoli",
+          "ko": "브로콜리"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC/?tag="
+      },
+      {
+        "name_ja": "しょうが　（せん切り）",
+        "amount": "薄切り２枚分",
+        "name_translated": {
+          "en": "Ginger (sliced)",
+          "zh_tw": "薑（切片）",
+          "zh_cn": "姜（切片）",
+          "vi": "Gừng (thái lát)",
+          "hi": "अदरक (कटा हुआ)",
+          "ru": "Имбирь (нарезанный)",
+          "th": "ขิง (หั่นบาง ๆ )",
+          "id": "Jahe (irisan)",
+          "ms": "Halia (dihiris)",
+          "ko": "생강(전단)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%80%80%EF%BC%88%E3%81%9B%E3%82%93%E5%88%87%E3%82%8A%EF%BC%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%97%E3%82%87%E3%81%86%E3%81%8C%E3%80%80%EF%BC%88%E3%81%9B%E3%82%93%E5%88%87%E3%82%8A%EF%BC%89/?tag="
+      },
+      {
+        "name_ja": "ミツカン　カンタン酢",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "Mizkan Kantan Vinegar",
+          "zh_tw": "味滋康甘丹醋",
+          "zh_cn": "味滋康甘丹醋",
+          "vi": "Giấm Mizkan Kantan",
+          "hi": "मिज़कान कंटन सिरका",
+          "ru": "Мизкан Кантанский уксус",
+          "th": "น้ำส้มสายชูมิซกัน กันตัน",
+          "id": "Cuka Mizkan Kantan",
+          "ms": "Cuka Mizkan Kantan",
+          "ko": "미츠칸 칸탄초"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2/?tag="
+      },
+      {
+        "name_ja": "ごま油",
+        "amount": "小さじ２",
+        "name_translated": {
+          "en": "sesame oil",
+          "zh_tw": "香油",
+          "zh_cn": "香油",
+          "vi": "dầu mè",
+          "hi": "तिल का तेल",
+          "ru": "кунжутное масло",
+          "th": "น้ำมันงา",
+          "id": "minyak wijen",
+          "ms": "minyak bijan",
+          "ko": "참기름"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%94%E3%81%BE%E6%B2%B9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%94%E3%81%BE%E6%B2%B9/?tag="
+      },
+      {
+        "name_ja": "塩",
+        "amount": "少々",
+        "name_translated": {
+          "en": "salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "muối",
+          "hi": "नमक",
+          "ru": "соль",
+          "th": "เกลือ",
+          "id": "garam",
+          "ms": "garam",
+          "ko": "소금"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A1%A9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%A1%A9/?tag="
+      },
+      {
+        "name_ja": "こしょう",
+        "amount": "少々",
+        "name_translated": {
+          "en": "pepper",
+          "zh_tw": "胡椒",
+          "zh_cn": "胡椒",
+          "vi": "hạt tiêu",
+          "hi": "काली मिर्च",
+          "ru": "перец",
+          "th": "พริกไทย",
+          "id": "merica",
+          "ms": "lada",
+          "ko": "코쇼"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%93%E3%81%97%E3%82%87%E3%81%86&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%93%E3%81%97%E3%82%87%E3%81%86/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "えびは背ワタを取って塩をふり、そのまま２分ほどおく。流水で塩を洗い流し、水けをきる。ブロッコリーは小房に切り分ける。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "フライパンにごま油、しょうがを入れて中火で熱し、炒める。香りがたったらえびを加えてサッと炒める。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "えびの色が変わったら、塩、こしょうをふり、ブロッコリーを加える。ふたをして１分蒸し焼きにする。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "ふたを取り、「カンタン酢」を加えて水分がなくなるまで炒め、器に盛る。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      }
+    ],
+    "steps_ja": [
+      "えびは背ワタを取って塩をふり、そのまま２分ほどおく。流水で塩を洗い流し、水けをきる。ブロッコリーは小房に切り分ける。",
+      "フライパンにごま油、しょうがを入れて中火で熱し、炒める。香りがたったらえびを加えてサッと炒める。",
+      "えびの色が変わったら、塩、こしょうをふり、ブロッコリーを加える。ふたをして１分蒸し焼きにする。",
+      "ふたを取り、「カンタン酢」を加えて水分がなくなるまで炒め、器に盛る。"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Stir-fried juicy shrimp",
+      "zh_tw": "炒蝦仁多汁",
+      "zh_cn": "炒虾仁多汁",
+      "vi": "Tôm xào ngon ngọt",
+      "hi": "तली हुई रसदार झींगा",
+      "ru": "Жареные сочные креветки",
+      "th": "ผัดกุ้งฉ่ำๆ",
+      "id": "Udang berair tumis",
+      "ms": "Tumis udang juicy",
+      "ko": "프리프리 새우의 낙승 볶음"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Devein the shrimp, sprinkle with salt, and leave aside for about 2 minutes. Wash off the salt under running water and drain. Cut the broccoli into florets.",
+        "Add sesame oil and ginger to a frying pan and heat over medium heat. Once fragrant, add the shrimp and stir-fry.",
+        "When the shrimp change color, sprinkle with salt and pepper and add the broccoli. Cover and steam for 1 minute.",
+        "Remove the lid, add ``simple vinegar,'' stir-fry until the water evaporates, and serve in a bowl."
+      ],
+      "zh_tw": [
+        "將蝦子去掉蝦線，撒上鹽，放置約2分鐘。在流水下洗掉鹽並瀝乾。將西蘭花切成小花。",
+        "將芝麻油和薑放入煎鍋中，以中火加熱。炒出香味後，加入蝦，翻炒。",
+        "當蝦子變色時，撒上鹽和胡椒粉，然後加入西蘭花。蓋上蓋子蒸1分鐘。",
+        "取下蓋子，加入“簡單的醋”，炒至水蒸發，然後盛入碗中。"
+      ],
+      "zh_cn": [
+        "将虾去掉虾线，撒上盐，放置约2分钟。在流水下洗掉盐并沥干。将西兰花切成小花。",
+        "将芝麻油和姜放入煎锅中，用中火加热。炒出香味后，加入虾，翻炒。",
+        "当虾变色时，撒上盐和胡椒粉，然后加入西兰花。盖上盖子蒸1分钟。",
+        "取下盖子，加入“简单的醋”，炒至水蒸发，然后盛入碗中。"
+      ],
+      "vi": [
+        "Tôm lột vỏ, rắc muối rồi để khoảng 2 phút. Rửa sạch muối dưới vòi nước chảy và để ráo nước. Cắt bông cải xanh thành bông hoa.",
+        "Thêm dầu mè và gừng vào chảo rán và đun nóng trên lửa vừa. Khi đã thơm thì cho tôm vào xào chín.",
+        "Khi tôm đổi màu thì rắc muối tiêu rồi cho bông cải xanh vào. Đậy nắp và hấp trong 1 phút.",
+        "Mở nắp, thêm giấm đơn giản vào, xào cho đến khi nước bay hơi hết rồi cho ra bát."
+      ],
+      "hi": [
+        "झींगा को छीलें, नमक छिड़कें और लगभग 2 मिनट के लिए अलग रख दें। नमक को बहते पानी के नीचे धोकर छान लें। ब्रोकोली को फूलों में काटें।",
+        "एक फ्राइंग पैन में तिल का तेल और अदरक डालें और मध्यम आंच पर गर्म करें। खुशबू आने पर झींगा डालें और चलाते हुए भूनें।",
+        "जब झींगा का रंग बदल जाए, तो नमक और काली मिर्च छिड़कें और ब्रोकोली डालें। 1 मिनट के लिए ढककर भाप में पकाएं।",
+        "ढक्कन हटाएँ, ``साधारण सिरका'' डालें, पानी के वाष्पित होने तक हिलाएँ और एक कटोरे में परोसें।"
+      ],
+      "ru": [
+        "Очистите креветки, посыпьте солью и оставьте примерно на 2 минуты. Смойте соль под проточной водой и слейте воду. Разрежьте брокколи на соцветия.",
+        "Добавьте кунжутное масло и имбирь в сковороду и нагрейте на среднем огне. Когда появится аромат, добавьте креветки и обжарьте.",
+        "Когда креветки изменят цвет, посыпьте солью и перцем и добавьте брокколи. Накройте крышкой и готовьте на пару 1 минуту.",
+        "Снимите крышку, добавьте «простой уксус», обжаривайте, пока вода не испарится, и подавайте в миске."
+      ],
+      "th": [
+        "ผ่ากุ้งออก โรยด้วยเกลือ พักไว้ประมาณ 2 นาที ล้างเกลือใต้น้ำไหลแล้วสะเด็ดน้ำ หั่นบรอกโคลีเป็นดอกย่อย",
+        "ใส่น้ำมันงาและขิงลงในกระทะแล้วตั้งไฟบนไฟร้อนปานกลาง เมื่อมีกลิ่นหอมแล้วจึงใส่กุ้งลงไปผัด",
+        "เมื่อกุ้งเปลี่ยนสี ให้โรยเกลือ พริกไทย แล้วใส่บรอกโคลี ปิดฝาและนึ่งเป็นเวลา 1 นาที",
+        "เปิดฝาออก เติม ``น้ำส้มสายชูธรรมดา'' ผัดจนน้ำระเหย แล้วเสิร์ฟในชาม"
+      ],
+      "id": [
+        "Pisahkan udang, taburi dengan garam, dan diamkan selama kurang lebih 2 menit. Cuci garam dengan air mengalir dan tiriskan. Potong brokoli menjadi kuntum.",
+        "Tambahkan minyak wijen dan jahe ke dalam wajan dan panaskan dengan api sedang. Setelah harum, masukkan udang dan tumis.",
+        "Jika udang sudah berubah warna, taburi garam dan merica, lalu tambahkan brokoli. Tutup dan kukus selama 1 menit.",
+        "Buka tutupnya, tambahkan ``cuka sederhana'', tumis hingga air menguap, dan sajikan dalam mangkuk."
+      ],
+      "ms": [
+        "Devein udang, taburkan dengan garam, dan biarkan selama kira-kira 2 minit. Basuh garam di bawah air yang mengalir dan toskan. Potong brokoli menjadi bunga.",
+        "Masukkan minyak bijan dan halia ke dalam kuali dan panaskan dengan api sederhana. Setelah naik bau, masukkan udang dan tumis.",
+        "Apabila udang berubah warna, taburkan garam dan lada sulah dan masukkan brokoli. Tutup dan kukus selama 1 minit.",
+        "Keluarkan penutup, tambah ``cuka ringkas,'' tumis sehingga air sejat, dan hidangkan dalam mangkuk."
+      ],
+      "ko": [
+        "새우는 등을 잡고 소금을 뿌리고 그대로 2분 정도 둔다. 흐르는 물로 소금을 헹구고 물을 닦는다. 브로콜리는 소방으로 잘라낸다.",
+        "프라이팬에 참기름, 생강을 넣고 중불로 가열하고 볶는다. 향기가 쌓이면 새우를 넣고 살짝 볶는다.",
+        "새우의 색이 바뀌면 소금, 후추를 척하고 브로콜리를 넣는다. 뚜껑을 덮고 1분간 찐 굽는다.",
+        "뚜껑을 꺼내 \"간단식초\"를 넣고 수분이 없어질 때까지 볶아 그릇에 담는다."
+      ]
+    }
+  },
+  {
+    "id": "16c2b0a4",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=21428",
+    "source_site": "Mizkan",
+    "title_ja": "とろ～り！小松菜とひき肉のあんかけ焼きそば",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "焼きそば用中華めん",
+        "amount": "２玉",
+        "name_translated": {
+          "en": "Chinese noodles for fried noodles",
+          "zh_tw": "中國麵 炒麵",
+          "zh_cn": "中国面条 炒面",
+          "vi": "Mì Trung Quốc cho mì xào",
+          "hi": "तले हुए नूडल्स के लिए चीनी नूडल्स",
+          "ru": "Китайская лапша для жареной лапши",
+          "th": "บะหมี่จีนสำหรับผัดหมี่",
+          "id": "Mie Cina untuk mie goreng",
+          "ms": "Mee cina untuk mee goreng",
+          "ko": "야키소바용 중화면"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%84%BC%E3%81%8D%E3%81%9D%E3%81%B0%E7%94%A8%E4%B8%AD%E8%8F%AF%E3%82%81%E3%82%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%84%BC%E3%81%8D%E3%81%9D%E3%81%B0%E7%94%A8%E4%B8%AD%E8%8F%AF%E3%82%81%E3%82%93/?tag="
+      },
+      {
+        "name_ja": "豚ひき肉",
+        "amount": "１５０ｇ",
+        "name_translated": {
+          "en": "minced pork",
+          "zh_tw": "豬肉末",
+          "zh_cn": "猪肉末",
+          "vi": "thịt lợn băm",
+          "hi": "कीमा बनाया हुआ सूअर का मांस",
+          "ru": "свиной фарш",
+          "th": "หมูสับ",
+          "id": "daging babi cincang",
+          "ms": "daging babi cincang",
+          "ko": "돼지고기 고기"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%B1%9A%E3%81%B2%E3%81%8D%E8%82%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%B1%9A%E3%81%B2%E3%81%8D%E8%82%89/?tag="
+      },
+      {
+        "name_ja": "小松菜",
+        "amount": "１／２束（１５０ｇ）",
+        "name_translated": {
+          "en": "Komatsuna",
+          "zh_tw": "小松綱",
+          "zh_cn": "小松纲",
+          "vi": "komatsuna",
+          "hi": "कोमात्सुना",
+          "ru": "Комацуна",
+          "th": "โคมัตสึนะ",
+          "id": "Komatsuna",
+          "ms": "Komatsuna",
+          "ko": "고마츠나"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%B0%8F%E6%9D%BE%E8%8F%9C&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%B0%8F%E6%9D%BE%E8%8F%9C/?tag="
+      },
+      {
+        "name_ja": "にんじん",
+        "amount": "１／３本（５０ｇ）",
+        "name_translated": {
+          "en": "carrot",
+          "zh_tw": "紅蘿蔔",
+          "zh_cn": "胡萝卜",
+          "vi": "cà rốt",
+          "hi": "गाजर",
+          "ru": "морковь",
+          "th": "แครอท",
+          "id": "wortel",
+          "ms": "lobak merah",
+          "ko": "당근"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%AB%E3%82%93%E3%81%98%E3%82%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%AB%E3%82%93%E3%81%98%E3%82%93/?tag="
+      },
+      {
+        "name_ja": "ごま油",
+        "amount": "大さじ１／２",
+        "name_translated": {
+          "en": "sesame oil",
+          "zh_tw": "香油",
+          "zh_cn": "香油",
+          "vi": "dầu mè",
+          "hi": "तिल का तेल",
+          "ru": "кунжутное масло",
+          "th": "น้ำมันงา",
+          "id": "minyak wijen",
+          "ms": "minyak bijan",
+          "ko": "참기름"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%94%E3%81%BE%E6%B2%B9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%94%E3%81%BE%E6%B2%B9/?tag="
+      },
+      {
+        "name_ja": "水",
+        "amount": "２００ｍｌ",
+        "name_translated": {
+          "en": "water",
+          "zh_tw": "水",
+          "zh_cn": "水",
+          "vi": "Nước",
+          "hi": "पानी",
+          "ru": "вода",
+          "th": "น้ำ",
+          "id": "air",
+          "ms": "air",
+          "ko": "물"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E6%B0%B4&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E6%B0%B4/?tag="
+      },
+      {
+        "name_ja": "ミツカン　カンタン酢",
+        "amount": "大さじ４",
+        "name_translated": {
+          "en": "Mizkan Kantan Vinegar",
+          "zh_tw": "味滋康甘丹醋",
+          "zh_cn": "味滋康甘丹醋",
+          "vi": "Giấm Mizkan Kantan",
+          "hi": "मिज़कान कंटन सिरका",
+          "ru": "Мизкан Кантанский уксус",
+          "th": "น้ำส้มสายชูมิซกัน กันตัน",
+          "id": "Cuka Mizkan Kantan",
+          "ms": "Cuka Mizkan Kantan",
+          "ko": "미츠칸 칸탄초"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2/?tag="
+      },
+      {
+        "name_ja": "しょうゆ",
+        "amount": "大さじ１と１／２",
+        "name_translated": {
+          "en": "soy sauce",
+          "zh_tw": "醬油",
+          "zh_cn": "酱油",
+          "vi": "nước tương",
+          "hi": "सोया सॉस",
+          "ru": "соевый соус",
+          "th": "ซอสถั่วเหลือง",
+          "id": "kecap",
+          "ms": "kicap",
+          "ko": "간장"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%97%E3%82%87%E3%81%86%E3%82%86&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%97%E3%82%87%E3%81%86%E3%82%86/?tag="
+      },
+      {
+        "name_ja": "片栗粉",
+        "amount": "大さじ１と１／２",
+        "name_translated": {
+          "en": "potato starch",
+          "zh_tw": "馬鈴薯澱粉",
+          "zh_cn": "马铃薯淀粉",
+          "vi": "tinh bột khoai tây",
+          "hi": "आलू स्टार्च",
+          "ru": "картофельный крахмал",
+          "th": "แป้งมันฝรั่ง",
+          "id": "tepung kentang",
+          "ms": "kanji kentang",
+          "ko": "가문 가루"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%89%87%E6%A0%97%E7%B2%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%89%87%E6%A0%97%E7%B2%89/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "にする。中華めんは袋の上からもみほぐす。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "フライパンにごま油を入れて中火にかけ、中華めんを平らに広げて焼く。時々フライパンを回しながら炒め、パリッとして焼き色がついたら皿に盛り付ける。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "同じフライパンに、豚ひき肉を入れて中火にかけて炒める。肉の色が変わってきたらにんじん、小松菜の順に加えて炒める。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "にかける。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      },
+      {
+        "name_ja": "豚バラと小松菜と卵の旨辛炒め",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Spicy stir-fried pork belly, komatsuna and egg",
+          "zh_tw": "辣炒五花肉、小松菜和雞蛋",
+          "zh_cn": "辣炒五花肉、小松菜和鸡蛋",
+          "vi": "Thịt ba chỉ xào cay, komatsuna và trứng",
+          "hi": "मसालेदार तली हुई पोर्क बेली, कोमात्सुना और अंडा",
+          "ru": "Острая жареная свиная грудинка, комацуна и яйцо",
+          "th": "หมูสามชั้นผัดเผ็ด โคมัตสึน่า และไข่",
+          "id": "Perut babi tumis pedas, komatsuna, dan telur",
+          "ms": "Perut babi tumis pedas, komatsuna dan telur",
+          "ko": "돼지 장미와 소송채와 달걀 맛"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%B1%9A%E3%83%90%E3%83%A9%E3%81%A8%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%A8%E5%8D%B5%E3%81%AE%E6%97%A8%E8%BE%9B%E7%82%92%E3%82%81&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%B1%9A%E3%83%90%E3%83%A9%E3%81%A8%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%A8%E5%8D%B5%E3%81%AE%E6%97%A8%E8%BE%9B%E7%82%92%E3%82%81/?tag="
+      },
+      {
+        "name_ja": "鶏肉と小松菜のガーリックバタぽん炒め",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Stir-fried chicken and komatsuna with garlic batter",
+          "zh_tw": "大蒜麵糊炒雞肉和小松菜",
+          "zh_cn": "大蒜面糊炒鸡肉和小松菜",
+          "vi": "Gà xào và komatsuna với bột tỏi",
+          "hi": "लहसुन के घोल के साथ तले हुए चिकन और कोमात्सुना",
+          "ru": "Жареная курица и комацуна в чесночном кляре",
+          "th": "ไก่ผัดโคมัตสึน่ากับแป้งกระเทียม",
+          "id": "Ayam goreng tumis dan komatsuna dengan adonan bawang putih",
+          "ms": "Ayam goreng dan komatsuna dengan adunan bawang putih",
+          "ko": "닭고기와 고송나무 마늘 버터 볶음"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%B6%8F%E8%82%89%E3%81%A8%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%AA%E3%83%83%E3%82%AF%E3%83%90%E3%82%BF%E3%81%BD%E3%82%93%E7%82%92%E3%82%81&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%B6%8F%E8%82%89%E3%81%A8%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%AE%E3%82%AC%E3%83%BC%E3%83%AA%E3%83%83%E3%82%AF%E3%83%90%E3%82%BF%E3%81%BD%E3%82%93%E7%82%92%E3%82%81/?tag="
+      },
+      {
+        "name_ja": "レンジで！小松菜とちくわのマヨポンサラダ",
+        "amount": "適量",
+        "name_translated": {
+          "en": "In the microwave! Komatsuna and chikuwa mayopon salad",
+          "zh_tw": "在微波爐裡！小松菜和竹輪蛋黃醬沙拉",
+          "zh_cn": "在微波炉里！小松菜和竹轮蛋黄酱沙拉",
+          "vi": "Trong lò vi sóng! Salad sốt mayopon Komatsuna và chikuwa",
+          "hi": "माइक्रोवेव में! कोमात्सुना और चिकुवा मेयोपोन सलाद",
+          "ru": "В микроволновке! Салат из майонеза комацуна и тикува",
+          "th": "ในไมโครเวฟ! สลัดโคมัตสึน่าและมาโยปอนชิกุวะ",
+          "id": "Di dalam microwave! Salad mayopon Komatsuna dan chikuwa",
+          "ms": "Dalam ketuhar gelombang mikro! Komatsuna dan salad mayopon chikuwa",
+          "ko": "범위에서! 고마쓰나와 치쿠와 마요폰 샐러드"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%A7%EF%BC%81%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%A8%E3%81%A1%E3%81%8F%E3%82%8F%E3%81%AE%E3%83%9E%E3%83%A8%E3%83%9D%E3%83%B3%E3%82%B5%E3%83%A9%E3%83%80&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AC%E3%83%B3%E3%82%B8%E3%81%A7%EF%BC%81%E5%B0%8F%E6%9D%BE%E8%8F%9C%E3%81%A8%E3%81%A1%E3%81%8F%E3%82%8F%E3%81%AE%E3%83%9E%E3%83%A8%E3%83%9D%E3%83%B3%E3%82%B5%E3%83%A9%E3%83%80/?tag="
+      }
+    ],
+    "steps_ja": [
+      "小松菜は４ｃｍ長さのざく切りに、にんじんは４ｃｍ長さの短冊切りにする。中華めんは袋の上からもみほぐす。",
+      "フライパンにごま油を入れて中火にかけ、中華めんを平らに広げて焼く。時々フライパンを回しながら炒め、パリッとして焼き色がついたら皿に盛り付ける。",
+      "同じフライパンに、豚ひき肉を入れて中火にかけて炒める。肉の色が変わってきたらにんじん、小松菜の順に加えて炒める。",
+      "全体に火が通ったら、よく混ぜ合わせた＜Ａ＞を加える。混ぜながらとろみがつくまで加熱をし、２にかける。",
+      "豚バラと小松菜と卵の旨辛炒め",
+      "鶏肉と小松菜のガーリックバタぽん炒め",
+      "レンジで！小松菜とちくわのマヨポンサラダ"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Sooty! Yakisoba with ankake sauce of komatsuna and minced meat",
+      "zh_tw": "烏黑的！小松菜紅燒醬和肉末炒麵",
+      "zh_cn": "乌黑的！小松菜红烧酱和肉末炒面",
+      "vi": "Bẩn thỉu! Yakisoba với sốt ankake komatsuna và thịt băm",
+      "hi": "कालिख! कोमात्सुना और कीमा बनाया हुआ मांस के एंकके सॉस के साथ याकिसोबा",
+      "ru": "Уголек! Якисоба с соусом анкаке из комацуны и мясным фаршем",
+      "th": "ซูตตี้! ยากิโซบะกับซอสอังคาเกะของโคมัตสึน่าและเนื้อสับ",
+      "id": "Hitam! Yakisoba dengan saus ankake komatsuna dan daging cincang",
+      "ms": "Jelaga! Yakisoba dengan sos ankake komatsuna dan daging cincang",
+      "ko": "토로~리! 고마쓰나와 닭고기의 앙케 야키소바"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Cut the komatsuna into 4cm long pieces, and cut the carrots into 4cm long strips. Loosen the Chinese noodles from the top of the bag.",
+        "Add sesame oil to a frying pan, heat over medium heat, and spread the Chinese noodles out evenly. Stir occasionally, rotating the frying pan, until crispy and golden, then transfer to a plate.",
+        "Add the minced pork to the same frying pan and stir-fry over medium heat. When the meat changes color, add carrots and komatsuna in that order and stir-fry.",
+        "Once the mixture is fully cooked, add <A> that has been mixed well. Heat while stirring until it thickens, then add to Step 2.",
+        "Spicy stir-fried pork belly, komatsuna and egg",
+        "Stir-fried chicken and komatsuna with garlic batter",
+        "In the microwave! Komatsuna and chikuwa mayopon salad"
+      ],
+      "zh_tw": [
+        "小松菜切成4公分長的片，紅蘿蔔切成4公分長的條狀。從袋子頂部鬆開中國麵條。",
+        "煎鍋中加入芝麻油，以中火加熱，將麵條攤平。偶爾攪拌，旋轉煎鍋，直至酥脆金黃，然後轉移到盤子上。",
+        "將豬肉末加入同一個煎鍋中，以中火翻炒。當肉變色時，依序加入紅蘿蔔和小松菜，翻炒。",
+        "混合物完全煮熟後，加入已充分混合的<A>。邊加熱邊攪拌至濃稠，然後加入步驟2。",
+        "辣炒五花肉、小松菜和雞蛋",
+        "大蒜麵糊炒雞肉和小松菜",
+        "在微波爐裡！小松菜和竹輪蛋黃醬沙拉"
+      ],
+      "zh_cn": [
+        "小松菜切成4厘米长的片，胡萝卜切成4厘米长的条。从袋子顶部松开中国面条。",
+        "煎锅中加入芝麻油，中火加热，将面条摊平。偶尔搅拌，旋转煎锅，直至酥脆金黄，然后转移到盘子上。",
+        "将猪肉末加入同一个煎锅中，用中火翻炒。当肉变色时，依次加入胡萝卜和小松菜，翻炒。",
+        "混合物完全煮熟后，加入已充分混合的<A>。边加热边搅拌直至变稠，然后加入步骤2中。",
+        "辣炒五花肉、小松菜和鸡蛋",
+        "大蒜面糊炒鸡肉和小松菜",
+        "在微波炉里！小松菜和竹轮蛋黄酱沙拉"
+      ],
+      "vi": [
+        "Cắt komatsuna thành miếng dài 4cm và cắt cà rốt thành dải dài 4cm. Nới lỏng mì Trung Quốc ra khỏi đầu túi.",
+        "Cho dầu mè vào chảo, đun nóng ở lửa vừa và dàn đều mì Trung Quốc. Thỉnh thoảng đảo đều, xoay chảo cho đến khi giòn và vàng đều thì chuyển ra đĩa.",
+        "Thêm thịt lợn băm vào chảo rán tương tự và xào trên lửa vừa. Khi thịt đổi màu, lần lượt cho cà rốt và komatsuna vào xào chín.",
+        "Sau khi hỗn hợp đã chín hoàn toàn, thêm <A> đã được trộn đều. Vừa đun vừa khuấy cho đến khi đặc lại thì thêm vào Bước 2.",
+        "Thịt ba chỉ xào cay, komatsuna và trứng",
+        "Gà xào và komatsuna với bột tỏi",
+        "Trong lò vi sóng! Salad sốt mayopon Komatsuna và chikuwa"
+      ],
+      "hi": [
+        "कोमात्सुना को 4 सेमी लंबे टुकड़ों में काटें, और गाजर को 4 सेमी लंबी स्ट्रिप्स में काटें। चीनी नूडल्स को बैग के ऊपर से ढीला कर दें।",
+        "एक फ्राइंग पैन में तिल का तेल डालें, मध्यम आंच पर गर्म करें और चीनी नूडल्स को समान रूप से फैलाएं। बीच-बीच में फ्राइंग पैन को घुमाते हुए कुरकुरा और सुनहरा होने तक हिलाएं, फिर एक प्लेट में निकाल लें।",
+        "उसी फ्राइंग पैन में कीमा बनाया हुआ सूअर का मांस डालें और मध्यम आंच पर भूनें। जब मांस का रंग बदल जाए, तो उसी क्रम में गाजर और कोमात्सुना डालें और हिलाएँ।",
+        "जब मिश्रण पूरी तरह से पक जाए तो इसमें <A> डालें जो अच्छी तरह से मिक्स हो गया हो। गाढ़ा होने तक हिलाते हुए गर्म करें, फिर चरण 2 में डालें।",
+        "मसालेदार तली हुई पोर्क बेली, कोमात्सुना और अंडा",
+        "लहसुन के घोल के साथ तले हुए चिकन और कोमात्सुना",
+        "माइक्रोवेव में! कोमात्सुना और चिकुवा मेयोपोन सलाद"
+      ],
+      "ru": [
+        "Комацуну нарежьте кусочками длиной 4 см, а морковь нарежьте полосками длиной 4 см. Снимите китайскую лапшу с верхней части пакета.",
+        "Добавьте кунжутное масло в сковороду, нагрейте на среднем огне и равномерно распределите китайскую лапшу. Время от времени помешивайте, вращая сковороду, пока она не станет хрустящей и золотистой, затем переложите на тарелку.",
+        "Добавьте свиной фарш в ту же сковороду и обжарьте, помешивая, на среднем огне. Когда мясо изменит цвет, добавьте в указанном порядке морковь и комацуну и обжарьте, помешивая.",
+        "Когда смесь будет полностью готова, добавьте хорошо перемешанный <A>. Нагревайте, помешивая, пока он не загустеет, затем добавьте к шагу 2.",
+        "Острая жареная свиная грудинка, комацуна и яйцо",
+        "Жареная курица и комацуна в чесночном кляре",
+        "В микроволновке! Салат из майонеза комацуна и тикува"
+      ],
+      "th": [
+        "ตัดโคมัตสึน่าเป็นชิ้นยาว 4 ซม. และตัดแครอทเป็นเส้นยาว 4 ซม. คลายเส้นขนมจีนออกจากด้านบนของถุง",
+        "ใส่น้ำมันงาลงในกระทะ ตั้งไฟร้อนปานกลาง และเกลี่ยเส้นบะหมี่ให้ทั่ว คนเป็นระยะๆ โดยหมุนกระทะจนกรอบและเป็นสีทอง จากนั้นจึงตักใส่จาน",
+        "ใส่หมูสับลงในกระทะใบเดียวกันแล้วผัดด้วยไฟปานกลาง เมื่อเนื้อเปลี่ยนสี ให้ใส่แครอทและโคมัตสึน่าตามลำดับแล้วผัด",
+        "เมื่อส่วนผสมสุกเต็มที่แล้ว ให้เติม <A> ที่ผสมให้เข้ากันแล้ว ตั้งไฟขณะกวนจนข้น จากนั้นจึงเพิ่มในขั้นตอนที่ 2",
+        "หมูสามชั้นผัดเผ็ด โคมัตสึน่า และไข่",
+        "ไก่ผัดโคมัตสึน่ากับแป้งกระเทียม",
+        "ในไมโครเวฟ! สลัดโคมัตสึน่าและมาโยปอนชิกุวะ"
+      ],
+      "id": [
+        "Potong komatsuna menjadi potongan sepanjang 4 cm, dan potong wortel menjadi potongan sepanjang 4 cm. Kendurkan mie Cina dari atas kantong.",
+        "Tambahkan minyak wijen ke dalam penggorengan, panaskan dengan api sedang, dan oleskan mie Cina secara merata. Aduk sesekali sambil memutar penggorengan hingga renyah dan berwarna keemasan, lalu pindahkan ke piring.",
+        "Tambahkan daging babi cincang ke dalam penggorengan yang sama dan tumis dengan api sedang. Jika daging sudah berubah warna, masukkan wortel dan komatsuna secara berurutan, lalu tumis.",
+        "Setelah adonan matang, masukkan <A> yang sudah tercampur rata. Panaskan sambil diaduk hingga mengental, lalu tambahkan ke Langkah 2.",
+        "Perut babi tumis pedas, komatsuna, dan telur",
+        "Ayam goreng tumis dan komatsuna dengan adonan bawang putih",
+        "Di dalam microwave! Salad mayopon Komatsuna dan chikuwa"
+      ],
+      "ms": [
+        "Potong komatsuna menjadi kepingan sepanjang 4cm, dan potong lobak merah menjadi jalur sepanjang 4cm. Longgarkan mee cina dari atas beg.",
+        "Masukkan minyak bijan ke dalam kuali, panaskan dengan api sederhana, dan ratakan mee Cina. Kacau sekali-sekala, putar kuali, sehingga garing dan keemasan, kemudian pindahkan ke dalam pinggan.",
+        "Masukkan daging babi cincang ke dalam kuali yang sama dan tumis dengan api sederhana. Apabila daging berubah warna, masukkan lobak merah dan komatsuna mengikut urutan itu dan tumis.",
+        "Setelah adunan masak sepenuhnya, masukkan <A> yang telah digaul rata. Panaskan sambil kacau sehingga pekat, kemudian masukkan ke Langkah 2.",
+        "Perut babi tumis pedas, komatsuna dan telur",
+        "Ayam goreng dan komatsuna dengan adunan bawang putih",
+        "Dalam ketuhar gelombang mikro! Komatsuna dan salad mayopon chikuwa"
+      ],
+      "ko": [
+        "고마츠나는 4cm 길이의 자르고, 당근은 4cm 길이의 스트립으로 자른다. 중화면은 가방 위에서 모미호구스.",
+        "프라이팬에 참기름을 넣고 중화에 넣고 중화면을 평평하게 펴서 굽는다. 가끔 프라이팬을 돌리면서 볶아 파리로 구운 색이 붙으면 접시에 담는다.",
+        "같은 프라이팬에 돼지고기 고기를 넣고 중불에 볶는다. 고기의 색이 바뀌면 당근, 고마츠나의 순서에 더해 볶는다.",
+        "전체에 불이 지나면 잘 섞은 <A>를 더한다. 섞으면서 녹이 붙을 때까지 가열을 해, 2에 걸린다.",
+        "돼지 장미와 소송채와 달걀 맛",
+        "닭고기와 고송나무 마늘 버터 볶음",
+        "범위에서! 고마쓰나와 치쿠와 마요폰 샐러드"
+      ]
+    }
   }
 ]
