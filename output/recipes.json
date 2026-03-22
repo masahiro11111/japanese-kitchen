@@ -88440,5 +88440,782 @@
         "범위에서! 고마쓰나와 치쿠와 마요폰 샐러드"
       ]
     }
+  },
+  {
+    "id": "a5639cda",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=9369",
+    "source_site": "Mizkan",
+    "title_ja": "鶏とほうれんそうのクリームパスタ",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "スパゲティ",
+        "amount": "２００ｇ",
+        "name_translated": {
+          "en": "spaghetti",
+          "zh_tw": "義大利細麵條",
+          "zh_cn": "意大利细面条",
+          "vi": "spaghetti",
+          "hi": "स्पेगेटी",
+          "ru": "спагетти",
+          "th": "ปาเก็ตตี้",
+          "id": "spageti",
+          "ms": "spageti",
+          "ko": "스파게티"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%91%E3%82%B2%E3%83%86%E3%82%A3&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%83%91%E3%82%B2%E3%83%86%E3%82%A3/?tag="
+      },
+      {
+        "name_ja": "鶏むね肉",
+        "amount": "１／２枚",
+        "name_translated": {
+          "en": "chicken breast",
+          "zh_tw": "雞胸肉",
+          "zh_cn": "鸡胸肉",
+          "vi": "ức gà",
+          "hi": "चिकन ब्रेस्ट",
+          "ru": "куриная грудка",
+          "th": "อกไก่",
+          "id": "dada ayam",
+          "ms": "dada ayam",
+          "ko": "닭고기 고기"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%B6%8F%E3%82%80%E3%81%AD%E8%82%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%B6%8F%E3%82%80%E3%81%AD%E8%82%89/?tag="
+      },
+      {
+        "name_ja": "ほうれんそう",
+        "amount": "１／２束",
+        "name_translated": {
+          "en": "Spinach",
+          "zh_tw": "菠菜",
+          "zh_cn": "菠菜",
+          "vi": "Rau chân vịt",
+          "hi": "पालक",
+          "ru": "Шпинат",
+          "th": "ผักโขม",
+          "id": "Bayam",
+          "ms": "Bayam",
+          "ko": "시금치"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%BB%E3%81%86%E3%82%8C%E3%82%93%E3%81%9D%E3%81%86&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%BB%E3%81%86%E3%82%8C%E3%82%93%E3%81%9D%E3%81%86/?tag="
+      },
+      {
+        "name_ja": "片栗粉",
+        "amount": "適量",
+        "name_translated": {
+          "en": "potato starch",
+          "zh_tw": "馬鈴薯澱粉",
+          "zh_cn": "马铃薯淀粉",
+          "vi": "tinh bột khoai tây",
+          "hi": "आलू स्टार्च",
+          "ru": "картофельный крахмал",
+          "th": "แป้งมันฝรั่ง",
+          "id": "tepung kentang",
+          "ms": "kanji kentang",
+          "ko": "가문 가루"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%89%87%E6%A0%97%E7%B2%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%89%87%E6%A0%97%E7%B2%89/?tag="
+      },
+      {
+        "name_ja": "塩",
+        "amount": "少々",
+        "name_translated": {
+          "en": "salt",
+          "zh_tw": "鹽",
+          "zh_cn": "盐",
+          "vi": "muối",
+          "hi": "नमक",
+          "ru": "соль",
+          "th": "เกลือ",
+          "id": "garam",
+          "ms": "garam",
+          "ko": "소금"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E5%A1%A9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E5%A1%A9/?tag="
+      },
+      {
+        "name_ja": "サラダ油　（炒め用）",
+        "amount": "大さじ１強",
+        "name_translated": {
+          "en": "Salad oil (for stir-frying)",
+          "zh_tw": "沙拉油（炒用）",
+          "zh_cn": "色拉油（炒用）",
+          "vi": "Dầu salad (để xào)",
+          "hi": "सलाद तेल (तलने के लिए)",
+          "ru": "Салатное масло (для жарки)",
+          "th": "น้ำมันสลัด (สำหรับผัด)",
+          "id": "Minyak salad (untuk menumis)",
+          "ms": "Minyak salad (untuk menumis)",
+          "ko": "샐러드유(볶음용)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E3%80%80%EF%BC%88%E7%82%92%E3%82%81%E7%94%A8%EF%BC%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9%E3%80%80%EF%BC%88%E7%82%92%E3%82%81%E7%94%A8%EF%BC%89/?tag="
+      },
+      {
+        "name_ja": "牛乳",
+        "amount": "２００ｍｌ",
+        "name_translated": {
+          "en": "milk",
+          "zh_tw": "牛奶",
+          "zh_cn": "牛奶",
+          "vi": "sữa",
+          "hi": "दूध",
+          "ru": "молоко",
+          "th": "น้ำนม",
+          "id": "susu",
+          "ms": "susu",
+          "ko": "우유"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%89%9B%E4%B9%B3&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%89%9B%E4%B9%B3/?tag="
+      },
+      {
+        "name_ja": "ミツカン　プロが使う味　白だし",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "Mizkan - Flavor used by professionals - White dashi",
+          "zh_tw": "口味滋康 - 專業人士使用的風味 - 白高湯",
+          "zh_cn": "味滋康 - 专业人士使用的风味 - 白高汤",
+          "vi": "Mizkan - Hương vị được giới chuyên môn sử dụng - Dashi trắng",
+          "hi": "मिज़कान - पेशेवरों द्वारा उपयोग किया जाने वाला स्वाद - सफेद दशी",
+          "ru": "Мизкан - Аромат, используемый профессионалами - Белый даси",
+          "th": "มิซคาน - รสชาติที่มืออาชีพใช้ - ดาชิสีขาว",
+          "id": "Mizkan - Rasa yang digunakan oleh para profesional - Dashi putih",
+          "ms": "Mizkan - Perisa yang digunakan oleh profesional - Dashi putih",
+          "ko": "미츠칸 프로가 사용하는 맛 흰색입니다."
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%83%97%E3%83%AD%E3%81%8C%E4%BD%BF%E3%81%86%E5%91%B3%E3%80%80%E7%99%BD%E3%81%A0%E3%81%97&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%83%97%E3%83%AD%E3%81%8C%E4%BD%BF%E3%81%86%E5%91%B3%E3%80%80%E7%99%BD%E3%81%A0%E3%81%97/?tag="
+      },
+      {
+        "name_ja": "バター",
+        "amount": "１０ｇ",
+        "name_translated": {
+          "en": "butter",
+          "zh_tw": "奶油",
+          "zh_cn": "黄油",
+          "vi": "bơ",
+          "hi": "मक्खन",
+          "ru": "масло",
+          "th": "เนย",
+          "id": "mentega",
+          "ms": "mentega",
+          "ko": "버터"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%90%E3%82%BF%E3%83%BC&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%90%E3%82%BF%E3%83%BC/?tag="
+      },
+      {
+        "name_ja": "ブラックペッパー",
+        "amount": "適量",
+        "name_translated": {
+          "en": "black pepper",
+          "zh_tw": "黑胡椒",
+          "zh_cn": "黑胡椒",
+          "vi": "hạt tiêu đen",
+          "hi": "काली मिर्च",
+          "ru": "черный перец",
+          "th": "พริกไทยดำ",
+          "id": "lada hitam",
+          "ms": "lada hitam",
+          "ko": "블랙 페퍼"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9A%E3%83%83%E3%83%91%E3%83%BC/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "鍋にたっぷりの湯を沸かし、塩（分量外）を入れ、表示時間より２分短めの時間でスパゲティをゆでる。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "にし、ポリ袋に塩、片栗粉と一緒に入れ、全体にまぶす。ほうれんそうは３～４等分に切る。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "を加える。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "全体をよく混ぜながら加熱し、少しとろみが付いたら皿に盛り付ける。仕上げにブラックペッパーをかけていただく。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      },
+      {
+        "name_ja": "白だしで作るサーモンクリームパスタ",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Salmon cream pasta made with white soup stock",
+          "zh_tw": "白湯汁鮭魚奶油義大利麵",
+          "zh_cn": "白汤汁三文鱼奶油意大利面",
+          "vi": "Pasta kem cá hồi làm từ nước súp trắng",
+          "hi": "सफेद सूप स्टॉक से बना सैल्मन क्रीम पास्ता",
+          "ru": "Паста с лососем и кремом на белом суповом бульоне",
+          "th": "พาสต้าครีมปลาแซลมอนทำจากน้ำซุปขาว",
+          "id": "Pasta krim salmon dibuat dengan kaldu sup putih",
+          "ms": "Pasta krim salmon dibuat dengan stok sup putih",
+          "ko": "흰색 국물로 만든 연어 크림 파스타"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%99%BD%E3%81%A0%E3%81%97%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%91%E3%82%B9%E3%82%BF&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%99%BD%E3%81%A0%E3%81%97%E3%81%A7%E4%BD%9C%E3%82%8B%E3%82%B5%E3%83%BC%E3%83%A2%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%91%E3%82%B9%E3%82%BF/?tag="
+      },
+      {
+        "name_ja": "鶏肉とブロッコリーの和風クリーム煮",
+        "amount": "適量",
+        "name_translated": {
+          "en": "Japanese-style cream stew with chicken and broccoli",
+          "zh_tw": "日式奶油燉雞肉和綠花椰菜",
+          "zh_cn": "日式奶油炖鸡肉和西兰花",
+          "vi": "Món kem hầm kiểu Nhật với thịt gà và bông cải xanh",
+          "hi": "चिकन और ब्रोकोली के साथ जापानी शैली का क्रीम स्टू",
+          "ru": "Сливочное рагу по-японски с курицей и брокколи",
+          "th": "สตูว์ครีมสไตล์ญี่ปุ่นกับไก่และบรอกโคลี",
+          "id": "Rebusan krim ala Jepang dengan ayam dan brokoli",
+          "ms": "Stew krim ala Jepun dengan ayam dan brokoli",
+          "ko": "닭고기와 브로콜리 일본식 크림 조림"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E9%B6%8F%E8%82%89%E3%81%A8%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC%E3%81%AE%E5%92%8C%E9%A2%A8%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E7%85%AE&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E9%B6%8F%E8%82%89%E3%81%A8%E3%83%96%E3%83%AD%E3%83%83%E3%82%B3%E3%83%AA%E3%83%BC%E3%81%AE%E5%92%8C%E9%A2%A8%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E7%85%AE/?tag="
+      },
+      {
+        "name_ja": "ワンパンで！鶏肉とキャベツのつゆクリームパスタ",
+        "amount": "適量",
+        "name_translated": {
+          "en": "With one punch! Creamy chicken and cabbage pasta",
+          "zh_tw": "一拳！奶油雞肉捲心菜義大利麵",
+          "zh_cn": "一拳！奶油鸡肉卷心菜意大利面",
+          "vi": "Với một cú đấm! Pasta kem gà và bắp cải",
+          "hi": "एक मुक्के से! मलाईदार चिकन और पत्तागोभी पास्ता",
+          "ru": "Одним ударом! Сливочная паста из курицы и капусты",
+          "th": "ด้วยหมัดเดียว! พาสต้าครีมไก่และกะหล่ำปลี",
+          "id": "Dengan satu pukulan! Pasta ayam krim dan kubis",
+          "ms": "Dengan satu tumbukan! Pasta ayam dan kubis berkrim",
+          "ko": "원빵으로! 닭고기와 양배추 가루 크림 파스타"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%AF%E3%83%B3%E3%83%91%E3%83%B3%E3%81%A7%EF%BC%81%E9%B6%8F%E8%82%89%E3%81%A8%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E3%81%A4%E3%82%86%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%91%E3%82%B9%E3%82%BF&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%AF%E3%83%B3%E3%83%91%E3%83%B3%E3%81%A7%EF%BC%81%E9%B6%8F%E8%82%89%E3%81%A8%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AE%E3%81%A4%E3%82%86%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%91%E3%82%B9%E3%82%BF/?tag="
+      }
+    ],
+    "steps_ja": [
+      "鍋にたっぷりの湯を沸かし、塩（分量外）を入れ、表示時間より２分短めの時間でスパゲティをゆでる。",
+      "鶏肉はそぎ切りにし、ポリ袋に塩、片栗粉と一緒に入れ、全体にまぶす。ほうれんそうは３～４等分に切る。",
+      "フライパンに油を熱し、鶏肉を焼く。鶏に火が通ったら、ほうれんそうを加え、しんなりとしてきたら＜調味料＞、バター、１を加える。",
+      "全体をよく混ぜながら加熱し、少しとろみが付いたら皿に盛り付ける。仕上げにブラックペッパーをかけていただく。",
+      "白だしで作るサーモンクリームパスタ",
+      "鶏肉とブロッコリーの和風クリーム煮",
+      "ワンパンで！鶏肉とキャベツのつゆクリームパスタ"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Creamy chicken and spinach pasta",
+      "zh_tw": "奶油雞肉菠菜義大利麵",
+      "zh_cn": "奶油鸡肉菠菜意大利面",
+      "vi": "Mì gà sốt kem và rau chân vịt",
+      "hi": "मलाईदार चिकन और पालक पास्ता",
+      "ru": "Сливочная паста из курицы и шпината",
+      "th": "พาสต้าครีมไก่และผักโขม",
+      "id": "Pasta ayam krim dan bayam",
+      "ms": "Pasta ayam berkrim dan bayam",
+      "ko": "닭과 시금치 크림 파스타"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Boil plenty of water in a pot, add salt (not listed), and boil the spaghetti for 2 minutes less than the indicated time.",
+        "Cut the chicken into strips, put it in a plastic bag with salt and potato starch, and sprinkle it all over. Cut the spinach into 3-4 pieces.",
+        "Heat oil in a frying pan and fry the chicken. When the chicken is cooked, add the spinach, and when it becomes soft, add the seasonings, butter, and 1.",
+        "Mix everything well and heat until it thickens a little, then serve on a plate. Garnish with black pepper to finish.",
+        "Salmon cream pasta made with white soup stock",
+        "Japanese-style cream stew with chicken and broccoli",
+        "With one punch! Creamy chicken and cabbage pasta"
+      ],
+      "zh_tw": [
+        "鍋中燒開大量水，加入鹽（未列出），然後將義大利麵煮沸，煮時間比規定時間短 2 分鐘。",
+        "將雞肉切成條狀，放入裝有鹽和馬鈴薯澱粉的塑膠袋中，撒在上面。將菠菜切成3-4片。",
+        "在煎鍋中加熱油，然後煎雞肉。雞肉煮熟後，加入菠菜，待其變軟時，加入調味料、奶油和1。",
+        "將所有材料混合均勻並加熱直至稍微變稠，然後放在盤子上。最後用黑胡椒裝飾。",
+        "白湯汁鮭魚奶油義大利麵",
+        "日式奶油燉雞肉和綠花椰菜",
+        "一拳！奶油雞肉捲心菜義大利麵"
+      ],
+      "zh_cn": [
+        "锅中烧开大量水，加入盐（未列出），然后将意大利面煮沸，煮时间比规定时间短 2 分钟。",
+        "将鸡肉切成条状，放入装有盐和土豆淀粉的塑料袋中，撒在上面。将菠菜切成3-4片。",
+        "在煎锅中加热油，然后煎鸡肉。鸡肉煮熟后，加入菠菜，待其变软时，加入调味料、黄油和1。",
+        "将所有材料混合均匀并加热直至稍微变稠，然后放在盘子上。最后用黑胡椒装饰。",
+        "白汤汁三文鱼奶油意大利面",
+        "日式奶油炖鸡肉和西兰花",
+        "一拳！奶油鸡肉卷心菜意大利面"
+      ],
+      "vi": [
+        "Đun sôi nhiều nước trong nồi, thêm muối (không được liệt kê) và luộc mì spaghetti trong thời gian ít hơn 2 phút so với thời gian chỉ định.",
+        "Cắt gà thành từng dải, cho vào túi nhựa cùng muối và tinh bột khoai tây rồi rắc đều lên. Cắt rau bina thành 3-4 miếng.",
+        "Đun nóng dầu trong chảo rồi cho gà vào chiên. Khi gà chín thì cho rau bina vào, khi gà mềm thì cho gia vị, bơ vào và 1.",
+        "Trộn đều mọi thứ và đun nóng cho đến khi nó đặc lại một chút, sau đó bày ra đĩa. Trang trí với hạt tiêu đen để hoàn thành.",
+        "Pasta kem cá hồi làm từ nước súp trắng",
+        "Món kem hầm kiểu Nhật với thịt gà và bông cải xanh",
+        "Với một cú đấm! Pasta kem gà và bắp cải"
+      ],
+      "hi": [
+        "एक बर्तन में खूब सारा पानी उबालें, नमक डालें (सूचीबद्ध नहीं), और स्पेगेटी को बताए गए समय से 2 मिनट कम तक उबालें।",
+        "चिकन को स्ट्रिप्स में काटें, नमक और आलू स्टार्च के साथ एक प्लास्टिक बैग में डालें और चारों ओर छिड़कें। पालक को 3-4 टुकड़ों में काट लीजिये.",
+        "- एक कढ़ाई में तेल गर्म करें और चिकन को फ्राई करें. जब चिकन पक जाए तो इसमें पालक डालें और जब यह नरम हो जाए तो इसमें मसाला, मक्खन और 1 डालें।",
+        "सभी चीजों को अच्छी तरह से मिलाएं और थोड़ा गाढ़ा होने तक गर्म करें, फिर एक प्लेट में परोसें। - खत्म करने के लिए काली मिर्च से गार्निश करें.",
+        "सफेद सूप स्टॉक से बना सैल्मन क्रीम पास्ता",
+        "चिकन और ब्रोकोली के साथ जापानी शैली का क्रीम स्टू",
+        "एक मुक्के से! मलाईदार चिकन और पत्तागोभी पास्ता"
+      ],
+      "ru": [
+        "Вскипятите в кастрюле большое количество воды, добавьте соль (не указана) и варите спагетти на 2 минуты меньше указанного времени.",
+        "Курицу нарежьте соломкой, положите в полиэтиленовый пакет с солью и картофельным крахмалом и посыпьте сверху. Разрежьте шпинат на 3-4 части.",
+        "Нагрейте масло на сковороде и обжарьте курицу. Когда курица будет готова, добавьте шпинат, а когда она станет мягкой, добавьте приправы, сливочное масло и 1.",
+        "Все хорошо перемешайте и нагревайте, пока оно немного не загустеет, затем подавайте на тарелке. В завершение украсьте черным перцем.",
+        "Паста с лососем и кремом на белом суповом бульоне",
+        "Сливочное рагу по-японски с курицей и брокколи",
+        "Одним ударом! Сливочная паста из курицы и капусты"
+      ],
+      "th": [
+        "ต้มน้ำปริมาณมากในหม้อ ใส่เกลือ (ไม่อยู่ในรายการ) และต้มเส้นสปาเก็ตตี้ให้น้อยกว่าเวลาที่กำหนด 2 นาที",
+        "หั่นไก่เป็นเส้น ใส่ในถุงพลาสติกที่ใส่เกลือและแป้งมันฝรั่ง แล้วโรยให้ทั่ว หั่นผักโขมออกเป็น 3-4 ชิ้น",
+        "ตั้งน้ำมันให้ร้อนในกระทะแล้วทอดไก่ เมื่อไก่สุกแล้ว ให้ใส่ผักโขม และเมื่อเนื้อนุ่ม ให้ใส่เครื่องปรุงรส เนย และ 1.",
+        "ผสมทุกอย่างให้เข้ากัน ตั้งไฟจนข้นเล็กน้อย จากนั้นจึงเสิร์ฟบนจาน โรยหน้าด้วยพริกไทยดำเป็นอันเสร็จ",
+        "พาสต้าครีมปลาแซลมอนทำจากน้ำซุปขาว",
+        "สตูว์ครีมสไตล์ญี่ปุ่นกับไก่และบรอกโคลี",
+        "ด้วยหมัดเดียว! พาสต้าครีมไก่และกะหล่ำปลี"
+      ],
+      "id": [
+        "Rebus banyak air dalam panci, tambahkan garam (tidak disebutkan), dan rebus spageti selama 2 menit kurang dari waktu yang ditentukan.",
+        "Potong ayam menjadi potongan-potongan, masukkan ke dalam kantong plastik berisi garam dan tepung kentang, lalu taburkan ke seluruh bagian. Potong bayam menjadi 3-4 bagian.",
+        "Panaskan minyak dalam wajan dan goreng ayam. Jika ayam sudah matang, masukkan bayam, dan jika sudah empuk, tambahkan bumbu, mentega, dan 1.",
+        "Campur semuanya hingga rata dan panaskan hingga sedikit mengental, lalu sajikan di piring. Hiasi dengan lada hitam sampai selesai.",
+        "Pasta krim salmon dibuat dengan kaldu sup putih",
+        "Rebusan krim ala Jepang dengan ayam dan brokoli",
+        "Dengan satu pukulan! Pasta ayam krim dan kubis"
+      ],
+      "ms": [
+        "Didihkan air yang banyak dalam periuk, tambah garam (tidak disenaraikan), dan rebus spageti selama 2 minit kurang daripada masa yang ditunjukkan.",
+        "Potong ayam menjadi jalur, masukkan ke dalam beg plastik dengan garam dan kanji kentang, dan taburkannya ke seluruh. Potong bayam kepada 3-4 bahagian.",
+        "Panaskan minyak dalam kuali dan goreng ayam. Bila ayam dah masak masukkan bayam dan bila dah empuk masukkan perasa, mentega dan 1.",
+        "Gaulkan semuanya sebati dan panaskan sehingga pekat sedikit, kemudian hidangkan di atas pinggan. Hiaskan dengan lada hitam hingga habis.",
+        "Pasta krim salmon dibuat dengan stok sup putih",
+        "Stew krim ala Jepun dengan ayam dan brokoli",
+        "Dengan satu tumbukan! Pasta ayam dan kubis berkrim"
+      ],
+      "ko": [
+        "냄비에 끓는 물을 끓여 소금(분량외)을 넣고 표시시간보다 2분 짧은 시간에 스파게티를 끓인다.",
+        "닭고기는 찢어지고 비닐 봉지에 소금, 가루 가루와 함께 넣고 전체로 뿌린다. 시금치는 3~4등분으로 자른다.",
+        "프라이팬에 기름을 가열하고 닭고기를 굽는다. 닭에 불이 지나면 시금치를 넣고, 마늘로 오면 <조미료>, 버터, 1을 넣는다.",
+        "전체를 잘 섞으면서 가열하고, 조금 썰매가 붙으면 접시에 담는다. 마무리에 블랙 페퍼를 걸어 주신다.",
+        "흰색 국물로 만든 연어 크림 파스타",
+        "닭고기와 브로콜리 일본식 크림 조림",
+        "원빵으로! 닭고기와 양배추 가루 크림 파스타"
+      ]
+    }
+  },
+  {
+    "id": "c2230cf5",
+    "source_url": "https://www.mizkan.co.jp/ouchirecipe/recipe/?menu_id=9944",
+    "source_site": "Mizkan",
+    "title_ja": "揚げない酢豚",
+    "description_ja": "",
+    "ingredients": [
+      {
+        "name_ja": "豚ロース肉　とんかつ用",
+        "amount": "２枚（２４０ｇ）",
+        "name_translated": {
+          "en": "Pork loin for pork cutlet",
+          "zh_tw": "豬排用豬腰肉",
+          "zh_cn": "猪排用猪腰肉",
+          "vi": "Thịt thăn cho món thịt lợn cốt lết",
+          "hi": "पोर्क कटलेट के लिए सूअर की कमर",
+          "ru": "Свиная корейка для свиной котлеты",
+          "th": "เนื้อซี่โครงหมูสำหรับทอดหมู",
+          "id": "Pinggang babi untuk potongan daging babi",
+          "ms": "Pinggang babi untuk potongan daging babi",
+          "ko": "돼지 로스 고기 돈까스 용"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E8%B1%9A%E3%83%AD%E3%83%BC%E3%82%B9%E8%82%89%E3%80%80%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%E7%94%A8&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E8%B1%9A%E3%83%AD%E3%83%BC%E3%82%B9%E8%82%89%E3%80%80%E3%81%A8%E3%82%93%E3%81%8B%E3%81%A4%E7%94%A8/?tag="
+      },
+      {
+        "name_ja": "片栗粉",
+        "amount": "大さじ１",
+        "name_translated": {
+          "en": "potato starch",
+          "zh_tw": "馬鈴薯澱粉",
+          "zh_cn": "马铃薯淀粉",
+          "vi": "tinh bột khoai tây",
+          "hi": "आलू स्टार्च",
+          "ru": "картофельный крахмал",
+          "th": "แป้งมันฝรั่ง",
+          "id": "tepung kentang",
+          "ms": "kanji kentang",
+          "ko": "가문 가루"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E7%89%87%E6%A0%97%E7%B2%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E7%89%87%E6%A0%97%E7%B2%89/?tag="
+      },
+      {
+        "name_ja": "たまねぎ",
+        "amount": "１／２個",
+        "name_translated": {
+          "en": "onion",
+          "zh_tw": "洋蔥",
+          "zh_cn": "洋葱",
+          "vi": "củ hành",
+          "hi": "प्याज",
+          "ru": "лук",
+          "th": "หัวหอม",
+          "id": "bawang bombai",
+          "ms": "bawang besar",
+          "ko": "양파"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%9F%E3%81%BE%E3%81%AD%E3%81%8E&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%9F%E3%81%BE%E3%81%AD%E3%81%8E/?tag="
+      },
+      {
+        "name_ja": "にんじん",
+        "amount": "１／４本",
+        "name_translated": {
+          "en": "carrot",
+          "zh_tw": "紅蘿蔔",
+          "zh_cn": "胡萝卜",
+          "vi": "cà rốt",
+          "hi": "गाजर",
+          "ru": "морковь",
+          "th": "แครอท",
+          "id": "wortel",
+          "ms": "lobak merah",
+          "ko": "당근"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%AB%E3%82%93%E3%81%98%E3%82%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%AB%E3%82%93%E3%81%98%E3%82%93/?tag="
+      },
+      {
+        "name_ja": "ピーマン",
+        "amount": "２個",
+        "name_translated": {
+          "en": "green pepper",
+          "zh_tw": "青椒",
+          "zh_cn": "青椒",
+          "vi": "tiêu xanh",
+          "hi": "हरी मिर्च",
+          "ru": "зеленый перец",
+          "th": "พริกเขียว",
+          "id": "paprika hijau",
+          "ms": "lada hijau",
+          "ko": "고추"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%94%E3%83%BC%E3%83%9E%E3%83%B3&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%94%E3%83%BC%E3%83%9E%E3%83%B3/?tag="
+      },
+      {
+        "name_ja": "にんにく　（みじん切り）",
+        "amount": "少々",
+        "name_translated": {
+          "en": "Garlic (chopped)",
+          "zh_tw": "大蒜（切碎）",
+          "zh_cn": "大蒜（切碎）",
+          "vi": "Tỏi (băm nhỏ)",
+          "hi": "लहसुन (कटा हुआ)",
+          "ru": "Чеснок (нарезанный)",
+          "th": "กระเทียม (สับ)",
+          "id": "Bawang putih (cincang)",
+          "ms": "Bawang putih (cincang)",
+          "ko": "마늘 (다진)"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E3%80%80%EF%BC%88%E3%81%BF%E3%81%98%E3%82%93%E5%88%87%E3%82%8A%EF%BC%89&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%81%AB%E3%82%93%E3%81%AB%E3%81%8F%E3%80%80%EF%BC%88%E3%81%BF%E3%81%98%E3%82%93%E5%88%87%E3%82%8A%EF%BC%89/?tag="
+      },
+      {
+        "name_ja": "サラダ油",
+        "amount": "大さじ２",
+        "name_translated": {
+          "en": "salad oil",
+          "zh_tw": "沙拉油",
+          "zh_cn": "色拉油",
+          "vi": "dầu trộn salad",
+          "hi": "वनस्पति - तेल",
+          "ru": "салатное масло",
+          "th": "น้ำมันสลัด",
+          "id": "minyak salad",
+          "ms": "minyak salad",
+          "ko": "샐러드 오일"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%82%B5%E3%83%A9%E3%83%80%E6%B2%B9/?tag="
+      },
+      {
+        "name_ja": "ミツカン　カンタン酢",
+        "amount": "１００ｍｌ",
+        "name_translated": {
+          "en": "Mizkan Kantan Vinegar",
+          "zh_tw": "味滋康甘丹醋",
+          "zh_cn": "味滋康甘丹醋",
+          "vi": "Giấm Mizkan Kantan",
+          "hi": "मिज़कान कंटन सिरका",
+          "ru": "Мизкан Кантанский уксус",
+          "th": "น้ำส้มสายชูมิซกัน กันตัน",
+          "id": "Cuka Mizkan Kantan",
+          "ms": "Cuka Mizkan Kantan",
+          "ko": "미츠칸 칸탄초"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%9F%E3%83%84%E3%82%AB%E3%83%B3%E3%80%80%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%B3%E9%85%A2/?tag="
+      },
+      {
+        "name_ja": "トマトケチャップ",
+        "amount": "大さじ１",
+        "name_translated": {
+          "en": "tomato ketchup",
+          "zh_tw": "番茄醬",
+          "zh_cn": "番茄酱",
+          "vi": "sốt cà chua",
+          "hi": "टमाटर केचप",
+          "ru": "томатный кетчуп",
+          "th": "ซอสมะเขือเทศ",
+          "id": "saus tomat",
+          "ms": "sos tomato",
+          "ko": "토마토 케첩"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%E3%83%88%E3%83%9E%E3%83%88%E3%82%B1%E3%83%81%E3%83%A3%E3%83%83%E3%83%97&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%E3%83%88%E3%83%9E%E3%83%88%E3%82%B1%E3%83%81%E3%83%A3%E3%83%83%E3%83%97/?tag="
+      },
+      {
+        "name_ja": "１",
+        "amount": "にする。",
+        "name_translated": {
+          "en": "1",
+          "zh_tw": "1",
+          "zh_cn": "1",
+          "vi": "1",
+          "hi": "1",
+          "ru": "1",
+          "th": "1",
+          "id": "1",
+          "ms": "1",
+          "ko": "1"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%91&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%91/?tag="
+      },
+      {
+        "name_ja": "２",
+        "amount": "豚ロース肉は一口大に切り、片栗粉をまぶす。",
+        "name_translated": {
+          "en": "2",
+          "zh_tw": "2",
+          "zh_cn": "2",
+          "vi": "2",
+          "hi": "2",
+          "ru": "2",
+          "th": "2",
+          "id": "2",
+          "ms": "2",
+          "ko": "2"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%92&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%92/?tag="
+      },
+      {
+        "name_ja": "３",
+        "amount": "を加え炒める。",
+        "name_translated": {
+          "en": "3",
+          "zh_tw": "3",
+          "zh_cn": "3",
+          "vi": "3",
+          "hi": "3",
+          "ru": "3",
+          "th": "3",
+          "id": "3",
+          "ms": "3",
+          "ko": "3"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%93&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%93/?tag="
+      },
+      {
+        "name_ja": "４",
+        "amount": "強火にして、よくかき混ぜた＜甘酢あん＞をいれてとろみがつくまで炒め合わせる。",
+        "name_translated": {
+          "en": "4",
+          "zh_tw": "4",
+          "zh_cn": "4",
+          "vi": "4",
+          "hi": "4",
+          "ru": "4",
+          "th": "4",
+          "id": "4",
+          "ms": "4",
+          "ko": "4"
+        },
+        "amazon_url": "https://www.amazon.co.jp/s?k=%EF%BC%94&tag=",
+        "rakuten_url": "https://search.rakuten.co.jp/search/mall/%EF%BC%94/?tag="
+      }
+    ],
+    "steps_ja": [
+      "たまねぎは一口大に切り、にんじんは縦半分にしてから斜め薄切り、ピーマンは一口大の乱切りにする。",
+      "豚ロース肉は一口大に切り、片栗粉をまぶす。",
+      "フライパンにサラダ油を中火で熱し、２を揚げ焼きにする。豚ロース肉にほぼ火が通ったら、余分な油をペーパータオルでふき取り、にんにく、１を加え炒める。",
+      "強火にして、よくかき混ぜた＜甘酢あん＞をいれてとろみがつくまで炒め合わせる。"
+    ],
+    "image_url": "",
+    "title": {
+      "en": "Sweet and sour pork that is not fried",
+      "zh_tw": "糖醋肉不是油炸的",
+      "zh_cn": "糖醋肉不是油炸的",
+      "vi": "Thịt lợn chua ngọt không chiên",
+      "hi": "मीठा और खट्टा सूअर का मांस जो तला हुआ न हो",
+      "ru": "Кисло-сладкая свинина, не жареная",
+      "th": "หมูเปรี้ยวหวานที่ไม่ทอด",
+      "id": "Daging babi asam manis yang tidak digoreng",
+      "ms": "Babi masam manis yang tidak digoreng",
+      "ko": "튀지 않는 식초 돼지"
+    },
+    "description": {
+      "en": "",
+      "zh_tw": "",
+      "zh_cn": "",
+      "vi": "",
+      "hi": "",
+      "ru": "",
+      "th": "",
+      "id": "",
+      "ms": "",
+      "ko": ""
+    },
+    "steps": {
+      "en": [
+        "Cut onions into bite-sized pieces, carrots in half lengthwise and then thinly sliced ​​diagonally, and green peppers into bite-sized pieces.",
+        "Cut the pork loin into bite-sized pieces and sprinkle with potato starch.",
+        "Heat salad oil in a frying pan over medium heat and fry 2. When the pork loin is almost cooked, wipe off excess oil with a paper towel, add garlic and stir-fry.",
+        "Turn up the heat to high, add the well-stirred sweet and sour bean paste, and stir-fry until it thickens."
+      ],
+      "zh_tw": [
+        "將洋蔥切成一口大小的塊，將胡蘿蔔縱向切成兩半，然後對角切成薄片，將青椒切成一口大小的塊狀。",
+        "將豬腰肉切成一口大小的塊，撒上馬鈴薯澱粉。",
+        "煎鍋中中火加熱沙拉油，煎2.當豬裡肌肉快熟時，用紙巾擦去多餘的油，加入大蒜翻炒。",
+        "將火調高，加入攪拌均勻的糖醋豆瓣醬，炒至濃稠。"
+      ],
+      "zh_cn": [
+        "将洋葱切成一口大小的块，将胡萝卜纵向切成两半，然后对角切成薄片，将青椒切成一口大小的块。",
+        "将猪腰肉切成一口大小的块，撒上土豆淀粉。",
+        "煎锅中中火加热色拉油，煎2.当猪里脊肉快熟时，用纸巾擦去多余的油，加入大蒜翻炒。",
+        "把火调高，加入搅拌均匀的糖醋豆瓣酱，炒至浓稠。"
+      ],
+      "vi": [
+        "Hành tây cắt thành miếng vừa ăn, cà rốt làm đôi theo chiều dọc rồi thái mỏng theo đường chéo, ớt xanh thành miếng vừa ăn.",
+        "Cắt thăn lợn thành miếng vừa ăn và rắc tinh bột khoai tây.",
+        "Đun nóng dầu salad trong chảo rán trên lửa vừa và chiên 2. Khi thăn lợn gần chín, dùng khăn giấy lau bớt dầu thừa, cho tỏi vào xào.",
+        "Vặn lửa lớn, cho tương đậu chua ngọt đã khuấy đều vào, xào cho đến khi đặc lại."
+      ],
+      "hi": [
+        "प्याज को छोटे टुकड़ों में काट लें, गाजर को लंबाई में आधा और फिर तिरछे पतले टुकड़ों में काट लें, और हरी मिर्च को भी छोटे टुकड़ों में काट लें।",
+        "सूअर के मांस की कमर को छोटे टुकड़ों में काटें और आलू स्टार्च छिड़कें।",
+        "मध्यम आंच पर एक फ्राइंग पैन में सलाद तेल गरम करें और 2 भूनें। जब सूअर का मांस लगभग पक जाए, तो अतिरिक्त तेल को कागज़ के तौलिये से पोंछ लें, लहसुन डालें और हिलाएँ।",
+        "आंच तेज़ कर दें, अच्छी तरह से हिलाया हुआ मीठा और खट्टा बीन पेस्ट डालें और गाढ़ा होने तक हिलाते रहें।"
+      ],
+      "ru": [
+        "Лук нарежьте небольшими кусочками, морковь — вдоль пополам, а затем тонкими ломтиками по диагонали, а зеленый перец — небольшими кусочками.",
+        "Нарежьте свиную корейку небольшими кусочками и посыпьте картофельным крахмалом.",
+        "Нагрейте салатное масло в сковороде на среднем огне и обжарьте 2. Когда свиная корейка будет почти готова, вытрите излишки масла бумажным полотенцем, добавьте чеснок и обжарьте, помешивая.",
+        "Увеличьте огонь до сильного, добавьте хорошо перемешанную пасту из кисло-сладких бобов и жарьте, помешивая, пока она не загустеет."
+      ],
+      "th": [
+        "หั่นหัวหอมเป็นชิ้นขนาดพอดีคำ แครอทผ่าครึ่งตามยาว จากนั้นหั่นบาง ๆ ตามแนวทแยง และพริกเขียวเป็นชิ้นขนาดพอดีคำ",
+        "ตัดเนื้อซี่โครงหมูเป็นชิ้นขนาดพอดีคำแล้วโรยด้วยแป้งมันฝรั่ง",
+        "ตั้งน้ำมันสลัดในกระทะบนไฟร้อนปานกลางแล้วทอด 2. เมื่อเนื้อซี่โครงหมูใกล้สุกแล้ว ให้ใช้กระดาษชำระเช็ดน้ำมันส่วนเกินออก ใส่กระเทียมลงไปผัด",
+        "เพิ่มไฟให้สูง ใส่ถั่วแดงกวนที่คนให้เข้ากัน และผัดจนข้น"
+      ],
+      "id": [
+        "Potong bawang bombay menjadi potongan-potongan kecil, wortel menjadi dua memanjang lalu diiris tipis secara diagonal, dan paprika hijau menjadi potongan-potongan kecil.",
+        "Potong pinggang babi menjadi potongan-potongan kecil dan taburi dengan tepung kentang.",
+        "Panaskan minyak salad dalam wajan dengan api sedang dan goreng 2. Saat pinggang babi hampir matang, bersihkan sisa minyak dengan tisu, tambahkan bawang putih dan tumis.",
+        "Besarkan api, tambahkan pasta kacang asam manis yang sudah diaduk rata, lalu tumis hingga mengental."
+      ],
+      "ms": [
+        "Potong bawang menjadi kepingan bersaiz gigitan, lobak merah separuh memanjang dan kemudian dihiris nipis menyerong, dan lada hijau menjadi kepingan bersaiz gigitan.",
+        "Potong pinggang babi menjadi kepingan bersaiz gigitan dan taburkan dengan kanji kentang.",
+        "Panaskan minyak salad dalam kuali dengan api sederhana dan goreng 2. Apabila pinggang babi hampir masak, sapu lebihan minyak dengan tuala kertas, masukkan bawang putih dan tumis.",
+        "Besarkan api, masukkan pes kacang masam manis yang dikacau rata, dan tumis hingga pekat."
+      ],
+      "ko": [
+        "양파는 한입 크기로 자르고 당근은 세로 반으로 한 다음 대각선으로 얇게 썬다.",
+        "돼지 로스 고기는 한입 크기로 자르고 가루 가루를 뿌린다.",
+        "프라이팬에 샐러드 오일을 중불로 가열하고 2를 튀김 구운다. 돼지 로스 고기에 거의 불이 지나면 여분의 기름을 종이 타월로 닦아내고 마늘 1을 더해 볶는다.",
+        "강한 불에 넣고 잘 저어준 <감초 앙>을 넣어 찐 때까지 볶는다."
+      ]
+    }
   }
 ]
